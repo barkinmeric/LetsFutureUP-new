@@ -1,19 +1,7 @@
 <template>
 	<div>
 		<social-head :title="$t('index.title')" :description="$t('index.desc')" />
-		<index-carousel />
-		<motto />
 		<hello-career />
-		<opinion />
-		<newsletter />
-		<e-journal />
-		<mobile-board />
-		<desktop-board />
-		<mobile-partner />
-		<desktop-partner />
-		<mobile-supporter />
-		<desktop-supporter />
-		<join-us />
 	</div>
 </template>
 
