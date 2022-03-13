@@ -26,12 +26,12 @@ export default {
 
 <style lang="scss" scoped>
 .hello-career {
-	padding: 100px 0px 94px 0px;
+	padding: 0px 0px 28px 0px;
 	background: white;
 	.hello-career-title {
 		color: $mainColor;
 		text-align: center;
-		padding: 20px 0px 40px 0px;
+		padding: 0px 0px 40px 0px;
 		margin: 0;
 		font-size: 32px;
 		font-weight: 900;

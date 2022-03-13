@@ -5,6 +5,8 @@
 			<div class="newsletter-body">
 				<div class="left-part">
 					<nuxt-img format="jpg" src="/pages/index/slider/desktop/en/1.webp" height="392px" width="500px" alt="StartUP" draggable="false" loading="lazy" />
+					<h2 class="card-title">Mentor & Mentee başvuruları başladı!</h2>
+					<span class="card-tag">Duyurular</span>
 				</div>
 				<div class="right-part">
 					<div class="right-card">
@@ -43,7 +45,7 @@ export default {
 
 <style lang="scss" scoped>
 .newsletter {
-	padding: 69px 0px 89px 0px;
+	padding: 0px 0px 89px 0px;
 	background: white;
 	.newsletter-title {
 		color: $mainColor;
@@ -62,16 +64,46 @@ export default {
 		}
 		.left-part {
 			height: 392px;
+			position: relative;
+			text-align: center;
+			.card-title {
+				color: white;
+				text-shadow: 2px 2px black;
+				font-size: 24px;
+				font-weight: 900;
+				letter-spacing: 0.6px;
+				line-height: 34px;
+				position: absolute;
+				bottom: 26px;
+				left: 20px;
+			}
+			.card-tag {
+				height: 32px;
+				width: 97px;
+				padding: 6px 16px;
+				text-align: center;
+				font-size: 14px;
+				font-weight: 400;
+				letter-spacing: 0.3px;
+				line-height: 20px;
+				border-radius: 8px;
+				background-color: #f3f4f5;
+				position: absolute;
+				top: 24px;
+				right: 24px;
+			}
 		}
 		.right-part {
-			max-width: 650px;
 			display: grid;
 			grid-template-columns: 100%;
 			row-gap: 40px;
+			margin-right: 9px;
 			.right-card {
-				height: 176px;
 				display: flex;
 				gap: 16px;
+				img {
+					height: 176px;
+				}
 				.card-desc {
 					display: grid;
 					grid-template-columns: 100%;

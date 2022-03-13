@@ -1,8 +1,11 @@
 <template>
 	<div>
 		<social-head :title="$t('index.title')" :description="$t('index.desc')" />
+		<introduction />
 		<hello-career />
+		<mentors />
 		<newsletter />
+		<advisory />
 		<partner />
 	</div>
 </template>
