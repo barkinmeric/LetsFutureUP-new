@@ -1,12 +1,12 @@
 <template>
 	<div>
 		<locale-switcher />
-		<desktop-navbar />
-		<mobile-navbar />
+		<!-- <desktop-navbar />
+		<mobile-navbar /> -->
 		<nuxt />
-		<desktop-footer />
+		<!-- <desktop-footer />
 		<mobile-footer />
-		<contacts-footer />
+		<contacts-footer /> -->
 	</div>
 </template>
 

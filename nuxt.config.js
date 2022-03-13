@@ -19,7 +19,7 @@ export default {
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: ["@/assets/css/normalize.css", "@/assets/css/montserrat.css", "@/assets/scss/colors.scss", "@/assets/scss/style.scss"],
+	css: ["@/assets/css/normalize.css", "@/assets/css/montserrat.css", "@/assets/css/mulish.css", "@/assets/scss/colors.scss", "@/assets/scss/style.scss"],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [],

@@ -15,7 +15,7 @@ export default {
 		},
 		image: {
 			type: String,
-			default: "https://letsfutureup-nuxt.netlify.app/icon.png",
+			default: "https://letsfutureup.com/icon.png",
 		},
 	},
 

@@ -25,21 +25,26 @@ export default {
 
 <style lang="scss" scoped>
 .hello-career {
-	padding: 20px 0px 10px 0px;
+	padding: 100px 0px 94px 0px;
 	background: white;
 	.hello-career-title {
-		padding: 10px 0px 20px 0px;
 		color: $mainColor;
 		text-align: center;
 		h1 {
+			padding: 20px 0px 40px 0px;
 			margin: 0;
-			font-size: 26px;
-			font-weight: 600;
+			font-size: 32px;
+			font-weight: 900;
+			letter-spacing: 1px;
+			line-height: 44px;
 		}
 		p {
+			padding: 0px 0px 100px 0px;
 			margin: 0;
 			font-size: 20px;
 			font-weight: 400;
+			letter-spacing: 0.3px;
+			line-height: 34px;
 		}
 		.green {
 			color: $sideColor;
@@ -48,7 +53,7 @@ export default {
 	.grid-container {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(392px, 1fr));
-		column-gap: 10px;
+		column-gap: 52px;
 		justify-content: center;
 		text-align: center;
 	}

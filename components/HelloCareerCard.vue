@@ -22,7 +22,7 @@ export default {
 .hello-career-card {
 	height: 400px;
 	width: 392px;
-	margin: 0 auto;
+	margin: 0 auto 66px auto;
 	.card-item {
 		display: grid;
 		grid-template-columns: 100%;
@@ -32,15 +32,12 @@ export default {
 		.card-head {
 			height: 260px;
 			width: 392px;
-			margin: 0;
-			padding: 0;
 			img {
 				user-select: none;
 				border-radius: 10px;
 			}
 		}
 		.card-body {
-			padding: 0px;
 			display: grid;
 			grid-template-columns: 100%;
 			text-align: center;
@@ -48,19 +45,17 @@ export default {
 			h5 {
 				display: inline-block;
 				font-size: 18px;
-				font-weight: 1000;
+				font-weight: 900;
 				letter-spacing: 0.3px;
-				padding: 5px 0px;
+				line-height: 28px;
 				color: $mainColor;
-				text-transform: uppercase;
-				border-bottom: 1px solid $sideColor;
-				border-bottom-width: 3px;
-				padding-bottom: 3px;
+				padding: 16px 0px 8px 0px;
 			}
 			p {
-				margin: 10px 0px;
 				font-size: 14px;
 				font-weight: 400;
+				letter-spacing: 0.3px;
+				line-height: 24px;
 				color: $mainColor;
 			}
 		}
