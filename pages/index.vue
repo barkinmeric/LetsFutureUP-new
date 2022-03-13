@@ -8,11 +8,8 @@
 		<advisory />
 		<partner />
 		<h1>asdasdasf</h1>
-<<<<<<< HEAD
 		<h2>asdasdaasgagassf</h2>
-=======
 		<p>laskdfjalsdf</p>
->>>>>>> a64ac0193f4a674fd1372c03ec3deafa9663c9fe
 	</div>
 </template>
 
