@@ -34,7 +34,7 @@ export default {
 			width: 392px;
 			img {
 				user-select: none;
-				border-radius: 10px;
+				border-radius: 16px;
 			}
 		}
 		.card-body {

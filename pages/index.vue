@@ -2,6 +2,8 @@
 	<div>
 		<social-head :title="$t('index.title')" :description="$t('index.desc')" />
 		<hello-career />
+		<newsletter />
+		<partner />
 	</div>
 </template>
 
