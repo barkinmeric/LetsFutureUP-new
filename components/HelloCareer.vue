@@ -27,9 +27,9 @@ export default {
 <style lang="scss" scoped>
 .hello-career {
 	padding: 0px 0px 28px 0px;
-	background: white;
+	background: $backgroundColor;
 	.hello-career-title {
-		color: $mainColor;
+		color: $titleColor;
 		text-align: center;
 		padding: 0px 0px 40px 0px;
 		margin: 0;
@@ -39,7 +39,7 @@ export default {
 		line-height: 44px;
 	}
 	.hello-career-text {
-		color: $mainColor;
+		color: $textColor;
 		text-align: center;
 		padding: 0px 0px 100px 0px;
 		margin: 0;

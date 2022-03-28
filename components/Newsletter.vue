@@ -46,9 +46,9 @@ export default {
 <style lang="scss" scoped>
 .newsletter {
 	padding: 0px 0px 89px 0px;
-	background: white;
+	background: $backgroundColor;
 	.newsletter-title {
-		color: $mainColor;
+		color: $titleColor;
 		padding: 0px 0px 36px 0px;
 		font-size: 32px;
 		font-weight: 900;
