@@ -17,7 +17,7 @@ export default {
 .partner-modal {
 	border: 1px solid;
 	border-radius: 8px;
-	border-color: black;
+	border-color: $thirdColor;
 	img {
 		user-select: none;
 		padding: 30px 133px;

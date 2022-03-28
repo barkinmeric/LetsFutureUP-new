@@ -48,7 +48,7 @@ export default {
 				font-weight: 900;
 				letter-spacing: 0.3px;
 				line-height: 28px;
-				color: $mainColor;
+				color: $titleColor;
 				padding: 16px 0px 8px 0px;
 			}
 			p {
@@ -56,7 +56,7 @@ export default {
 				font-weight: 400;
 				letter-spacing: 0.3px;
 				line-height: 24px;
-				color: $mainColor;
+				color: $textColor;
 			}
 		}
 	}

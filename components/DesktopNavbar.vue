@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="flex-container">
 				<div class="logo">
-					<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-img draggable="false" src="/logo/logo.png" alt="logo" height="50" width="200" /></NuxtLink>
+					<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-img draggable="false" src="/logo/logo.svg" alt="logo" height="50" width="200" /></NuxtLink>
 				</div>
 				<div class="content">
 					<span class="tabs">{{ $t("nav.us.title") }}</span>
@@ -24,6 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 .desktop-navbar {
+	background-color: $mainColor;
 	.flex-container {
 		display: flex;
 		height: 110px;
@@ -34,6 +35,7 @@ export default {
 			margin: 45px 0 45px auto;
 			display: flex;
 			gap: 48px;
+			color: $titleColor;
 			.tabs {
 				font-size: 16px;
 				font-weight: 700;

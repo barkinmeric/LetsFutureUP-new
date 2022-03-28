@@ -7,9 +7,6 @@
 		<newsletter />
 		<advisory />
 		<partner />
-		<h1>asdasdasf</h1>
-		<h2>asdasdaasgagassf</h2>
-		<p>laskdfjalsdf</p>
 	</div>
 </template>
 
