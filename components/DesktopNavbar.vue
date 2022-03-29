@@ -26,6 +26,7 @@ export default {
 	background-color: $mainColor;
 	.flex-container {
 		display: flex;
+		align-items: center;
 		height: 90px;
 		.logo {
 			margin: auto auto auto 0;

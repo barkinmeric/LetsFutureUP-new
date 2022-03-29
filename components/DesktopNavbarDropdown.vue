@@ -47,40 +47,33 @@ export default {
 		font-weight: 700;
 		letter-spacing: 0.3px;
 		font-size: 16px;
-		border: 1px solid;
 		border-radius: 8px;
-		border-color: $mainColor;
 		background-color: $mainColor;
 		color: $titleColor;
 		cursor: pointer;
 	}
 	.dropdown-content {
 		display: none;
-		width: fit-content;
-		min-width: 100%;
+		width: 260px;
 		position: absolute;
 		top: 100%;
 		left: 0;
 		perspective: 1000px;
 		background-color: $mainColor;
+		border-radius: 8px;
 		animation: growDown 300ms ease-in-out forwards;
 		transform-origin: top center;
-		border: 1px solid;
-		border-radius: 8px;
-		border-color: $mainColor;
 		.text {
-			white-space: nowrap;
-			line-height: 25px;
 			width: 100%;
-			font-size: 12px;
-			font-weight: 400;
-			letter-spacing: 1px;
+			height: 100%;
+			padding: 14px 16px;
 			color: $titleColor;
-			padding: 12px 16px;
+			line-height: 20px;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0.3px;
 			&:hover {
-				border: 1px solid;
 				border-radius: 8px;
-				border-color: $titleColor;
 				background-color: $titleColor;
 				color: $mainColor;
 			}
