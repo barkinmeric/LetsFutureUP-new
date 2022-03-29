@@ -2,7 +2,7 @@
 	<div>
 		<locale-switcher />
 		<desktop-navbar />
-		<!-- <mobile-navbar /> -->
+		<mobile-navbar />
 		<nuxt />
 		<footer-contacts />
 		<!-- <mobile-footer />
@@ -22,14 +22,13 @@ export default {
 .mobile-navbar {
 	display: block;
 }
-
 .desktop-navbar {
 	display: none;
 }
+
 .mobile-footer {
 	display: block;
 }
-
 .desktop-footer {
 	display: none;
 }

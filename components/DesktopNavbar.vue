@@ -6,10 +6,9 @@
 					<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-img draggable="false" src="/logo/logo.svg" alt="logo" height="50" width="200" /></NuxtLink>
 				</div>
 				<div class="content">
-					<span class="tabs">{{ $t("nav.us.title") }}</span>
-					<span class="tabs">{{ $t("nav.do.title") }}</span>
-					<span class="tabs">{{ $t("nav.career.title") }}</span>
-					<span class="tabs">İletişim</span>
+					<desktop-navbar-dropdown tab="nav.us" />
+					<desktop-navbar-dropdown tab="nav.do" />
+					<desktop-navbar-dropdown tab="nav.career" />
 				</div>
 			</div>
 		</div>
@@ -27,21 +26,13 @@ export default {
 	background-color: $mainColor;
 	.flex-container {
 		display: flex;
-		height: 110px;
+		align-items: center;
+		height: 90px;
 		.logo {
-			margin: 30px auto 30px 0;
+			margin: auto auto auto 0;
 		}
 		.content {
-			margin: 45px 0 45px auto;
-			display: flex;
-			gap: 48px;
-			color: $titleColor;
-			.tabs {
-				font-size: 16px;
-				font-weight: 700;
-				letter-spacing: 0.3px;
-				line-height: 20px;
-			}
+			margin: auto 0 auto auto;
 		}
 	}
 }
