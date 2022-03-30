@@ -1,16 +1,19 @@
 <template>
     <section id="advisory_sec">
         <p>Danışma Kurulu</p>
-        <div id="advisors_ctn">
-            <profile class="advisor_profile" v-for="(advisor, i) in advisors" :key="i" v-bind:profile="advisor"/>
-        </div>
+            <VueSlickCarousel :dots="true" v-bind="settings">
+                <advisor class="advisor_profile" v-for="(advisor, i) in advisors" :key="i" v-bind:advisor="advisor"/>
+            </VueSlickCarousel>
     </section>
 </template>
 
 <script>
-import Profile from './Profile.vue'
+import Advisor from './Advisor.vue'
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 export default {
-  components: { Profile },
+  components: { Advisor, VueSlickCarousel },
       data() {
         return {
             advisors: [
@@ -50,7 +53,45 @@ export default {
 
                 }
                 
-            ]
+            ],
+            settings: {
+                "arrows": false,
+                "dots": true,
+                "focusOnSelect": true,
+                "infinite": true,
+                "speed": 500,
+                "slidesToShow": 3,
+                "slidesToScroll": 3,
+                "touchThreshold": 5,
+                "responsive": [
+                    {
+                    "breakpoint": 1200,
+                    "settings": {
+                        "slidesToShow": 2,
+                        "slidesToScroll": 2,
+                        "infinite": true,
+                        "dots": true
+                        }
+                    },
+                    {
+                    "breakpoint": 600,
+                    "settings": {
+                        "slidesToShow": 1,
+                        "slidesToScroll": 1,
+                        "infinite": true,
+                        "dots": true
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    methods: {
+        swipeLeft() {
+
+        },
+        swipeRight() {
+
         }
     }
 
@@ -58,9 +99,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    $tablet_bp: 1200px;
+    $mobile_bp: 600px;
     #advisory_sec {
-        background: #E3E4FF ;
+        background: #ECF4FC;
         text-align: center;
+        padding-bottom: 90px;
         p {
             font-style: normal;
             font-weight: 900;
@@ -68,17 +112,7 @@ export default {
             line-height: 40px;
             letter-spacing: 0.6px;
             color: #121F3D;
-            padding: 55px 0 82px 0;
-        }
-        #advisors_ctn {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: center;
-            padding-bottom: 86px;
-            .advisor_profile {
-                color: #121F3D;
-                padding: 0 96px;
-            }
+            padding: 55px 0 82px 0;  
         }
     }
 </style>

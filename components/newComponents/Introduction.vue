@@ -31,19 +31,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-    @import url('http://fonts.cdnfonts.com/css/mulish');
     $tablet_bp: 1200px;
     $mobile_bp: 600px;
     #intr_sec {
         display: flex;
-        height: 100vh;
-        background: #E3E4FF;
+        background: #ECF4FC;;
         flex-flow: row nowrap;
         box-sizing: border-box;
-        padding: 0px 10vw 90px 10vw;
+        padding: 0 10vw 90px 10vw;
         @media (max-width: $mobile_bp) {
-            padding: 5vw;
+            padding: 20px;
         }
         #text_side {
             display: flexbox;
@@ -58,17 +55,21 @@ export default {
                 font-family: Mulish;
                 font-style: normal;
                 font-weight: 900;
-                font-size: 48px;
+                font-size: 3em;
                 line-height: 64px;
                 letter-spacing: 1px;
                 padding-top: 160px;
                 color: #121F3D;
+                @media (max-width: $mobile_bp) {
+                    font-size: 2.5em;
+                    padding-top: 80px;
+                } 
             }
             #description {
                 font-family: Mulish;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 16px;
+                font-size: 1em;
                 line-height: 36px;
                 margin-top: 25px;
 
@@ -89,8 +90,13 @@ export default {
 
                     width: 187px;
                     height: 60px;
-                    background: #DA6B52;
+                    background: #2719CC;
+                    color: white;
                     border-radius: 16px;
+                    @media (max-width: $mobile_bp) {
+                        width: 50%;
+                        height: 50%;
+                    }  
                 }
                 #vid_popup_btn {
                     display: flex;
@@ -98,7 +104,7 @@ export default {
                     justify-content: center;
                     align-items: center;
                     padding: 18px 30px;
-                    background: #E3E4FF;
+                    background: #ECF4FC;
                     width: 187px;
                     height: 60px;
 
@@ -109,17 +115,23 @@ export default {
 
                     margin-left: 16px;
                     img {
-                        content: url('../../assets/img/play_btn.png')
+                        content: url('../../assets/img/play_btn.svg')
                     }
                     span {
                         margin-left: 7px;
                     }
+                    @media (max-width: $mobile_bp) {
+                        width: 50%;
+                        height: 50%;
+                    }  
                 }
             }
             #partners {
                 font-family: Mullish;
-                position: absolute;
-                top: 88vh;
+                margin-top: 10vw;
+                @media (max-width: $mobile_bp) {
+                    margin-top: 20vw;
+                } 
                 p{
                     width: 155px;
                     height: 22px;
@@ -128,14 +140,20 @@ export default {
                     font-size: 18px;
                     line-height: 23px;
                     letter-spacing: 0.267703px;
-
                     color: #121F3D;
-
                     opacity: 0.5;
+                @media (max-width: $mobile_bp) {
+                        
+                    font-size: 1em;
+                } 
                 }
                 img {
-                    content: url('../../assets/img/intr_partners.png');
+                    content: url('../../assets/img/intr_partners.svg');
                     margin-top: 20px;
+                    @media (max-width: $mobile_bp) {
+                        width: 75%;
+                        height: 75%;
+                    }  
                 }
             }
         }
