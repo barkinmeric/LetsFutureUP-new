@@ -22,25 +22,25 @@ export default {
 		return {
 			mentors: [
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",

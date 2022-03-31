@@ -111,7 +111,7 @@ $mobile_bp: 600px;
 
 				margin-left: 16px;
 				img {
-					content: url("@/assets/img/play_btn.svg");
+					content: url("/pages/index/play_btn.svg");
 				}
 				span {
 					margin-left: 7px;
@@ -143,7 +143,7 @@ $mobile_bp: 600px;
 				}
 			}
 			img {
-				content: url("@/assets/img/intr_partners.svg");
+				content: url("/pages/index/intr_partners.svg");
 				margin-top: 20px;
 				@media (max-width: $mobile_bp) {
 					width: 75%;
@@ -155,7 +155,7 @@ $mobile_bp: 600px;
 	#img_side {
 		width: 50%;
 		img {
-			content: url("@/assets/img/intr_stock.png");
+			content: url("/pages/index/intr_stock.png");
 			$intr_stock_width: 90%;
 			width: $intr_stock_width;
 			height: $intr_stock_width * 1, 0894;

@@ -40,7 +40,7 @@ export default {
 		.img_ctn {
 			width: 284px;
 			height: 202px;
-			background: url("@/assets/img/mentorProfile.png") no-repeat center;
+			background: url("/pages/index/mentorProfile.png") no-repeat center;
 			background-size: cover;
 			border-radius: 8px;
 		}

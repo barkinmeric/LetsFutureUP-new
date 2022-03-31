@@ -18,31 +18,31 @@ export default {
 		return {
 			advisors: [
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
@@ -88,8 +88,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$tablet_bp: 1200px;
-$mobile_bp: 600px;
 #advisory_sec {
 	background: #ecf4fc;
 	text-align: center;
