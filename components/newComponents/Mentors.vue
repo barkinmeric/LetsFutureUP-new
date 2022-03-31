@@ -5,15 +5,21 @@
             <div></div>
         </div>
         <div id="mentors_ctn">
-            <mentor-card v-for="(mentor, i) in mentors" :key="i" v-bind:mentor="mentor"/>
+            <VueSlickCarousel :dots="true" v-bind="settings">
+                <mentor-card v-for="(mentor, i) in mentors" :key="i" v-bind:mentor="mentor"/>
+            </VueSlickCarousel>
         </div>
+
     </section>
 </template>
 
 <script>
 import MentorCard from './MentorCard.vue'
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 export default {
-    components: {MentorCard},
+    components: {MentorCard, VueSlickCarousel},
     data() {
         return {
             mentors: [
@@ -46,30 +52,73 @@ export default {
 
                 }
                 
-            ]
+            ],
+            settings: {
+                "arrows": false,
+                "dots": true,
+                "focusOnSelect": true,
+                "infinite": true,
+                "speed": 500,
+                "slidesToShow": 3,
+                "slidesToScroll": 3,
+                "touchThreshold": 5,
+                "responsive": [
+                    {
+                    "breakpoint": 1200,
+                    "settings": {
+                        "slidesToShow": 2,
+                        "slidesToScroll": 2,
+                        "infinite": true,
+                        "dots": true
+                        }
+                    },
+                    {
+                    "breakpoint": 600,
+                    "settings": {
+                        "slidesToShow": 1,
+                        "slidesToScroll": 1,
+                        "infinite": true,
+                        "dots": true
+                        }
+                    }
+                ]
+            }
         }
     }
 }
 </script>
 
 <style lang="scss" scoped>
+    $tablet_bp: 1200px;
+    $mobile_bp: 600px;
     #mentors_sec {
+        box-sizing: border-box;
+        background: #ECF4FC;
         #title_ctn {
-            text-align: center;
+            padding: 0 10vw 90px 10vw;
+            padding-top: 40px;
+            @media (max-width: $mobile_bp){
+                padding-top: 0px;
+                font-size: 50%;
+            }
             p {
                 font-style: normal;
                 font-weight: 900;
                 font-size: 32px;
                 line-height: 44px;
                 letter-spacing: 0.6px;
+                width: 650px;
                 color: #121F3D;
+                @media (max-width: $tablet_bp){
+                    text-align: center;
+                    font-size: 24px;
+                    width: inherit;
+                }
             }
         }
         #mentors_ctn {
-            margin: 78px 0 69px 0;
-            display: flex;
-            justify-content: center;
-            flex-flow: row wrap;
+            margin: 0 1.6vw;
+            padding: 70px 0;
         }
     }
 </style>

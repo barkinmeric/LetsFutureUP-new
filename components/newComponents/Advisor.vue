@@ -1,31 +1,34 @@
 <template>
-  <div class="profile">
+  <div class="advisor">
         <div class="img_ctn">
-            <!-- <img :src="profile.img"> -->
-            <img src="../../assets/img/profile.png"> 
+          <img>
         </div>
         <div class="info_ctn">
-            <p class="profile_name">{{profile.name}}</p>
-            <p class="profile_pos">{{profile.position}}</p>
+            <p class="profile_name">{{advisor.name}}</p>
+            <p class="profile_pos">{{advisor.position}}</p>
         </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['profile']
+  props: ['advisor']
 
 
 
 }
 </script>
 
-<style lang="scss">
-  .profile {
+<style lang="scss" scoped>
+  .advisor {
+    padding: 47px;
     .img_ctn {
-      img {
-        border-radius: 50%;
-      }
+      width: 170px;
+      height: 170px;
+      background: url('../../assets/img/advisorProfile.png') no-repeat center;
+      background-size: cover;
+      border-radius: 50%;
+      margin: auto;
     }
     .info_ctn {
         padding-top: 25px;
