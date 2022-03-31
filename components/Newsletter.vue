@@ -63,9 +63,9 @@ export default {
 			border-radius: 8px;
 		}
 		.left-part {
-			height: 392px;
 			position: relative;
-			text-align: center;
+			height: 392px;
+			width: fit-content;
 			.card-title {
 				color: white;
 				text-shadow: 2px 2px black;
@@ -132,6 +132,25 @@ export default {
 						background-color: #f3f4f5;
 					}
 				}
+			}
+		}
+	}
+}
+@media (max-width: 1200px) {
+	.newsletter {
+		.newsletter-body {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+			gap: 0;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+			.left-part {
+				margin: 0 auto;
+			}
+			.right-part {
+				margin-top: 30px;
 			}
 		}
 	}
