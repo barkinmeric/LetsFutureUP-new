@@ -1,60 +1,99 @@
 <template>
 	<section id="advisory_sec">
 		<p>Danışma Kurulu</p>
-		<div id="advisors_ctn">
-			<profile class="advisor_profile" v-for="(advisor, i) in advisors" :key="i" v-bind:profile="advisor" />
-		</div>
+		<VueSlickCarousel :dots="true" v-bind="settings">
+			<advisor class="advisor_profile" v-for="(advisor, i) in advisors" :key="i" v-bind:advisor="advisor" />
+		</VueSlickCarousel>
 	</section>
 </template>
 
 <script>
-import Profile from "./Profile.vue";
+import Advisor from "./Advisor.vue";
+import VueSlickCarousel from "vue-slick-carousel";
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 export default {
-	components: { Profile },
+	components: { Advisor, VueSlickCarousel },
 	data() {
 		return {
 			advisors: [
 				{
-					img: "../../assets/img/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "../../assets/img/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "../../assets/img/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "../../assets/img/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "../../assets/img/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 			],
+			settings: {
+				arrows: false,
+				dots: true,
+				focusOnSelect: true,
+				infinite: true,
+				speed: 500,
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				touchThreshold: 5,
+				responsive: [
+					{
+						breakpoint: 1200,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 2,
+							infinite: true,
+							dots: true,
+						},
+					},
+					{
+						breakpoint: 600,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							infinite: true,
+							dots: true,
+						},
+					},
+				],
+			},
 		};
+	},
+	methods: {
+		swipeLeft() {},
+		swipeRight() {},
 	},
 };
 </script>
 
 <style lang="scss" scoped>
+$tablet_bp: 1200px;
+$mobile_bp: 600px;
 #advisory_sec {
-	background: #e3e4ff;
+	background: #ecf4fc;
 	text-align: center;
-	margin: 0px 0px 94px 0px;
+	padding-bottom: 90px;
 	p {
 		font-style: normal;
 		font-weight: 900;
@@ -63,16 +102,6 @@ export default {
 		letter-spacing: 0.6px;
 		color: #121f3d;
 		padding: 55px 0 82px 0;
-	}
-	#advisors_ctn {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
-		padding-bottom: 86px;
-		.advisor_profile {
-			color: #121f3d;
-			padding: 0 96px;
-		}
 	}
 }
 </style>

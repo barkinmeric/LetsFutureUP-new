@@ -35,7 +35,13 @@
 		<div id="contact">
 			<span>Let’s FutureUP © 2020</span>
 			<a href="mailto:humanresources@letsfutureup.com">humanresources@letsfutureup.com</a>
-			<span id="social_media"> </span>
+			<span id="social_media">
+				<a href=""><img src="@/assets/img/linkedin.svg" alt="" /></a>
+				<a href=""><img src="@/assets/img/youtube.svg" alt="" /></a>
+				<a href=""><img src="@/assets/img/twitter.svg" alt="" /></a>
+				<a href=""><img src="@/assets/img/facebook.svg" alt="" /></a>
+				<a href=""><img src="@/assets/img/instagram.svg" alt="" /></a>
+			</span>
 		</div>
 	</footer>
 </template>
