@@ -19,7 +19,7 @@ export default {
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: ["@/assets/css/normalize.css", "@/assets/css/montserrat.css", "@/assets/css/mulish.css", "@/assets/scss/colors.scss", "@/assets/scss/style.scss"],
+	css: ["@/assets/css/normalize.css", "@/assets/css/montserrat.css", "@/assets/css/mulish.css", "@/assets/scss/variables.scss", "@/assets/scss/style.scss"],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [],
@@ -44,7 +44,7 @@ export default {
 	image: {},
 
 	styleResources: {
-		scss: ["./assets/scss/colors.scss"],
+		scss: ["./assets/scss/variables.scss"],
 	},
 
 	i18n: {
@@ -55,7 +55,7 @@ export default {
 			{ code: "en", iso: "en-US", file: "en.json", name: "English" },
 		],
 		detectBrowserLanguage: false,
-		baseUrl: "https://letsfutureup-nuxt.netlify.app",
+		baseUrl: "https://letsfutureup.com",
 		parsePages: false,
 		pages: pages,
 	},
@@ -64,11 +64,11 @@ export default {
 		UserAgent: "*",
 		Allow: "",
 		Disallow: "/*.pdf",
-		Sitemap: "https://letsfutureup-nuxt.netlify.app/sitemap.xml",
+		Sitemap: "https://letsfutureup.com/sitemap.xml",
 	},
 
 	sitemap: {
-		hostname: "https://letsfutureup-nuxt.netlify.app",
+		hostname: "https://letsfutureup.com",
 		exclude: ["/*"],
 		routes: routes,
 	},

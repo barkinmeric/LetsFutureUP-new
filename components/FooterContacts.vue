@@ -2,7 +2,7 @@
 	<footer>
 		<div id="footer_menu">
 			<div id="logo_wrapper">
-				<img src="@/assets/img/lfu.png" />
+				<img src="/pages/index/lfu.png" />
 			</div>
 			<div id="hello_carr">
 				<p>Kariyerine merhaba DE</p>
@@ -36,11 +36,11 @@
 			<span>Let’s FutureUP © 2020</span>
 			<a href="mailto:humanresources@letsfutureup.com">humanresources@letsfutureup.com</a>
 			<span id="social_media">
-				<a href=""><img src="@/assets/img/linkedin.svg" alt="" /></a>
-				<a href=""><img src="@/assets/img/youtube.svg" alt="" /></a>
-				<a href=""><img src="@/assets/img/twitter.svg" alt="" /></a>
-				<a href=""><img src="@/assets/img/facebook.svg" alt="" /></a>
-				<a href=""><img src="@/assets/img/instagram.svg" alt="" /></a>
+				<a href=""><img src="/pages/index/linkedin.svg" alt="" /></a>
+				<a href=""><img src="/pages/index/youtube.svg" alt="" /></a>
+				<a href=""><img src="/pages/index/twitter.svg" alt="" /></a>
+				<a href=""><img src="/pages/index/facebook.svg" alt="" /></a>
+				<a href=""><img src="/pages/index/instagram.svg" alt="" /></a>
 			</span>
 		</div>
 	</footer>

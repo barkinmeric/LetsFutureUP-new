@@ -22,7 +22,7 @@ export default {
 	.img_ctn {
 		width: 170px;
 		height: 170px;
-		background: url("@/assets/img/advisorProfile.png") no-repeat center;
+		background: url("/pages/index/advisorProfile.png") no-repeat center;
 		background-size: cover;
 		border-radius: 50%;
 		margin: auto;
