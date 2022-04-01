@@ -44,7 +44,7 @@ export default {
 			justify-content: center;
 			h5 {
 				display: inline-block;
-				font-size: 18px;
+				font-size: 1.125rem;
 				font-weight: 900;
 				letter-spacing: 0.3px;
 				line-height: 28px;
@@ -52,7 +52,7 @@ export default {
 				padding: 16px 0px 8px 0px;
 			}
 			p {
-				font-size: 14px;
+				font-size: .875rem;
 				font-weight: 400;
 				letter-spacing: 0.3px;
 				line-height: 24px;

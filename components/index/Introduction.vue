@@ -51,13 +51,13 @@ $mobile_bp: 600px;
 			font-family: Mulish;
 			font-style: normal;
 			font-weight: 900;
-			font-size: 3em;
+			font-size: 3rem;
 			line-height: 64px;
 			letter-spacing: 1px;
 			padding-top: 160px;
 			color: #121f3d;
 			@media (max-width: $mobile_bp) {
-				font-size: 2.5em;
+				font-size: 2.5rem;
 				padding-top: 80px;
 			}
 		}
@@ -65,7 +65,7 @@ $mobile_bp: 600px;
 			font-family: Mulish;
 			font-style: normal;
 			font-weight: normal;
-			font-size: 1em;
+			font-size: 1rem;
 			line-height: 36px;
 			margin-top: 25px;
 
@@ -133,13 +133,13 @@ $mobile_bp: 600px;
 				height: 22px;
 				font-style: normal;
 				font-weight: 900;
-				font-size: 18px;
+				font-size: 1.125rem;
 				line-height: 23px;
 				letter-spacing: 0.267703px;
 				color: #121f3d;
 				opacity: 0.5;
 				@media (max-width: $mobile_bp) {
-					font-size: 1em;
+					font-size: 1rem;
 				}
 			}
 			img {

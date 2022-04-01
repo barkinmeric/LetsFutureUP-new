@@ -22,25 +22,25 @@ export default {
 		return {
 			mentors: [
 				{
-					img: "/pages/index/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "/pages/index/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "/pages/index/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "/pages/index/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
@@ -88,8 +88,7 @@ $mobile_bp: 600px;
 	box-sizing: border-box;
 	background: #ecf4fc;
 	#title_ctn {
-		padding: 0 10vw 90px 10vw;
-		padding-top: 40px;
+		padding: 40px 10vw 20px 10vw;
 		@media (max-width: $mobile_bp) {
 			padding-top: 0px;
 			font-size: 50%;
@@ -97,14 +96,14 @@ $mobile_bp: 600px;
 		p {
 			font-style: normal;
 			font-weight: 900;
-			font-size: 32px;
+			font-size: 2rem;
 			line-height: 44px;
 			letter-spacing: 0.6px;
 			width: 650px;
 			color: #121f3d;
 			@media (max-width: $tablet_bp) {
 				text-align: center;
-				font-size: 24px;
+				font-size: 1.5rem;
 				width: inherit;
 			}
 		}
