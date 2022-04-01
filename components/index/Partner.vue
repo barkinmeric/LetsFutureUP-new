@@ -26,13 +26,13 @@ export default {
 <style lang="scss" scoped>
 .partner {
 	background: $backgroundColor;
-	padding: 0px 0 120px 0;
+	padding: 20px 10px;
 	.partner-part {
 		.partner-title {
 			text-align: center;
 			color: $titleColor;
-			padding: 0px 0px 32px 0px;
-			font-size: 32px;
+			padding: 40px 10px 20px 10px;
+			font-size: 2rem;
 			font-weight: 900;
 			letter-spacing: 0.6px;
 			line-height: 40px;

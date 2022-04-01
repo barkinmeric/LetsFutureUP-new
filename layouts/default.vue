@@ -33,7 +33,7 @@ export default {
 	display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 996px) {
 	.mobile-navbar {
 		display: none;
 	}

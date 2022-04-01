@@ -33,12 +33,10 @@
 			</div>
 		</div>
 		<div id="contact">
-			<span>Let’s FutureUP © 2020</span>
+			<span>&copy; Let’s FutureUP 2022. Tüm Hakları Saklıdır.</span>
 			<a href="mailto:humanresources@letsfutureup.com">humanresources@letsfutureup.com</a>
 			<span id="social_media">
 				<a href=""><img src="/pages/index/linkedin.svg" alt="" /></a>
-				<a href=""><img src="/pages/index/youtube.svg" alt="" /></a>
-				<a href=""><img src="/pages/index/twitter.svg" alt="" /></a>
 				<a href=""><img src="/pages/index/facebook.svg" alt="" /></a>
 				<a href=""><img src="/pages/index/instagram.svg" alt="" /></a>
 			</span>
@@ -52,7 +50,7 @@ export default {};
 
 <style lang="scss" scoped>
 footer {
-	background: #121f3d;
+	background: $thirdColor;
 	list-style-type: none;
 	color: white;
 	#footer_menu {
@@ -70,7 +68,7 @@ footer {
 			grid-area: whatVDo;
 		}
 		grid-template-areas: "logoWrapper helloCarr whoRWe whatVDo";
-		padding: 56px 25vw 40px 10vw;
+		padding: 40px 5vw 20px 5vw;
 		gap: 40px;
 		@media (max-width: 800px) {
 			grid-template-areas:
@@ -81,7 +79,7 @@ footer {
 		p {
 			font-style: normal;
 			font-weight: 900;
-			font-size: 16px;
+			font-size: 1rem;
 			line-height: 20px;
 			letter-spacing: 0.6px;
 		}
@@ -89,7 +87,7 @@ footer {
 			margin-top: 16px;
 			font-style: normal;
 			font-weight: normal;
-			font-size: 16px;
+			font-size: 1rem;
 			line-height: 24px;
 			letter-spacing: 0.6px;
 			color: #ffffff;
@@ -100,10 +98,18 @@ footer {
 		flex-flow: row wrap;
 		justify-content: space-between;
 		align-items: center;
-		padding: 24px 10vw 24px 10vw;
+		padding: 20px 5vw;
+		@media (max-width: 800px) {
+			flex-direction: column !important;
+		}
 		a {
 			text-decoration: none;
 			color: white;
+			margin-left: 15px;
+			@media (max-width: 800px) {
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
 			&visited {
 				color: white;
 			}

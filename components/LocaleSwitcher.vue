@@ -22,16 +22,17 @@ export default {
 .locale-switcher {
 	width: 100%;
 	height: 30px;
-	background: #292929;
-	color: #eee;
-	font-size: 12px;
+	background: $mainColor;
+	color: #000;
+	font-size: 0.75rem;
 	line-height: 30px;
 	.grid-container {
 		display: grid;
 		justify-content: end;
 		margin-right: 16px;
+		align-items: center;
 		span {
-			color: #eee;
+			color: #000;
 			transition: all ease 0.5s;
 			cursor: pointer;
 			&:hover {

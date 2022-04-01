@@ -46,7 +46,7 @@ export default {
 		line-height: 20px;
 		font-weight: 700;
 		letter-spacing: 0.3px;
-		font-size: 16px;
+		font-size: 1rem;
 		border-radius: 8px;
 		background-color: $mainColor;
 		color: $titleColor;
@@ -63,18 +63,20 @@ export default {
 		border-radius: 8px;
 		animation: growDown 300ms ease-in-out forwards;
 		transform-origin: top center;
+		box-shadow: 0px 0px 5px 1px #00000030;
+		border: 1px solid #00000050;
 		.text {
 			width: 100%;
 			height: 100%;
 			padding: 14px 16px;
-			color: $titleColor;
+			color: $sideColor;
 			line-height: 20px;
-			font-size: 16px;
+			font-size: 1rem;
 			font-weight: 400;
 			letter-spacing: 0.3px;
 			&:hover {
 				border-radius: 8px;
-				background-color: $titleColor;
+				background-color: $sideColor;
 				color: $mainColor;
 			}
 		}

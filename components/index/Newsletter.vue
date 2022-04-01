@@ -45,12 +45,12 @@ export default {
 
 <style lang="scss" scoped>
 .newsletter {
-	padding: 0px 0px 89px 0px;
+	padding: 20px 10px 50px 10px;
 	background: $backgroundColor;
 	.newsletter-title {
 		color: $titleColor;
 		padding: 0px 0px 36px 0px;
-		font-size: 32px;
+		font-size: 2rem;
 		font-weight: 900;
 		letter-spacing: 0.6px;
 		line-height: 40px;
@@ -69,7 +69,7 @@ export default {
 			.card-title {
 				color: white;
 				text-shadow: 2px 2px black;
-				font-size: 24px;
+				font-size: 1.5rem;
 				font-weight: 900;
 				letter-spacing: 0.6px;
 				line-height: 34px;
@@ -82,7 +82,7 @@ export default {
 				width: 97px;
 				padding: 6px 16px;
 				text-align: center;
-				font-size: 14px;
+				font-size: 0.875rem;
 				font-weight: 400;
 				letter-spacing: 0.3px;
 				line-height: 20px;
@@ -108,13 +108,13 @@ export default {
 					display: grid;
 					grid-template-columns: 100%;
 					.card-title {
-						font-size: 18px;
+						font-size: 1.125;
 						font-weight: 900;
 						letter-spacing: 0.6px;
 						line-height: 34px;
 					}
 					.card-text {
-						font-size: 14px;
+						font-size: 0.875rem;
 						font-weight: 400;
 						letter-spacing: 0.6px;
 						line-height: 20px;
@@ -124,7 +124,7 @@ export default {
 						width: 97px;
 						padding: 6px 16px;
 						text-align: center;
-						font-size: 14px;
+						font-size: 0.75rem;
 						font-weight: 400;
 						letter-spacing: 0.3px;
 						line-height: 20px;
@@ -140,11 +140,11 @@ export default {
 	.newsletter {
 		.newsletter-body {
 			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 			gap: 0;
 			img {
+				max-width: 100%;
 				width: 100%;
-				height: 100%;
+				height: auto;
 			}
 			.left-part {
 				margin: 0 auto;

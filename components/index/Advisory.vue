@@ -18,31 +18,31 @@ export default {
 		return {
 			advisors: [
 				{
-					img: "/pages/index/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "/pages/index/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "/pages/index/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "/pages/index/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "/pages/index/profile.png",
+					img: "@/assets/img/profile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
@@ -88,6 +88,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$tablet_bp: 1200px;
+$mobile_bp: 600px;
 #advisory_sec {
 	background: #ecf4fc;
 	text-align: center;
@@ -95,7 +97,7 @@ export default {
 	p {
 		font-style: normal;
 		font-weight: 900;
-		font-size: 32px;
+		font-size: 2rem;
 		line-height: 40px;
 		letter-spacing: 0.6px;
 		color: #121f3d;

@@ -56,7 +56,7 @@ export default {
 			border-radius: 8px;
 			line-height: 34px;
 			font-weight: 900;
-			font-size: 24px;
+			font-size: 1.5rem;
 			letter-spacing: 0.6px;
 			cursor: pointer;
 		}
@@ -94,7 +94,7 @@ export default {
 			display: block;
 			letter-spacing: 0.3px;
 			line-height: 20px;
-			font-size: 16px;
+			font-size: 1rem;
 			font-weight: 700;
 		}
 	}
