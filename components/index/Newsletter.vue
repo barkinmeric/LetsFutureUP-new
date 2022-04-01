@@ -82,7 +82,7 @@ export default {
 				width: 97px;
 				padding: 6px 16px;
 				text-align: center;
-				font-size: .875rem;
+				font-size: 0.875rem;
 				font-weight: 400;
 				letter-spacing: 0.3px;
 				line-height: 20px;
@@ -114,7 +114,7 @@ export default {
 						line-height: 34px;
 					}
 					.card-text {
-						font-size: .875rem;
+						font-size: 0.875rem;
 						font-weight: 400;
 						letter-spacing: 0.6px;
 						line-height: 20px;
@@ -124,7 +124,7 @@ export default {
 						width: 97px;
 						padding: 6px 16px;
 						text-align: center;
-						font-size: .75rem;
+						font-size: 0.75rem;
 						font-weight: 400;
 						letter-spacing: 0.3px;
 						line-height: 20px;

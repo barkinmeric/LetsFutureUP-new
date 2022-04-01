@@ -24,13 +24,13 @@ export default {
 	height: 30px;
 	background: $mainColor;
 	color: #000;
-	font-size: .75rem;
+	font-size: 0.75rem;
 	line-height: 30px;
-	padding: 20px;
 	.grid-container {
 		display: grid;
 		justify-content: end;
 		margin-right: 16px;
+		align-items: center;
 		span {
 			color: #000;
 			transition: all ease 0.5s;
