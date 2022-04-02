@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<section class="index">
 		<social-head :title="$t('index.title')" :description="$t('index.desc')" />
 		<introduction />
 		<hello-career />
@@ -7,7 +7,7 @@
 		<newsletter />
 		<advisory />
 		<partner />
-	</div>
+	</section>
 </template>
 
 <script>
@@ -27,45 +27,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.mobile-board {
-	display: block;
-}
-.desktop-board {
-	display: none;
-}
-.mobile-supporter {
-	display: block;
-}
-.desktop-supporter {
-	display: none;
-}
-.mobile-partner {
-	display: block;
-}
-.desktop-partner {
-	display: none;
-}
-@media (min-width: 992px) {
-	.mobile-board {
-		display: none;
-	}
-	.desktop-board {
-		display: block;
-	}
-}
-@media (min-width: 1200px) {
-	.mobile-supporter {
-		display: none;
-	}
-	.desktop-supporter {
-		display: block;
-	}
-	.mobile-partner {
-		display: none;
-	}
-	.desktop-partner {
-		display: block;
-	}
-}
-</style>
+<style lang="scss" scoped></style>

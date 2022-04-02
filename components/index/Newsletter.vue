@@ -4,13 +4,13 @@
 			<h1 class="newsletter-title">Duyurular & Etkinlikler</h1>
 			<div class="newsletter-body">
 				<div class="left-part">
-					<nuxt-img format="jpg" src="/pages/index/slider/desktop/en/1.webp" height="392px" width="500px" alt="StartUP" draggable="false" loading="lazy" />
+					<nuxt-img format="jpg" class="image" draggable="false" src="/pages/index/slider/desktop/en/1.webp" height="392px" width="500px" alt="StartUP" loading="lazy" />
 					<h2 class="card-title">Mentor & Mentee başvuruları başladı!</h2>
 					<span class="card-tag">Duyurular</span>
 				</div>
 				<div class="right-part">
 					<div class="right-card">
-						<nuxt-img format="jpg" src="/pages/index/slider/desktop/en/1.webp" height="176px" width="176px" alt="StartUP" draggable="false" loading="lazy" />
+						<nuxt-img format="jpg" class="image" src="/pages/index/slider/desktop/en/1.webp" height="176px" width="176px" alt="StartUP" draggable="false" loading="lazy" />
 						<div class="card-desc">
 							<h2 class="card-title">EN İYİ KENDİN OL</h2>
 							<p class="card-text">
@@ -58,14 +58,14 @@ export default {
 	.newsletter-body {
 		display: flex;
 		gap: 40px;
-		img {
-			user-select: none;
-			border-radius: 8px;
-		}
 		.left-part {
 			position: relative;
 			height: 392px;
 			width: fit-content;
+			.image {
+				user-select: none;
+				border-radius: 8px;
+			}
 			.card-title {
 				color: white;
 				text-shadow: 2px 2px black;
@@ -101,7 +101,9 @@ export default {
 			.right-card {
 				display: flex;
 				gap: 16px;
-				img {
+				.image {
+					user-select: none;
+					border-radius: 8px;
 					height: 176px;
 				}
 				.card-desc {
@@ -141,16 +143,22 @@ export default {
 		.newsletter-body {
 			display: grid;
 			gap: 0;
-			img {
-				max-width: 100%;
-				width: 100%;
-				height: auto;
-			}
 			.left-part {
+				height: 100%;
 				margin: 0 auto;
+				.image {
+					max-width: 100%;
+					width: 100%;
+					height: auto;
+				}
 			}
 			.right-part {
 				margin-top: 30px;
+				.image {
+					max-width: 100%;
+					width: 100%;
+					height: auto;
+				}
 			}
 		}
 	}
