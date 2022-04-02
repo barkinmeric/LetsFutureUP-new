@@ -1,24 +1,15 @@
 <template>
-	<section class="project-team">
-		<social-head :title="$t('team.title')" :description="$t('team.desc')" />
-		<div class="container">
-			<div class="head">
-				<nuxt-img format="jpg" class="image" draggable="false" :src="$t('team.img')" :alt="$t('team.title')" height="500" width="1920" />
-			</div>
-			<div class="body">
-				<h2 class="title">{{ $t("team.title") }}</h2>
-				<p class="text">{{ $t("team.desc") }}</p>
-				<div v-for="item in $t('team.content')" :key="item.title">
-					<team-collapsible :item="item" />
-					<p class="item-text">{{ item.text }}</p>
-				</div>
-			</div>
-		</div>
-	</section>
+	<div class="container">
+		<dep-selection-bar  @scroll-to-sec="ScrollToSec"/>
+		<dep-sections v-for="(secData, i) in depSectionContents" :key="i" :secData="secData" :id="secData.id"/>
+	</div>
 </template>
 
 <script>
+import depSelectionBar from '../components/projectTeam/DepSelectionBar.vue';
+import depSections from '../components/projectTeam/DepSections.vue';
 export default {
+  components: { depSelectionBar, depSections },
 	head() {
 		return {
 			title: `Let's FutureUP ${this.$i18n.t("team.title")} ${this.$i18n.t("url")}`,
@@ -31,43 +22,100 @@ export default {
 			],
 		};
 	},
+	data() {
+		return {
+			depSectionContents: [
+				{
+					id: 'humanRsr',
+					text: {
+						title: "İNSAN KAYNAKLARI",
+						description: "Let’s FutureUP Mentorluk Programı ve proje ekip üyesi alım sürecini organize eder, mülakat yapar ve olumlu adayların oryantasyon sürecini yönetir. Öğrencilerin gelişimlerine yönelik eğitimler organize eder. Aylık E-Bülten hazırlanmasında rol oynar. Mentorluk Programına dahil olan öğrencilerin ve ekip üyelerinin devamlılığını takip eder. Proje ekip üyelerinin motivasyonlarının yüksek tutulması ve birbirlerini daha yakından tanıyabilmeleri adına kaynaşma etkinlikleri düzenler. WeTALK etkinliklerinin ve eğitimlerin içerik yazılarının hazırlanmasında Sosyal Medya ve Dijital Pazarlama Departmanı ile çalışır."
+					},
+					imgs: [
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+					],
+					swap: true   
+        		},
+				{
+					id: 'corCom',
+					text: {
+						title: "KURUMSAL İLETİŞİM DEPARTMANI",
+						description: "Projede yer alan Mentorluk Programı, Kariyerine MerhabaDE! Öğrenci Gelişim Programı ve WeTALK etkinliklerine yönelik olarak üst düzey yöneticilerle iletişime geçerek mentor/eğitmen/konuşmacı olmaları için teklifte bulunur, toplantılar düzenleyerek projeyi tanıtır. Bu etkinliklerin organize edilmesinde ve paydaşlara duyurulmasında rol oynar. Sponsorluk çalışmaları yapar. Üniversite kulüpleriyle iletişime geçerek tanışma toplantıları düzenler."
+						},
+					imgs: [
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+					],
+					swap: true
+        		},
+				{
+					id: 'busStr',
+					text: {
+						title: "İŞ & STRATEJİ GELİŞTİRME DEPARTMANI",
+						description: "Let’s FutureUP projesinin misyonu ve vizyonu doğrultusunda stratejilerin geliştirilmesine destek vererek projenin hedeflerine ulaşması için inovatif fikirler ortaya koyar. Bu kapsamda projede bulunan departmanların yeni fikirler üretmesinde ve bu fikirlerin hayata geçirilmesinde liderlik eder. Yeni fikirlerin projeye nasıl entegre edilebileceği konusunda tüm departmanlar ile koordine bir şekilde çalışır."},
+					imgs: [
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+					],
+					swap: true
+        		},
+				{
+					id: 'forAf',
+					text: {
+						title: "DIŞ İLİŞKİLER DEPARTMANI",
+						description: "Projede yer alan Mentorluk Programı, Kariyerine MerhabaDE! Öğrenci Gelişim Programı ve WeTALK etkinliklerinin içeriklerine yönelik olarak uluslararası şirketlerin yurt dışı bölümünde çalışan üst düzey yöneticilerle iletişime geçerek mentor/eğitmen/konuşmacı olmaları için teklifte bulunur, toplantılar düzenleyerek projeyi tanıtır. Bu etkinliklerin organize edilmesinde ve paydaşlara duyurulmasında rol oynar. Projeyi uluslararası bir konuma getirmek üzere yabancı öğrencilere ulaşabilmek için yurt dışındaki üniversite kulüpleriyle iletişime geçerek tanışma toplantıları düzenler."},
+					imgs: [
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+					],
+					swap: true
+        		},
+				{
+					id: 'socMed',
+					text: {
+						title: "SOSYAL MEDYA VE DİJİTAL PAZARLAMA DEPARTMANI",
+						description: "Let’s FutureUP Projesi’nin sosyal medya hesaplarının etkin bir şekilde kullanılmasını sağlar. Aynı zamanda projenin ulusal ve uluslararası kitlelere ulaşmasında rol alır. Sosyal medya hesaplarında paylaşılmak üzere gönderiler ve içerikler hazırlar. WeTALK etkinliklerinin ve eğitimlerin duyurulmasını sağlar."},
+					imgs: [
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+					],
+					swap: true
+        		},
+				{
+					id: 'startUp',
+					text: {
+						title: "STARTUP DEPARTMANI",
+						description: "StartUP Ekibi, projemizin ilerleyen dönemlerinde gerçekleştireceğimiz girişim tabanlı etkinlikler için hazırlıklar yapar. Bu ekip, genelde web sitemizin kurulumu, iyileştirilmesi, ilerleyişi, gelişimi ve yönetimi üzerine çalışmalar gerçekleştirir. Ayrıca projeyi yöneten programların kodlarının yazılmasından ve dijitale aktarılmasından sorumludur."},
+					imgs: [
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+						'grayPlaceholder.png',
+					],
+					swap: true
+        		}
+			]
+		}
+	},
+	methods: {
+        ScrollToSec(id) {
+            document.getElementById(id).scrollIntoView();
+        }
+	}
 };
 </script>
 
 <style lang="scss" scope>
-.project-team {
-	margin-bottom: 30px;
-	.head {
-		text-align: center;
-		margin: 20px 0;
-		.image {
-			max-width: 100%;
-			height: auto;
-		}
-	}
-	.body {
-		.text {
-			color: #292929;
-			font-size: 16px;
-			font-weight: normal;
-			margin-bottom: 15px;
-		}
-		.title {
-			display: inline-block;
-			font-size: 20px;
-			font-weight: 600;
-			letter-spacing: 1px;
-			color: #000;
-			border-bottom: 3px solid $sideColor;
-			margin-bottom: 20px;
-			text-transform: uppercase;
-		}
-		.item-text {
-			color: #292929;
-			font-size: 14px;
-			font-weight: normal;
-			margin: 20px 0;
-		}
-	}
-}
+	
 </style>

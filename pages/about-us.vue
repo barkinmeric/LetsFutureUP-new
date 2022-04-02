@@ -1,12 +1,9 @@
 <template>
 	<section class="about-us">
-		<social-head :title="$t('about.title')" :description="$t('index.desc')" />
 		<div class="container">
-			<div class="head">
-				<nuxt-img format="jpg" class="image" draggable="false" :src="$t('about.img')" :alt="$t('about.title')" height="500" width="1920" />
-			</div>
 			<div class="body">
-				<h2 class="title">{{ $t("about.title") }}</h2>
+				<h2 class="title">Let’s FutureUP, gençlere mentorluk ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.</h2>
+				<button class="join-btn">Bize Katıl</button>
 				<div v-for="item in $t('about.content')" :key="item.title">
 					<h3 class="item-title">{{ item.title }}</h3>
 					<ul v-if="item.title == `Hedeflerimiz` || item.title == 'Our goals'">
@@ -40,45 +37,60 @@ export default {
 
 <style lang="scss" scoped>
 .about-us {
-	margin-bottom: 30px;
-	.head {
-		text-align: center;
-		margin: 20px 0;
-		.image {
-			max-width: 100%;
-			height: auto;
-		}
-	}
+	margin: auto;
+	text-align: center;
+	width: 824px;
+	padding: 81px 0 126px 0;
 	.body {
+		.title {
+			text-align: center;
+			font-style: normal;
+			font-weight: 900;
+			font-size: 24px;
+			line-height: 34px;
+			letter-spacing: 0.3px;
+			color: #000000;
+			margin-top: 81px;
+		}
+		.join-btn {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			padding: 18px 32px;
+			width: 176px;
+			height: 56px;
+			background: #2719CC;
+			border-radius: 16px;
+			margin: auto;
+			margin-top: 24px;
+			color: white;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 20px;
+		}
 		.text {
 			color: #292929;
 			font-size: 16px;
 			font-weight: normal;
 			margin-bottom: 15px;
-		}
-		.title {
-			display: inline-block;
-			font-size: 20px;
-			font-weight: 600;
-			letter-spacing: 1px;
-			color: #000;
-			border-bottom: 3px solid $sideColor;
-			margin-bottom: 20px;
-			text-transform: uppercase;
+			margin-top: 24px;
 		}
 		.item-text {
 			color: #292929;
 			font-size: 16px;
 			font-weight: normal;
-			margin-bottom: 15px;
+			margin-top: 36px;
 		}
 		.item-title {
-			font-size: 18px;
-			font-weight: 500;
-			letter-spacing: 1px;
-			color: #000;
-			margin-bottom: 10px;
-			text-transform: uppercase;
+			font-style: normal;
+			font-weight: 900;
+			font-size: 16px;
+			line-height: 20px;
+			letter-spacing: 0.3px;
+			color: #000000;
+			margin-top: 100px;
 		}
 	}
 }
