@@ -4,16 +4,31 @@
 		<div class="container">
 			<div class="our-story-body">
 				<div class="left-part">
-					<nuxt-img format="jpg" class="image" draggable="false" src="/pages/our-story/img.png" :alt="$t('story.title')" height="454" width="500" />
+					<nuxt-img
+						format="jpg"
+						class="image"
+						draggable="false"
+						src="/pages/our-story/img.png"
+						:alt="$t('story.title')"
+						height="454"
+						width="500"
+					/>
 				</div>
 				<div class="right-part">
 					<h2 class="title">{{ $t("story.title") }}</h2>
 					<div class="text-part">
-						<p class="text" v-for="paragraph in $t('story.content').slice(0, 2)" :key="paragraph">{{ paragraph }}</p>
+						<p class="text">{{ $t("story.content")[0] }}</p>
+						<br />
+						<p class="text">{{ $t("story.content")[1] }}</p>
 					</div>
 				</div>
 			</div>
-			<p class="text" v-for="paragraph in $t('story.content').slice(2)" :key="paragraph">{{ paragraph }}</p>
+			<div class="bottom-part">
+				<p class="text">{{ $t("story.content")[2] }}</p>
+				<p class="saying">{{ $t("story.saying")[0] }}</p>
+				<p class="author">{{ $t("story.saying")[1] }}</p>
+				<p class="bottom-text">{{ $t("story.content")[3] }}</p>
+			</div>
 		</div>
 	</section>
 </template>
@@ -37,7 +52,7 @@ export default {
 
 <style lang="scss" scoped>
 .our-story {
-	margin: 100px 0 30px 0;
+	margin: 100px 0 256px 0;
 	.our-story-body {
 		display: flex;
 		gap: 40px;
@@ -69,6 +84,44 @@ export default {
 					color: $textColor;
 				}
 			}
+		}
+	}
+	.bottom-part {
+		text-align: center;
+		margin-top: 70px;
+		.text {
+			font-size: 1rem;
+			font-weight: 400;
+			letter-spacing: 0.3px;
+			line-height: 24px;
+			color: $textColor;
+		}
+		.saying {
+			margin: 48px auto 16px auto;
+			max-width: 700px;
+			font-size: 3rem;
+			font-weight: 900;
+			letter-spacing: 1px;
+			line-height: 60px;
+			color: #b8bcc5;
+		}
+		.author {
+			margin: 0 auto 48px auto;
+			max-width: 700px;
+			font-size: 1rem;
+			font-weight: 400;
+			letter-spacing: 0.3px;
+			line-height: 20px;
+			color: #b8bcc5;
+		}
+		.bottom-text {
+			max-width: 850px;
+			margin: 0 auto 0 auto;
+			font-size: 1rem;
+			font-weight: 400;
+			letter-spacing: 0.3px;
+			line-height: 24px;
+			color: $textColor;
 		}
 	}
 }

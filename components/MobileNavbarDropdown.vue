@@ -30,7 +30,15 @@ export default {
 			this.isDropdownActive = !this.isDropdownActive;
 		},
 		toUrl(text) {
-			return text.toLowerCase().replace(/ /gim, "-").replace(/ğ/gim, "g").replace(/ü/gim, "u").replace(/ş/gim, "s").replace(/ı/gim, "i").replace(/ö/gim, "o").replace(/ç/gim, "c");
+			return text
+				.toLowerCase()
+				.replace(/ /gim, "-")
+				.replace(/ğ/gim, "g")
+				.replace(/ü/gim, "u")
+				.replace(/ş/gim, "s")
+				.replace(/ı/gim, "i")
+				.replace(/ö/gim, "o")
+				.replace(/ç/gim, "c");
 		},
 	},
 	watch: {
@@ -43,7 +51,7 @@ export default {
 
 <style lang="scss" scoped>
 .mobile-navbar-dropdown {
-	background-color: $mainColor;
+	background-color: $backgroundColor;
 	.flex-container {
 		cursor: pointer;
 		display: flex;
@@ -67,23 +75,20 @@ export default {
 			cursor: pointer;
 		}
 		&:hover {
-			background-color: $titleColor;
-			color: $mainColor;
+			color: $sideColor;
 			border-radius: 8px;
 			.dropdown-button {
-				background-color: $titleColor;
-				color: $mainColor;
+				color: $sideColor;
 			}
 			.down-icon {
-				background-color: $titleColor;
 				svg {
-					color: $mainColor;
+					color: $sideColor;
 				}
 			}
 		}
 	}
 	.dropdown-content {
-		background-color: $mainColor;
+		background-color: $backgroundColor;
 		width: 100%;
 		z-index: 1;
 		border-radius: 8px;

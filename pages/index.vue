@@ -31,9 +31,9 @@ export default {
 			test: [],
 		};
 	},
-	async fetch() {
-		this.test = await fetch("https://letsfutureup-api.herokuapp.com/api/data").then((res) => res.json());
-	},
+	// async fetch() {
+	// 	this.test = await fetch("https://letsfutureup-api.herokuapp.com/api/data").then((res) => res.json());
+	// },
 };
 </script>
 

@@ -19,7 +19,15 @@ export default {
 	},
 	methods: {
 		toUrl(text) {
-			return text.toLowerCase().replace(/ /gim, "-").replace(/ğ/gim, "g").replace(/ü/gim, "u").replace(/ş/gim, "s").replace(/ı/gim, "i").replace(/ö/gim, "o").replace(/ç/gim, "c");
+			return text
+				.toLowerCase()
+				.replace(/ /gim, "-")
+				.replace(/ğ/gim, "g")
+				.replace(/ü/gim, "u")
+				.replace(/ş/gim, "s")
+				.replace(/ı/gim, "i")
+				.replace(/ö/gim, "o")
+				.replace(/ç/gim, "c");
 		},
 	},
 };
@@ -35,9 +43,7 @@ export default {
 			display: block;
 		}
 		.dropdown-button {
-			border-color: $titleColor;
-			background-color: $titleColor;
-			color: $mainColor;
+			color: $sideColor;
 		}
 	}
 	.dropdown-button {
@@ -48,7 +54,7 @@ export default {
 		letter-spacing: 0.3px;
 		font-size: 1rem;
 		border-radius: 8px;
-		background-color: $mainColor;
+		background-color: $backgroundColor;
 		color: $titleColor;
 		cursor: pointer;
 	}
@@ -59,25 +65,27 @@ export default {
 		top: 100%;
 		left: 0;
 		perspective: 1000px;
-		background-color: $mainColor;
+		background-color: $backgroundColor;
 		border-radius: 8px;
 		animation: growDown 300ms ease-in-out forwards;
 		transform-origin: top center;
-		box-shadow: 0px 0px 5px 1px #00000030;
-		border: 1px solid #00000050;
+		// box-shadow: 0px 0px 5px 1px #00000030;
+		// border: 1px solid #00000050;
+		padding-top: 10px;
+		padding-bottom: 10px;
 		.text {
 			width: 100%;
 			height: 100%;
 			padding: 14px 16px;
-			color: $sideColor;
+			color: $titleColor;
 			line-height: 20px;
 			font-size: 1rem;
 			font-weight: 400;
 			letter-spacing: 0.3px;
 			&:hover {
 				border-radius: 8px;
-				background-color: $sideColor;
-				color: $mainColor;
+				// background-color: $sideColor;
+				color: $sideColor;
 			}
 		}
 	}

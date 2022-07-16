@@ -3,7 +3,9 @@
 		<div class="container">
 			<div class="flex-container">
 				<div class="logo">
-					<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-img draggable="false" src="/logo/logo.svg" alt="logo" width="140" height="35" /></NuxtLink>
+					<NuxtLink :to="`/${this.$i18n.locale}`"
+						><nuxt-img draggable="false" src="/logo/logo.svg" alt="logo" width="140" height="35"
+					/></NuxtLink>
 				</div>
 
 				<div class="mobile-menu-button" @click="toggleMobileMenu()" v-show="!isMobileMenuActive">
@@ -46,7 +48,7 @@ export default {
 
 <style lang="scss" scoped>
 .mobile-navbar {
-	background-color: $mainColor;
+	background-color: $backgroundColor;
 	.flex-container {
 		display: flex;
 		align-items: center;
