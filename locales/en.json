@@ -197,7 +197,10 @@
 	},
 	"about": {
 		"title": "About Us",
-		"img": "/pages/about-us/en/about.webp",
+		"head": {
+			"text": "Let’s FutureUP, gençlere mentorluk ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.",
+			"button": "Join Us!"
+		},
 		"content": [
 			{
 				"title": "Let’s future up project vision-mission",

@@ -19,14 +19,28 @@ export default {
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: ["@/assets/css/normalize.css", "@/assets/css/montserrat.css", "@/assets/css/mulish.css", "@/assets/scss/variables.scss", "@/assets/scss/style.scss"],
+	css: [
+		"@/assets/css/normalize.css",
+		"@/assets/css/montserrat.css",
+		"@/assets/css/mulish.css",
+		"@/assets/scss/variables.scss",
+		"@/assets/scss/style.scss",
+	],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [],
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
 	components: {
-		dirs: ["~/components", "~/components/icons", "~/components/index", "~/components/faq", "~/components/team"],
+		dirs: [
+			"~/components",
+			"~/components/icons",
+			"~/components/index",
+			"~/components/faq",
+			"~/components/team",
+			"~/components/project-team",
+			"~/components/mentorship-program",
+		],
 	},
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
