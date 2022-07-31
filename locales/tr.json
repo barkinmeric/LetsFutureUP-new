@@ -213,19 +213,19 @@
 			{
 				"title": "Amacımız",
 				"text": "Let’s FutureUP, mentorluk programı ve eğitim programlarıyla üniversitedeki farklı kültürlerden gelen öğrencilerin sürdürülebilir kariyer gelişimlerini destekleyerek gençlerin hayallerini gerçekleştirmek için değişime ve gelişime liderlik eder. Evrensel değerler çerçevesinde öğrencilerin bakış açılarını çeşitlendirmek, onlara bilim ve teknoloji alanında inovatif düşünmeye sevk edecek yetkinlikleri kazandırmak için kurulmuş bir öğrenci gelişim programıdır."
-			},
-			{
-				"title": "Hedeflerimiz",
-				"text": [
-					"• Öğrenci gelişim programlarıyla geleceğe yönelik bireysel ve genel eğitimler vererek bir mentor eşliğinde yapılan mentorluk programıyla üniversitede okuyan öğrencilerin kariyer gelişimine katkı sağlamak,",
-					"• Öğrencilerin sosyal sorumluluk projelerinde görev almalarını sağlayarak onların topluma faydalı bireyler olmalarına öncülük etmek,",
-					"• Mentorluk programı ile iş hayatında tecrübeli kişiler ve üniversiteli öğrenciler arasında köprü oluşturarak deneyim aktarımını etkin bir biçimde sağlamalarına yardımcı olmak,",
-					"• Öğrencilerin üniversite eğitimlerinde zaman ve mekan fark etmeksizin öğrenci gelişim programlarıyla onlara yeni yetkinlikler kazandırmak,",
-					"• Dünyadaki değişim ve gelişim takip edilerek üniversiteli öğrencilere eğitim programlarıyla yeni alışkanlıklar kazandırılmasını sağlamak,",
-					"• Bir sosyal sorumluluk projesi olarak üniversiteli öğrencilerin eğitim ve sosyal hayatlarının tamamlayıcısı niteliğinde olmaktır."
-				]
 			}
-		]
+		],
+		"list": {
+			"title": "Hedeflerimiz",
+			"text": [
+				"• Öğrenci gelişim programlarıyla geleceğe yönelik bireysel ve genel eğitimler vererek bir mentor eşliğinde yapılan mentorluk programıyla üniversitede okuyan öğrencilerin kariyer gelişimine katkı sağlamak,",
+				"• Öğrencilerin sosyal sorumluluk projelerinde görev almalarını sağlayarak onların topluma faydalı bireyler olmalarına öncülük etmek,",
+				"• Mentorluk programı ile iş hayatında tecrübeli kişiler ve üniversiteli öğrenciler arasında köprü oluşturarak deneyim aktarımını etkin bir biçimde sağlamalarına yardımcı olmak,",
+				"• Öğrencilerin üniversite eğitimlerinde zaman ve mekan fark etmeksizin öğrenci gelişim programlarıyla onlara yeni yetkinlikler kazandırmak,",
+				"• Dünyadaki değişim ve gelişim takip edilerek üniversiteli öğrencilere eğitim programlarıyla yeni alışkanlıklar kazandırılmasını sağlamak,",
+				"• Bir sosyal sorumluluk projesi olarak üniversiteli öğrencilerin eğitim ve sosyal hayatlarının tamamlayıcısı niteliğinde olmaktır."
+			]
+		}
 	},
 	"story": {
 		"title": "Hikayemiz",

@@ -9,12 +9,17 @@
 			<div class="body">
 				<div v-for="item in $t('about.content')" :key="item.title">
 					<h3 class="item-title">{{ item.title }}</h3>
-					<ul v-if="item.title == `Hedeflerimiz` || item.title == 'Our goals'">
-						<li class="item-text" v-for="text in item.text" :key="text">
-							{{ text }}
+					<p class="item-text">{{ item.text }}</p>
+				</div>
+
+				<div>
+					<h3 class="list-title">{{ $t("about.list.title") }}</h3>
+					<ul v-for="item in $t('about.list.text')" :key="item">
+						<li class="list-text">
+							<br />
+							{{ item }}
 						</li>
 					</ul>
-					<p class="text" v-else>{{ item.text }}</p>
 				</div>
 			</div>
 		</div>
@@ -40,7 +45,7 @@ export default {
 
 <style lang="scss" scoped>
 .about-us {
-	margin: 80px 0 30px 0;
+	margin: 80px 0 127px 0;
 	.head {
 		text-align: center;
 		margin: 20px 0;
@@ -67,35 +72,43 @@ export default {
 		}
 	}
 	.body {
-		.text {
-			color: #292929;
-			font-size: 16px;
-			font-weight: normal;
-			margin-bottom: 15px;
-		}
-		.title {
-			display: inline-block;
-			font-size: 20px;
-			font-weight: 600;
-			letter-spacing: 1px;
-			color: #000;
-			border-bottom: 3px solid $sideColor;
-			margin-bottom: 20px;
-			text-transform: uppercase;
-		}
-		.item-text {
-			color: #292929;
-			font-size: 16px;
-			font-weight: normal;
-			margin-bottom: 15px;
-		}
+		text-align: center;
 		.item-title {
-			font-size: 18px;
-			font-weight: 500;
-			letter-spacing: 1px;
 			color: #000;
 			margin-bottom: 10px;
 			text-transform: uppercase;
+			font-size: 1rem;
+			font-weight: 900;
+			letter-spacing: 0.3px;
+			line-height: 20px;
+		}
+		.item-text {
+			max-width: 824px;
+			margin: 0 auto;
+			color: #292929;
+			margin-bottom: 100px;
+			font-size: 1rem;
+			font-weight: 400;
+			letter-spacing: 0.3px;
+			line-height: 24px;
+		}
+		.list-title {
+			color: #000;
+			margin-bottom: -10px;
+			text-transform: uppercase;
+			font-size: 1rem;
+			font-weight: 900;
+			letter-spacing: 0.3px;
+			line-height: 20px;
+		}
+		.list-text {
+			max-width: 621px;
+			margin: 0 auto;
+			color: #292929;
+			font-size: 1rem;
+			font-weight: 400;
+			letter-spacing: 0.3px;
+			line-height: 24px;
 		}
 	}
 }

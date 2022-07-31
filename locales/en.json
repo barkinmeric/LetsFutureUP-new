@@ -213,19 +213,19 @@
 			{
 				"title": "The aim of the project",
 				"text": "Let's FutureUP is a student development program established to support the sustainable career development of students from different cultures at the university with its mentoring program and training programs. It helps to lead change and development to realize the dreams of young people, diversify their perspectives within the framework of universal values, and provide them with competencies that will prompt them to think innovatively in science and technology."
-			},
-			{
-				"title": "Our goals",
-				"text": [
-					"• Contributing to the career development of university students with mentoring programs and providing future-oriented individual and general training with student development programs.",
-					"• Leading students to become valuable individuals for society by enabling them to take part in social responsibility projects.",
-					"• Helping people with experience in business life and university students to provide effective transfer of experience by creating a bridge with the mentoring program.",
-					"• Providing students with new competencies through student development programs regardless of time and place in their university education.",
-					"• Ensuring university students gain new habits with education programs by following the change and development in the world.",
-					"• Becoming the complement of the education and social lives of university students as being a social responsibility project."
-				]
 			}
-		]
+		],
+		"list": {
+			"title": "Our goals",
+			"text": [
+				"• Contributing to the career development of university students with mentoring programs and providing future-oriented individual and general training with student development programs.",
+				"• Leading students to become valuable individuals for society by enabling them to take part in social responsibility projects.",
+				"• Helping people with experience in business life and university students to provide effective transfer of experience by creating a bridge with the mentoring program.",
+				"• Providing students with new competencies through student development programs regardless of time and place in their university education.",
+				"• Ensuring university students gain new habits with education programs by following the change and development in the world.",
+				"• Becoming the complement of the education and social lives of university students as being a social responsibility project."
+			]
+		}
 	},
 	"story": {
 		"title": "Our Story",
