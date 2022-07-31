@@ -4,7 +4,15 @@
 		<div class="container">
 			<div class="wetalk-body">
 				<div class="left-part">
-					<nuxt-img format="jpg" class="image" draggable="false" src="/pages/our-story/img.png" :alt="$t('wetalk.title')" height="491" width="608" />
+					<nuxt-img
+						format="jpg"
+						class="image"
+						draggable="false"
+						src="/pages/our-story/img.png"
+						:alt="$t('wetalk.title')"
+						height="491"
+						width="608"
+					/>
 				</div>
 				<div class="right-part">
 					<h2 class="title">{{ $t("wetalk.title") }}</h2>
@@ -56,6 +64,7 @@ export default {
 				text-transform: uppercase;
 			}
 			.text {
+				max-width: 608px;
 				margin-top: 40px;
 				font-size: 1rem;
 				font-weight: 400;

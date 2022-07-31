@@ -8,7 +8,15 @@
 					<p class="text">{{ $t("adviceup.desc") }}</p>
 				</div>
 				<div class="right-part">
-					<nuxt-img format="jpg" class="image" draggable="false" src="/pages/our-story/img.png" :alt="$t('adviceup.title')" height="458" width="608" />
+					<nuxt-img
+						format="jpg"
+						class="image"
+						draggable="false"
+						src="/pages/our-story/img.png"
+						:alt="$t('adviceup.title')"
+						height="458"
+						width="608"
+					/>
 				</div>
 			</div>
 		</div>
@@ -37,7 +45,7 @@ export default {
 	margin: 112px 0 125px 0;
 	.adviceup-body {
 		display: flex;
-		gap: 38px;
+		gap: 42px;
 		justify-content: center;
 		text-align: center;
 		.left-part {
@@ -51,6 +59,7 @@ export default {
 				text-transform: uppercase;
 			}
 			.text {
+				max-width: 608px;
 				margin-top: 40px;
 				font-size: 1rem;
 				font-weight: 400;
