@@ -42,7 +42,7 @@ export default {
 				{
 					hid: "description",
 					name: "description",
-					content: this.$i18n.t("story.desc"),
+					content: this.$i18n.t("index.desc"),
 				},
 			],
 		};

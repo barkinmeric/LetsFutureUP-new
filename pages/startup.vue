@@ -4,24 +4,25 @@
 		<div class="container">
 			<div class="startup-body">
 				<div class="left-part">
+					<h2 class="title">{{ $t("startup.title") }}</h2>
+					<p class="text">{{ $t("startup.desc") }}</p>
+				</div>
+				<div class="right-part">
 					<nuxt-img
 						format="jpg"
 						class="image"
 						draggable="false"
 						src="/pages/startup/img.png"
 						:alt="$t('startup.title')"
-						height="491"
-						width="608"
+						height="471"
+						width="606"
 					/>
 				</div>
-				<div class="right-part">
-					<h2 class="title">{{ $t("startup.title") }}</h2>
-					<p class="text">{{ $t("startup.desc") }}</p>
-				</div>
 			</div>
-			<div class="test" v-for="paragraph in $t('startup.content')" :key="paragraph">
-				<h2 class="title">{{ paragraph.title }}</h2>
-				<p class="text">{{ paragraph.text }}</p>
+
+			<div class="text-section" v-for="item in $t('startup.content')" :key="item.title">
+				<h3 class="item-title">{{ item.title }}</h3>
+				<p class="item-text">{{ item.text }}</p>
 			</div>
 		</div>
 	</section>
@@ -46,20 +47,21 @@ export default {
 
 <style lang="scss" scoped>
 .startup {
-	margin: 82px 0 125px 0;
+	margin: 92px 0 105px 0;
+	text-align: center;
 	.startup-body {
 		display: flex;
-		gap: 38px;
+		gap: 42px;
 		justify-content: center;
-		text-align: center;
-		.left-part {
+		margin-bottom: 138px;
+		.right-part {
 			.image {
 				border-radius: 8px;
 			}
 		}
-		.right-part {
+		.left-part {
 			.title {
-				margin-top: 112px;
+				margin-top: 71px;
 				font-size: 1.5rem;
 				font-weight: 900;
 				letter-spacing: 1px;
@@ -74,7 +76,30 @@ export default {
 				letter-spacing: 0.1px;
 				line-height: 34px;
 				color: $textColor;
+				max-width: 608px;
 			}
+		}
+	}
+	.text-section {
+		margin-bottom: 70px;
+		.item-title {
+			color: #000;
+			margin-bottom: 40px;
+			text-transform: uppercase;
+			font-size: 1.5rem;
+			font-weight: 900;
+			letter-spacing: 0.3px;
+			line-height: 30px;
+		}
+		.item-text {
+			max-width: 824px;
+			margin: 0 auto;
+			color: #292929;
+			margin-bottom: 100px;
+			font-size: 1rem;
+			font-weight: 400;
+			letter-spacing: 0.1px;
+			line-height: 34px;
 		}
 	}
 }
