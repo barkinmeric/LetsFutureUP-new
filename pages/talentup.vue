@@ -19,6 +19,12 @@
 					<p class="text">{{ $t("talentup.desc") }}</p>
 				</div>
 			</div>
+			<div class="content">
+				<div class="text-section" v-for="item in $t('talentup.content')" :key="item.title">
+					<h2 class="title">{{ item.title }}</h2>
+					<p class="text" v-for="text in item.text" :key="text">{{ text }}</p>
+				</div>
+			</div>
 		</div>
 	</section>
 </template>
@@ -42,20 +48,20 @@ export default {
 
 <style lang="scss" scoped>
 .talentup {
-	margin: 82px 0 125px 0;
+	margin: 75px 0 125px 0;
+	text-align: center;
 	.talentup-body {
 		display: flex;
 		gap: 38px;
 		justify-content: center;
-		text-align: center;
 		.left-part {
 			.image {
 				border-radius: 8px;
 			}
 		}
 		.right-part {
+			margin-top: 87px;
 			.title {
-				margin-top: 112px;
 				font-size: 1.5rem;
 				font-weight: 900;
 				letter-spacing: 1px;
@@ -64,12 +70,35 @@ export default {
 				text-transform: uppercase;
 			}
 			.text {
+				max-width: 608px;
 				margin-top: 40px;
 				font-size: 1rem;
 				font-weight: 400;
 				letter-spacing: 0.1px;
 				line-height: 34px;
 				color: $textColor;
+			}
+		}
+	}
+	.content {
+		margin-top: 107px;
+		margin-bottom: 7px;
+		.text-section {
+			margin-bottom: 100px;
+			.title {
+				margin-bottom: 40px;
+				font-size: 1.5rem;
+				font-weight: 900;
+				letter-spacing: 1px;
+				line-height: 30px;
+			}
+			.text {
+				max-width: 824px;
+				margin: 0 auto 30px auto;
+				font-size: 1rem;
+				font-weight: 400;
+				letter-spacing: 0.1px;
+				line-height: 34px;
 			}
 		}
 	}

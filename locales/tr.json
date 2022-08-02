@@ -891,22 +891,17 @@
 	},
 	"talentup": {
 		"title": "TalentUP",
+		"desc": "Let’s FutureUP, öğrencilerin kariyerlerine başarılı bir adım atmak için katılabilecekleri çeşitli eğitim programları sunar. Bu öğrenci geliştirme programlardan biri TalentUP Yetenek Geliştirme Programıdır. TalentUP Yetenek Geliştirme Programımız; hazırlık, 1. ve 2. sınıf öğrencilerinin katılabileceği birbirinden değerli çeşitli eğitimlerden oluşur. Seçilmiş öğrencilerin bulunduğu bu programda öğrenciler kendilerini geliştirmek adına büyük fırsat yakalamanın yanı sıra uzman ve alanında profesyonel kişilerden alacakları eğitimlerle gelecekteki kariyerleri için büyük bir avantaj yakalarlar.",
 		"content": [
-			{
-				"title": "TalentUP Yetenek Geliştirme Programı Nedir?",
-				"text": [
-					"Let’s FutureUP, öğrencilerin kariyerlerine başarılı bir adım atmak için katılabilecekleri çeşitli eğitim programları sunar. Bu öğrenci geliştirme programlardan biri TalentUP Yetenek Geliştirme Programıdır. TalentUP Yetenek Geliştirme Programımız; hazırlık, 1. ve 2. sınıf öğrencilerinin katılabileceği birbirinden değerli çeşitli eğitimlerden oluşur. Seçilmiş öğrencilerin bulunduğu bu programda öğrenciler kendilerini geliştirmek adına büyük fırsat yakalamanın yanı sıra uzman ve alanında profesyonel kişilerden alacakları eğitimlerle gelecekteki kariyerleri için büyük bir avantaj yakalarlar."
-				]
-			},
 			{
 				"title": "TalentUP Yetenek Geliştirme Programı Neyi Amaçlar?",
 				"text": [
 					"Let’s FutureUP projesi TalentUP programında temel olarak 5 madde amaçlar:",
-					"• Diğer öğrenci geliştirme programlarımızda olduğu gibi seçilen öğrencilerin program kapsamındaki diğer öğrencilerle ve proje ekibi ile networklerini genişletmeleridir.",
-					"• TalentUP programımız kapsamındaki uzman deneyimi ile alanında profesyonel kişilerden alacakları eğitimler sayesinde bünyesindeki öğrencilerin yeteneklerini geliştirmelerini, yeni bakış açıları kazanmalarını ve edindikleri deneyimleri kendi hayatlarıyla senkronize etmelerini hedefler.",
-					"• Projeye seçilen öğrencilere gönüllük esaslı takım çalışmasını öğretmektir. Bunun yanı sıra yer alacakları sosyal sorumluluk projeleriyle toplumsal bilinci kazandırmak hedeflerimiz arasındadır.",
-					"• Öğrenci gelişim programlarımız verimliliği ele alır ve öğrencileri “Verimli çalışma nasıl olur?”,  “Bir işten maksimum verim nasıl alınır?” gibi konularda bilgilendirmeyi hedefler.",
-					"• Öğrencilerin, öğrenci gelişim programları kapsamında eğitimlerini tamamlayıp potansiyellerini ortaya çıkardıktan sonra onları hayallerine ve hedeflerine ulaşmalarına teşvik eder."
+					"Diğer öğrenci geliştirme programlarımızda olduğu gibi seçilen öğrencilerin program kapsamındaki diğer öğrencilerle ve proje ekibi ile networklerini genişletmeleridir.",
+					"TalentUP programımız kapsamındaki uzman deneyimi ile alanında profesyonel kişilerden alacakları eğitimler sayesinde bünyesindeki öğrencilerin yeteneklerini geliştirmelerini, yeni bakış açıları kazanmalarını ve edindikleri deneyimleri kendi hayatlarıyla senkronize etmelerini hedefler.",
+					"Projeye seçilen öğrencilere gönüllük esaslı takım çalışmasını öğretmektir. Bunun yanı sıra yer alacakları sosyal sorumluluk projeleriyle toplumsal bilinci kazandırmak hedeflerimiz arasındadır.",
+					"Öğrenci gelişim programlarımız verimliliği ele alır ve öğrencileri “Verimli çalışma nasıl olur?”,  “Bir işten maksimum verim nasıl alınır?” gibi konularda bilgilendirmeyi hedefler.",
+					"Öğrencilerin, öğrenci gelişim programları kapsamında eğitimlerini tamamlayıp potansiyellerini ortaya çıkardıktan sonra onları hayallerine ve hedeflerine ulaşmalarına teşvik eder."
 				]
 			},
 			{
