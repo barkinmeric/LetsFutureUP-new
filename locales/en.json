@@ -39,37 +39,38 @@
 		},
 		"motto": "Let's Future<span class='green'>UP</span> project is a global mentorship project that guides student who wants to say “HelloCareer!” to their careers in the future by mentorship and different trainings based on volunteering.",
 		"hello-career": {
-			"title": "HelloCareer",
+			"title": "Let’s FutureUP ile Kariyerine Merhaba De!",
+			"desc": "Let’s FutureUP içerisinde mentorluktan eğitimlere, sektörlerinde bir çok<br>öncü isimle görüşebilme ve tanışma fırsatı yakalayabilirsin.",
 			"content": [
 				{
 					"title": "Mentorship Program",
 					"text": "Mentors in Let’s FutureUP project are experts who guide students and share their experiences with students who want to develop their business skills and abilities. These experts are researched by project team memebers in detailed way and then their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best way possible.",
-					"icon": "/pages/index/career/mentorship.svg"
+					"image": "/pages/index/hello-career/1.png"
 				},
 				{
 					"title": "Student Development Program",
 					"text": "During the Let's FutureUP Project, various trainings are organized to contribute to the development of students with the support of our volunteer educators who are experts in their fields within the scope of the Student Development Program. The student development program aims to transfer to students the golden information that they will use in business life, as well as to take them one step ahead with their knowledge and equipment when they start their business life. Every student involved in their career journey with Let's FutureUP attends these trainings throughout the project. They acquire new information that will be useful for them while attaining their goals and continue their career journey with strong steps.",
-					"icon": "/pages/index/career/student.svg"
+					"image": "/pages/index/hello-career/2.png"
 				},
 				{
 					"title": "WeTalk",
 					"text": "As part of the WeTalk events of our project, experts in their fields are invited to the project to share their experiences with the students. Our aim is to make students take advantage of different experiences from different people, reach experienced people in their fields of interest, and get answers to their questions from the right people. The WeTalk event is open not only to students within Let's FutureUP but also to outside participants.",
-					"icon": "/pages/index/career/wetalk.svg"
+					"image": "/pages/index/hello-career/3.png"
 				},
 				{
 					"title": "StartUP",
 					"text": "Emerged to support creative and successful youths who take a firm step towards their future.  It aims to make its students research and creative with believing that the successful names of the future will be individuals who have developed themselves in many fields, are equipped, and can make a difference. It generates innovative ideas that make a difference by approaching social issues sensitively and making people's lives easier by turning them into the software. Accordingly, it conducts studies that analyze the problems from every angle and aim to overcome these problems with the software it produces. It aims to development for every aspect and creates an environment for the realization of the ideas by supporting them.",
-					"icon": "/pages/index/career/startup.svg"
+					"image": "/pages/index/hello-career/4.png"
 				},
 				{
 					"title": "AdviceUP",
 					"text": "Students who take part in Let’s FutureUP Project, also join to the social responsibility project called AdviceUP. Mentees, simultaneously become mentor.  They are matched with 4th grade high school students  and share their knowledge and experiences regarding university entrance exam. The leading aim of this project is to make students become part of social sustainability. Besides, development of social sensitivity and awareness of responsibility are advocated. Thus, every student who are involved in Let’s FutureUP project raise their consciousness of social responsibility.",
-					"icon": "/pages/index/career/adviceup.svg"
+					"image": "/pages/index/hello-career/5.png"
 				},
 				{
 					"title": "TalentUP",
 					"text": "TalentUP skills development program; consists of various valuable trainings that preparatory, 1st and 2nd-year students can attend. In this program, which only includes selected students, students not only get opportunities to improve themselves but also get a great advantage for their future careers with the training they will receive from experts and professionals in their fields. TalentUP skills development program has 5 main objectives. These are: To create a wide “network” for students, to contribute to their personal development in their career journey with the help of “expert experience”, to take part in teamwork based on “volunteering”, to get maximum “efficiency” in all their work, and to fulfill the dreams of students. to “encourage” it.",
-					"icon": "/pages/index/career/talentup.svg"
+					"image": "/pages/index/hello-career/6.png"
 				}
 			]
 		},

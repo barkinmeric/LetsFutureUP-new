@@ -1,9 +1,9 @@
 <template>
 	<section class="container events-main">
-		<main-event-ctn :item="$t('events.content')[0]"></main-event-ctn>
+		<main-event-ctn :item="$t('events.content').reverse()[0]"></main-event-ctn>
 		<h2>Daha Fazla</h2>
 		<ul class="events-list">
-			<event-ctn v-for="(event, i) in $t('events.content').slice(1).reverse()" :key="i" :item="event"></event-ctn>
+			<event-ctn v-for="(event, i) in $t('events.content').reverse().slice(1)" :key="i" :item="event"></event-ctn>
 		</ul>
 	</section>
 </template>

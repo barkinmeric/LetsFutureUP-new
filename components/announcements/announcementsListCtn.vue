@@ -1,10 +1,10 @@
 <template>
 	<section class="container events-main">
-		<main-announcement-ctn :item="$t('announcements.content')[0]"></main-announcement-ctn>
+		<main-announcement-ctn :item="$t('announcements.content').reverse()[0]"></main-announcement-ctn>
 		<h2>Daha Fazla</h2>
 		<ul class="events-list">
 			<announcement-ctn
-				v-for="(announcement, i) in $t('announcements.content').slice(1).reverse()"
+				v-for="(announcement, i) in $t('announcements.content').reverse().slice(1)"
 				:key="i"
 				:item="announcement"
 			></announcement-ctn>

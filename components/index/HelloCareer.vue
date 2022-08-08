@@ -1,18 +1,10 @@
 <template>
 	<div class="hello-career">
 		<div class="container">
-			<h1 class="hello-career-title">Let’s FutureUP ile Kariyerine Merhaba De!</h1>
-			<p class="hello-career-text">
-				Let’s FutureUP içerisinde mentorluktan eğitimlere, sektörlerinde bir çok <br />
-				öncü isimle görüşebilme ve tanışma fırsatı yakalayabilirsin.
-			</p>
+			<h1 class="hello-career-title">{{ $t("index.hello-career.title") }}</h1>
+			<p v-html="$t('index.hello-career.desc')" class="hello-career-text"></p>
 			<div class="hello-career-body">
-				<hello-career-card />
-				<hello-career-card />
-				<hello-career-card />
-				<hello-career-card />
-				<hello-career-card />
-				<hello-career-card />
+				<hello-career-card v-for="(item, index) in $t('index.hello-career.content')" :key="item.title" :item="item" :index="index" />
 			</div>
 		</div>
 	</div>

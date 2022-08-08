@@ -2,11 +2,13 @@
 	<div class="hello-career-card">
 		<div class="card-item">
 			<div class="card-head">
-				<nuxt-img format="jpg" src="/pages/index/slider/desktop/en/1.webp" height="260px" width="392px" alt="StartUP" draggable="false" loading="lazy" />
+				<nuxt-img format="jpg" :src="item.image" height="260px" width="392px" alt="StartUP" draggable="false" loading="lazy" />
 			</div>
 			<div class="card-body">
-				<NuxtLink to="/"><h5>StartUP</h5> </NuxtLink>
-				<p>Geleceğine emin adımlarla ilerleyen, yaratıcı ve başarılı gençleri desteklemek amacıyla ortaya çıkmıştır. Geleceğin başarılı isimlerinin pek çok alanda kendini geliştirmiş,</p>
+				<NuxtLink :to="localePath(toUrl($t('index.hello-career.content', 'en')[index].title))"
+					><h5>{{ item.title }}</h5>
+				</NuxtLink>
+				<p>{{ truncate(item.text, 165) }}</p>
 			</div>
 		</div>
 	</div>
@@ -15,6 +17,32 @@
 <script>
 export default {
 	name: "HelloCareerCard",
+	props: ["item", "index"],
+	methods: {
+		toUrl(text) {
+			return text
+				.toLowerCase()
+				.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, "")
+				.replace(/ /gim, "-")
+				.replace(/--/gim, "-")
+				.replace(/ğ/gim, "g")
+				.replace(/ü/gim, "u")
+				.replace(/ş/gim, "s")
+				.replace(/ı/gim, "i")
+				.replace(/ö/gim, "o")
+				.replace(/ç/gim, "c");
+		},
+		truncate(str, len) {
+			if (str.length > len && str.length > 0) {
+				let new_str = str + " ";
+				new_str = str.substr(0, len);
+				new_str = str.substr(0, new_str.lastIndexOf(" "));
+				new_str = new_str.length > 0 ? new_str : str.substr(0, len);
+				return new_str + "...";
+			}
+			return str;
+		},
+	},
 };
 </script>
 
@@ -52,7 +80,7 @@ export default {
 				padding: 16px 0px 8px 0px;
 			}
 			p {
-				font-size: .875rem;
+				font-size: 0.875rem;
 				font-weight: 400;
 				letter-spacing: 0.3px;
 				line-height: 24px;

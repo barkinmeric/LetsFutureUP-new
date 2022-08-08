@@ -39,37 +39,38 @@
 		},
 		"motto": "Let’s Future<span class='green'>UP</span>, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere,<br /> <b>mentorluk</b> ve <b>eğitim programları</b> ile yol gösteren <b>uluslararası</b> bir <b>sosyal sorumluluk</b> projesidir.",
 		"hello-career": {
-			"title": "Kariyerine MerhabaDE!",
+			"title": "Let’s FutureUP ile Kariyerine Merhaba De!",
+			"desc": "Let’s FutureUP içerisinde mentorluktan eğitimlere, sektörlerinde bir çok<br>öncü isimle görüşebilme ve tanışma fırsatı yakalayabilirsin.",
 			"content": [
 				{
 					"title": "Mentorluk Programı",
 					"text": "Let’s FutureUP bünyesindeki öğrencileri profesyonel hayata hazırlamak için alanında profesyonel ve fark yaratan mentor ve menteelerle bağlantı kurabilmelerini sağlar. Bu amaçla projemizde yer alan öğrencilere 7 ay boyunca her ay en az 45 dakika olmak üzere online ya da yüz yüze olabilecek şekilde en az 7 görüşme yapma fırsatı sunulur. Mentor ve menteelerin eşleşmeleri ; mentor ve menteelerin beklentileri, çalışma alanları, ilgi alanları gibi birçok etken doğrultusunda yapılır. Bu programın sonunda öğrenciler, çalışma hayatlarında kendilerine ışık tutabilecek değerli tecrübeler kazanmakla kalmaz ayrıca alanında öncü isimlerle tanışmış ve kendilerini de onlara tanıtma fırsatı yakalamış olurlar.",
-					"icon": "/pages/index/career/mentorship.svg"
+					"image": "/pages/index/hello-career/1.png"
 				},
 				{
 					"title": "Öğrenci Gelişim Programı",
 					"text": "Let’s FutureUP Projesi süresince Öğrenci Gelişim Programı kapsamında alanında uzman gönüllü eğitimcilerimizin desteği ile öğrencilerin gelişimine katkı sağlayacak çeşitli eğitimler düzenlenir. Öğrenci gelişim programı öğrencilerin iş hayatında kullanacakları altın değerindeki bilgileri üniversite zamanlarında onlara aktarmanın yanı sıra iş hayatına başladıklarında onları bilgi ve donanımları ile bir adım öne geçirmeyi amaçlamaktadır. Let’s FutureUP ile kariyer yolculuğuna dahil olmuş her öğrenci proje süresince bu eğitimlere katılır. Hedeflerine ulaşması için ona faydalı olacak bu yeni bilgileri edinir ve güçlü adımlar ile kariyer yolculuğuna devam eder.",
-					"icon": "/pages/index/career/student.svg"
+					"image": "/pages/index/hello-career/2.png"
 				},
 				{
 					"title": "WeTalk",
 					"text": "Projemizin WeTalk etkinlikleri kapsamında alanında uzman kişiler deneyim ve önerilerini, geleceğin yaratıcı ve başarılı isimleri olmaya aday öğrencilerle paylaşmak üzere konuşmak için davet edilirler. WeTalk’lar online ya da yüz yüze gerçekleştirilirler. Bu kapsamdaki hedefimiz, öğrencilerin çeşitli alanlarda, farklı başarılar kazanmış isimlerle buluşup gerçek hayat deneyimleri dinlemeleri, ilgili oldukları alanlarla ilgili tecrübeli kişilere birinci elden ulaşabilmeleri ve akıllarındaki soruların cevaplarını en doğru kişilerden alabilmelerine yardımcı olmaktır. Bu etkinlikler sadece Let’s FutureUP bünyesindeki öğrencilere değil, kariyerine MerhabaDE’mek isteyen tüm öğrencilere açık gerçekleştirilir.",
-					"icon": "/pages/index/career/wetalk.svg"
+					"image": "/pages/index/hello-career/3.png"
 				},
 				{
 					"title": "StartUP",
 					"text": "Geleceğine emin adımlarla ilerleyen, yaratıcı ve başarılı gençleri desteklemek amacıyla ortaya çıkmıştır. Geleceğin başarılı isimlerinin pek çok alanda kendini geliştirmiş, donanımlı ve fark yaratabilen bireyler olduğu gerçeği doğrultusunda bünyesinde bulunan öğrencilerin araştırmacı ve yaratıcı olmasını hedefler. Toplumsal konulara duyarlı yaklaşarak inovatif-fark yaratan fikirler üretir ve bunları yazılımlara dönüştürerek insanların hayatlarını kolaylaştırır. Bu doğrultuda sorunları her açıdan analiz eden ve bu sorunları yaptığı yazılımlarla aşmayı hedefleyen çalışmalar yapar. Her açıdan gelişimi hedefler ve üretilen fikirleri destekleyerek gerçekleşmeleri için ortam yaratır.",
-					"icon": "/pages/index/career/startup.svg"
+					"image": "/pages/index/hello-career/4.png"
 				},
 				{
 					"title": "AdviceUP",
 					"text": "Let’s FutureUP ile kariyer yolculuğuna MerhabaDE’miş olan her öğrenci AdviceUP programı altında belirlenen çeşitli sosyal sorumluluk projelerinde yer alarak çalışma deneyimini kazanmakla kalmaz aynı zamanda kendilerine ve kariyer hedeflerine dair pek çok özelliği de keşfedebilirler. Bu program kapsamında menteeler kendileriyle eşleştirilmiş lise son sınıf öğrencilerine kendi mentorlarından öğrendikleri bilgiler ve edindikleri donanımlar doğrultusunda özellikle üniversiteye giriş sınavı konusunda değerli bilgiler vererek mentorluk yaparlar. Let’s FutureUP, bünyesindeki öğrencileri sadece kariyerlerine değil sosyal hayata da hazırlamayı hedefler. Bu doğrultuda hayata geçen AdviceUP ile öğrencilerin toplumsal duyarlılık, sorumluluk ve farkındalık bilincinin gelişimi desteklenmiş olur. Programın temel amacı olan öğrencilerin toplumsal yaşamın bir parçası olması hedefi de bu sayede gerçekleşmiş ve sosyal sorumluluk bilinci yaygınlaşmış olur.",
-					"icon": "/pages/index/career/adviceup.svg"
+					"image": "/pages/index/hello-career/5.png"
 				},
 				{
 					"title": "TalentUP",
 					"text": "TalentUP yetenek geliştirme programımız; Üniversite Hazırlık, 1. ve 2. sınıf öğrencilerinin katılabileceği birbirinden değerli çeşitli eğitimlerden oluşur. Seçilmiş öğrencilerin bulunduğu bu programda öğrenciler kendilerini geliştirmek adına fırsatlar yakalamanın yanı sıra uzman ve alanında profesyonel kişilerden alacakları eğitimler ile gelecekteki kariyerleri için büyük bir avantaj yakalarlar. TalentUP yetenek geliştirme programımızın 5 temel amacı bulunmaktadır. Bunlar sırasıyla: Öğrencilere geniş bir “network” oluşturmak, ‘’uzman deneyimi” eşliğinde kariyer yolculuklarındaki kişisel gelişimlerine katkı sağlamak, “gönüllük” esaslı takım çalışmalarında yer almak, yaptıkları tüm işlerde maksimum “verim” alabilmek ve öğrencileri hayallerine ulaşmasına “teşvik” etmektir.",
-					"icon": "/pages/index/career/talentup.svg"
+					"image": "/pages/index/hello-career/6.png"
 				}
 			]
 		},
