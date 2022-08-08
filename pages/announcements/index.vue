@@ -1,14 +1,10 @@
 <template>
-	<div class="list">
+	<div>
 		<social-head :title="$t('announcements.title')" :description="$t('index.desc')" />
-		<div
-			v-for="item in $t('announcements.content')
-				.slice()
-				.reverse()"
-			:key="item.title"
-		>
-			<list-card :item="item" section="announcements" />
+		<div>
+			<h1 class="container">{{ $t("announcements.title") }}</h1>
 		</div>
+		<announcements-list-ctn></announcements-list-ctn>
 	</div>
 </template>
 

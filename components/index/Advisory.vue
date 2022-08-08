@@ -8,41 +8,40 @@
 </template>
 
 <script>
-import Advisor from "./Advisor.vue";
 import VueSlickCarousel from "vue-slick-carousel";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 export default {
-	components: { Advisor, VueSlickCarousel },
+	components: { VueSlickCarousel },
 	data() {
 		return {
 			advisors: [
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/advisorProfile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/advisorProfile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/advisorProfile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/advisorProfile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
 				},
 				{
-					img: "@/assets/img/profile.png",
+					img: "/pages/index/advisorProfile.png",
 					name: "Ali Yaşar Topçu",
 					position: "Farba Otomotiv",
 					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
@@ -54,7 +53,7 @@ export default {
 				focusOnSelect: true,
 				infinite: true,
 				speed: 500,
-				slidesToShow: 3,
+				slidesToShow: 4,
 				slidesToScroll: 3,
 				touchThreshold: 5,
 				responsive: [

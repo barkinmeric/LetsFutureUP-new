@@ -4,7 +4,7 @@
 			<div></div>
 		</div>
 		<div id="text-side">
-			<h3>MENTEE</h3>
+			<h3>MENTOR</h3>
 			<article>
 				Let’s FutureUP projesindeki mentorlar, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla
 				paralel olarak yol gösteren, deneyimlerini paylaşan, öğretirken öğrenen ve rehberlik eden kişilerdir. Let’s FutureUP ekibi tarafından
@@ -68,6 +68,9 @@ export default {};
 			font-size: 24px;
 			line-height: 30px;
 			color: #000000;
+			@media (max-width: $tablet_bp) {
+				margin: auto;
+			}	
 		}
 		article {
 			margin-top: 24px;
@@ -77,12 +80,15 @@ export default {};
 			font-weight: 400;
 			font-size: 16px;
 			line-height: 34px;
-			text-align: center;
 			letter-spacing: 0.1px;
 			color: #000000;
+			@media (max-width: $tablet_bp) {
+				margin: auto;
+			}	
 		}
 		@media (max-width: $tablet_bp) {
 			width: 100%;
+			margin: auto;
 		}
 	}
 }

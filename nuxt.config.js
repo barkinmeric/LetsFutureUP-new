@@ -37,9 +37,11 @@ export default {
 			"~/components/icons",
 			"~/components/index",
 			"~/components/faq",
-			"~/components/team",
 			"~/components/project-team",
+			"~/components/project-team/section-components",
 			"~/components/mentorship-program",
+			"~/components/events",
+			"~/components/announcements",
 		],
 	},
 

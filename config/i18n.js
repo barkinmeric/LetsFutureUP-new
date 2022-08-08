@@ -39,6 +39,10 @@ const pages = {
 		tr: "/adviceup",
 		en: "/adviceup",
 	},
+	contact: {
+		tr: "/iletisim",
+		en: "/contact",
+	},
 	"announcements/index": {
 		tr: "/duyurular",
 		en: "/announcements",

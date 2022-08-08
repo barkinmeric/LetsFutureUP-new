@@ -3,7 +3,9 @@
 		<social-head :title="$t('mentorship.title')" :description="$t('index.desc')" />
 		<div class="container">
 			<mentor-section />
+			<ment-grid :mentGrid="mentorGridData" />
 			<mentee-section />
+			<ment-grid :mentGrid="menteeGridData" />
 		</div>
 	</section>
 </template>
@@ -20,6 +22,116 @@ export default {
 					content: this.$i18n.t("mentorship.desc"),
 				},
 			],
+		};
+	},
+	data() {
+		return {
+			mentorGridData: {
+				title: "MENTORLARIMIZ",
+				elems: [
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+				],
+			},
+			menteeGridData: {
+				title: "MENTEELERİMİZ",
+				elems: [
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+					{
+						imgSrc: "/pages/mentorship-program/mentPlaceholder.png",
+					},
+				],
+			},
 		};
 	},
 };

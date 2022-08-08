@@ -1,20 +1,15 @@
 <template>
-	<div class="list">
+	<div>
 		<social-head :title="$t('events.title')" :description="$t('index.desc')" />
-		<div
-			v-for="item in $t('events.content')
-				.slice()
-				.reverse()"
-			:key="item.title"
-		>
-			<list-card :item="item" section="events" />
+		<div>
+			<h1 class="container">{{ $t("events.title") }}</h1>
 		</div>
+		<events-list-ctn></events-list-ctn>
 	</div>
 </template>
 
 <script>
 export default {
-	name: "List",
 	head() {
 		return {
 			title: `Let's FutureUP ${this.$i18n.t("events.title")} ${this.$i18n.t("url")}`,

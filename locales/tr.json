@@ -12,7 +12,7 @@
 		},
 		"career": {
 			"title": "Kariyerine MerhabaDE!",
-			"content": ["Mentorluk Programı", "Öğrenci Gelişim Programı", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
+			"content": ["Mentorluk Programı", "Öğrenci Gelişim Programı", "StartUP", "WeTalk", "AdviceUP", "TalentUP", "İletişim"]
 		},
 		"join-us": {
 			"title": "Bize Katıl!",
@@ -913,8 +913,16 @@
 			}
 		]
 	},
+	"contact": {
+		"title": "İletişim",
+		"name": "Adınız",
+		"surname": "Soyadınız",
+		"mail": "E-postanız",
+		"message": "Bize iletmek istediğiniz mesajınız"
+	},
 	"announcements": {
 		"title": "Duyurular",
+		"more": "Devamı",
 		"content": [
 			{
 				"title": "Mentor & Mentee Başvuruları Başladı!",
@@ -926,6 +934,7 @@
 	},
 	"events": {
 		"title": "Etkinlikler",
+		"more": "Devamı",
 		"content": [
 			{
 				"title": "Başarmak kolay olabilir",

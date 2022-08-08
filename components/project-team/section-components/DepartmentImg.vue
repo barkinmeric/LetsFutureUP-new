@@ -18,5 +18,13 @@ export default {
     padding: 0 20px 20px 20px 20px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 1400px) {
+        min-width: 650px;
+		}
+    @media (max-width: $mobile_bp) {
+        min-width: 550px;
+		}	
   }
 </style>

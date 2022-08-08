@@ -12,7 +12,7 @@
 		},
 		"career": {
 			"title": "HelloCareer",
-			"content": ["Mentorship Program", "Student Development Program", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
+			"content": ["Mentorship Program", "Student Development Program", "StartUP", "WeTalk", "AdviceUP", "TalentUP", "Contact"]
 		},
 		"join-us": {
 			"title": "Join Us!",
@@ -913,8 +913,16 @@
 			}
 		]
 	},
+	"contact": {
+		"title": "Contact",
+		"name": "Your Name",
+		"surname": "Your Surname",
+		"mail": "Your e-mail",
+		"message": "Your message"
+	},
 	"announcements": {
 		"title": "Announcements",
+		"more": "More",
 		"content": [
 			{
 				"title": "Mentor & Mentee Applications Started",
@@ -926,6 +934,7 @@
 	},
 	"events": {
 		"title": "Events",
+		"more": "More",
 		"content": [
 			{
 				"title": "Achieving Can Be Easy!",

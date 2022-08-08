@@ -1,7 +1,7 @@
 <template>
 	<div class="advisor">
 		<div class="img_ctn">
-			<img />
+			<img :src="advisor.img" />
 		</div>
 		<div class="info_ctn">
 			<p class="profile_name">{{ advisor.name }}</p>
@@ -22,7 +22,7 @@ export default {
 	.img_ctn {
 		width: 170px;
 		height: 170px;
-		background: url("/pages/index/advisorProfile.png") no-repeat center;
+		// background: url("/pages/index/advisorProfile.png") no-repeat center;
 		background-size: cover;
 		border-radius: 50%;
 		margin: auto;
