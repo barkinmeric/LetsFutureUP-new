@@ -29,6 +29,8 @@ export default {
 	padding: 24px;
 	.join-body {
 		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
 		align-items: center;
 		.left-part {
 			.title {
@@ -48,7 +50,6 @@ export default {
 			}
 		}
 		.right-part {
-			margin-left: auto;
 			.button {
 				padding: 14px 24px;
 				background: #ffffff;
