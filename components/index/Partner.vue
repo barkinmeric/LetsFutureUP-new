@@ -27,6 +27,7 @@ export default {
 .partner {
 	background: $backgroundColor;
 	padding: 20px 10px;
+	margin-bottom: 80px;
 	.partner-part {
 		.partner-title {
 			text-align: center;

@@ -1,6 +1,6 @@
 <template>
 	<div class="partner-modal">
-		<nuxt-img format="jpg" :src="image" alt="partner" width="392px" height="100px" draggable="false" loading="lazy" />
+		<nuxt-img :src="image" alt="partner" width="392px" height="100px" draggable="false" loading="lazy" />
 	</div>
 </template>
 

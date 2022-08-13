@@ -8,6 +8,7 @@
 		<newsletter />
 		<advisory />
 		<partner />
+		<subscribe />
 	</section>
 </template>
 

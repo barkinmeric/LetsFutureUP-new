@@ -173,20 +173,20 @@
 		},
 		"partner": {
 			"title": "İşbirlikçilerimiz",
-			"content": ["/pages/index/partners/adler.png", "/pages/index/partners/hrpeak.png", "/pages/index/partners/workinton.png"]
+			"content": ["/pages/index/partners/adler.svg", "/pages/index/partners/hrpeak.svg", "/pages/index/partners/workinton.svg"]
 		},
 		"supporter": {
 			"title": "Destekçilerimiz",
 			"content": [
-				"/pages/index/supporters/aktas.png",
-				"/pages/index/supporters/emek.png",
-				"/pages/index/supporters/farba.png",
-				"/pages/index/supporters/feka.png",
-				"/pages/index/supporters/fki.png",
-				"/pages/index/supporters/haci-hasan.png",
-				"/pages/index/supporters/inoksan.png",
-				"/pages/index/supporters/limakenerji.png",
-				"/pages/index/supporters/valeo.png"
+				"/pages/index/supporters/aktas.svg",
+				"/pages/index/supporters/emek.svg",
+				"/pages/index/supporters/farba.svg",
+				"/pages/index/supporters/feka.svg",
+				"/pages/index/supporters/fkt.svg",
+				"/pages/index/supporters/haci-hasan.svg",
+				"/pages/index/supporters/inoksan.svg",
+				"/pages/index/supporters/limakenerji.svg",
+				"/pages/index/supporters/valeo.svg"
 			]
 		},
 		"join-us": {
