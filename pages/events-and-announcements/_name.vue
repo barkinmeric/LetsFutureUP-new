@@ -9,7 +9,7 @@
 export default {
 	head() {
 		return {
-			title: `${this.data.title} | Let's FutureUP ${this.$i18n.t("events.title")} | letsfutureup.com`,
+			title: `${this.data.title} | Let's FutureUP ${this.$i18n.t("events-announcements.title")} | letsfutureup.com`,
 			meta: [
 				{
 					hid: "description",
@@ -21,7 +21,7 @@ export default {
 	},
 	data() {
 		return {
-			data: this.$i18n.t("events.content").filter((item) => this.toUrl(item.title) == this.$route.params.name)[0],
+			data: this.$i18n.t("events-announcements.content").filter((item) => this.toUrl(item.title) == this.$route.params.name)[0],
 		};
 	},
 	methods: {

@@ -5,17 +5,17 @@
 		</div>
 		<article class="evt-article">
 			<div class="art-ctn-wrap">
-				<NuxtLink :to="`${localePath('events')}/${toUrl(item.title)}`">
+				<NuxtLink :to="`${localePath('events-and-announcements')}/${toUrl(item.title)}`">
 					<h2 class="evt-hdr">{{ item.title }}</h2>
 				</NuxtLink>
 				<p class="evt-par">{{ truncate(item.text, 950) }}</p>
 			</div>
 			<div class="article-bottom-sec">
 				<span class="evt-btn-date-wrapper">
-					<button class="events-button">{{ $t("events.title") }}</button>
+					<button class="events-button">{{ item.type }}</button>
 					<span class="date-notat">{{ item.date }}</span>
 				</span>
-				<a class="more-link">{{ $t("events.more") }}</a>
+				<a class="more-link">{{ $t("events-announcements.more") }}</a>
 			</div>
 		</article>
 	</main>

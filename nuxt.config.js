@@ -40,8 +40,7 @@ export default {
 			"~/components/project-team",
 			"~/components/project-team/section-components",
 			"~/components/mentorship-program",
-			"~/components/events",
-			"~/components/announcements",
+			"~/components/events-announcements",
 		],
 	},
 

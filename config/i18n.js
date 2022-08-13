@@ -43,21 +43,13 @@ const pages = {
 		tr: "/iletisim",
 		en: "/contact",
 	},
-	"announcements/index": {
-		tr: "/duyurular",
-		en: "/announcements",
+	"events-and-announcements/index": {
+		tr: "/etkinlikler-ve-duyurular",
+		en: "/events-and-announcements",
 	},
-	"announcements/_name": {
-		tr: "/duyurular/:name",
-		en: "/announcements/:name",
-	},
-	"events/index": {
-		tr: "/etkinlikler",
-		en: "/events",
-	},
-	"events/_name": {
-		tr: "/etkinlikler/:name",
-		en: "/events/:name",
+	"events-and-announcements/_name": {
+		tr: "/etkinlikler-ve-duyurular/:name",
+		en: "/events-and-announcements/:name",
 	},
 };
 
