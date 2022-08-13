@@ -2,7 +2,16 @@
 	<div id="mentor_card">
 		<div class="mentor">
 			<div class="img_ctn">
-				<img />
+				<nuxt-img
+					format="jpg"
+					class="image"
+					draggable="false"
+					:src="mentor.image"
+					height="392px"
+					width="500px"
+					:alt="mentor.name"
+					loading="lazy"
+				/>
 			</div>
 			<div class="info_ctn">
 				<p class="profile_name">{{ mentor.name }}</p>
@@ -38,11 +47,12 @@ export default {
 		min-width: 286px;
 		margin: auto;
 		.img_ctn {
-			width: 284px;
-			height: 202px;
-			background: url("/pages/index/mentorProfile.png") no-repeat center;
-			background-size: cover;
-			border-radius: 8px;
+			.image {
+				width: 284px;
+				height: 202px;
+				background-size: cover;
+				border-radius: 8px;
+			}
 		}
 		.info_ctn {
 			padding-top: 25px;
