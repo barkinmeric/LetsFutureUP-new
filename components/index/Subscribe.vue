@@ -54,6 +54,7 @@ export default {
 		letter-spacing: 0.6px;
 	}
 	.input {
+		padding: 15px;
 		background: rgba(255, 255, 255, 0.1);
 		border-radius: 8px;
 		width: 392px;
@@ -65,6 +66,7 @@ export default {
 		transform: translate(-50%, 0);
 	}
 	.button {
+		cursor: pointer;
 		padding: 0.9rem;
 		border-radius: 8px;
 		color: #222222;

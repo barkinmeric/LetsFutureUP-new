@@ -9,6 +9,7 @@
 		<advisory />
 		<partner />
 		<subscribe />
+		<join-us />
 	</section>
 </template>
 

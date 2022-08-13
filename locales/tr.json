@@ -13,10 +13,6 @@
 		"career": {
 			"title": "Kariyerine MerhabaDE!",
 			"content": ["Mentorluk Programı", "Öğrenci Gelişim Programı", "StartUP", "WeTalk", "AdviceUP", "TalentUP", "İletişim"]
-		},
-		"join-us": {
-			"title": "Bize Katıl!",
-			"link": "https://letsfutureup.net"
 		}
 	},
 	"index": {
@@ -193,7 +189,7 @@
 			"title": "Sen de bize katılmak ister misin?",
 			"button": "Bize Katıl!",
 			"text": "Yanda bulunan butona tıklayarak <b>mentor</b>, <b>mentee</b> veya <b>ekip üyesi</b> olarak<br /> başvuru yapabilir ve bize katılabilirsin!",
-			"link": "https://letsfutureup.net"
+			"link": "https://basvuruformu.letsfutureup.com"
 		}
 	},
 	"about": {
