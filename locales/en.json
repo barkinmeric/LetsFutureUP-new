@@ -917,13 +917,8 @@
 		"mail": "Your e-mail",
 		"message": "Your message"
 	},
-	"announcements": {
-		"title": "Announcements",
-		"more": "More",
-		"content": []
-	},
 	"events-announcements": {
-		"title": "Events",
+		"title": "Events and Announcements",
 		"more": "More",
 		"content": [
 			{

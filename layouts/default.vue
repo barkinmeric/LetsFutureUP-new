@@ -4,9 +4,7 @@
 		<desktop-navbar />
 		<mobile-navbar />
 		<nuxt />
-		<footer-contacts />
-		<!-- <mobile-footer />
-		<contacts-footer /> -->
+		<all-footer />
 	</div>
 </template>
 
@@ -26,27 +24,11 @@ export default {
 	display: none;
 }
 
-.mobile-footer {
-	display: block;
-}
-.desktop-footer {
-	display: none;
-}
-
 @media (min-width: 996px) {
 	.mobile-navbar {
 		display: none;
 	}
 	.desktop-navbar {
-		display: block;
-	}
-}
-
-@media (min-width: 768px) {
-	.mobile-footer {
-		display: none;
-	}
-	.desktop-footer {
 		display: block;
 	}
 }

@@ -1,34 +1,40 @@
 <template>
 	<div class="newsletter">
 		<div class="container">
-			<h1 class="newsletter-title">Duyurular & Etkinlikler</h1>
+			<h1 class="newsletter-title">{{ $t("events-announcements.title") }}</h1>
 			<div class="newsletter-body">
 				<div class="left-part">
-					<nuxt-img format="jpg" class="image" draggable="false" src="/pages/index/slider/desktop/en/1.webp" height="392px" width="500px" alt="StartUP" loading="lazy" />
-					<h2 class="card-title">Mentor & Mentee başvuruları başladı!</h2>
-					<span class="card-tag">Duyurular</span>
+					<nuxt-img
+						format="jpg"
+						class="image"
+						draggable="false"
+						:src="$t('events-announcements.content')[0].image"
+						height="392px"
+						width="500px"
+						alt="StartUP"
+						loading="lazy"
+					/>
+					<h2 class="card-title">{{ $t("events-announcements.content")[0].title }}</h2>
+					<span class="card-tag">{{ $t("events-announcements.content")[0].type }}</span>
 				</div>
 				<div class="right-part">
-					<div class="right-card">
-						<nuxt-img format="jpg" class="image" src="/pages/index/slider/desktop/en/1.webp" height="176px" width="176px" alt="StartUP" draggable="false" loading="lazy" />
+					<div class="right-card" v-for="(item, i) in $t('events-announcements.content').slice(1, 3)" :key="i" :item="item">
+						<nuxt-img
+							format="jpg"
+							class="image"
+							:src="item.image"
+							height="176px"
+							width="176px"
+							alt="StartUP"
+							draggable="false"
+							loading="lazy"
+						/>
 						<div class="card-desc">
-							<h2 class="card-title">EN İYİ KENDİN OL</h2>
+							<h2 class="card-title">{{ item.title }}</h2>
 							<p class="card-text">
-								Let's FutureUP ekibimizin WeTALK etkinlikleri hız kesmeden devam ediyor! Şimdi sırada Anadolu Efes Spor Kulübü Basketbol Oyuncusu Doğuş Balbay var! Sayın Balbay’ın “Potansiyelimin Zirvesine Nasıl Ulaşırım?” konulu
-								değerli tecrübelerini paylaşacağı...
+								{{ truncate(item.text, 265) }}
 							</p>
-							<span class="card-tag">Etkinlikler</span>
-						</div>
-					</div>
-					<div class="right-card">
-						<nuxt-img format="jpg" src="/pages/index/slider/desktop/en/1.webp" height="176px" width="176px" alt="StartUP" draggable="false" loading="lazy" />
-						<div class="card-desc">
-							<h2 class="card-title">LET'S FUTUREUP 1. YILINI KUTLUYOR!</h2>
-							<p class="card-text">
-								Let's FutureUP ekibimizin WeTALK etkinlikleri hız kesmeden devam ediyor! Şimdi sırada Anadolu Efes Spor Kulübü Basketbol Oyuncusu Doğuş Balbay var! Sayın Balbay’ın “Potansiyelimin Zirvesine Nasıl Ulaşırım?” konulu
-								değerli tecrübelerini paylaşacağı...
-							</p>
-							<span class="card-tag">Duyurular</span>
+							<span class="card-tag">{{ item.type }}</span>
 						</div>
 					</div>
 				</div>
@@ -40,12 +46,38 @@
 <script>
 export default {
 	name: "Newsletter",
+	methods: {
+		toUrl(text) {
+			return text
+				.toLowerCase()
+				.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, "")
+				.replace(/ /gim, "-")
+				.replace(/--/gim, "-")
+				.replace(/ğ/gim, "g")
+				.replace(/ü/gim, "u")
+				.replace(/ş/gim, "s")
+				.replace(/ı/gim, "i")
+				.replace(/ö/gim, "o")
+				.replace(/ç/gim, "c");
+		},
+		truncate(str, len) {
+			if (str.length > len && str.length > 0) {
+				let new_str = str + " ";
+				new_str = str.substr(0, len);
+				new_str = str.substr(0, new_str.lastIndexOf(" "));
+				new_str = new_str.length > 0 ? new_str : str.substr(0, len);
+				return new_str + "...";
+			}
+			return str;
+		},
+	},
 };
 </script>
 
 <style lang="scss" scoped>
 .newsletter {
-	padding: 20px 10px 50px 10px;
+	padding: 0;
+	margin-bottom: 100px;
 	background: $backgroundColor;
 	.newsletter-title {
 		color: $titleColor;

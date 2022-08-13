@@ -6,7 +6,7 @@
 		</div>
 		<div id="mentors_ctn">
 			<VueSlickCarousel :dots="true" v-bind="settings">
-				<mentor-card v-for="(mentor, i) in mentors" :key="i" v-bind:mentor="mentor" />
+				<mentor-card v-for="(mentor, i) in $t('index.opinion.content')" :key="i" v-bind:mentor="mentor" />
 			</VueSlickCarousel>
 		</div>
 	</section>
@@ -87,6 +87,7 @@ $mobile_bp: 600px;
 #mentors_sec {
 	box-sizing: border-box;
 	background: #ecf4fc;
+	margin-bottom: 100px;
 	#title_ctn {
 		padding: 40px 10vw 20px 10vw;
 		@media (max-width: $mobile_bp) {

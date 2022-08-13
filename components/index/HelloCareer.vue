@@ -18,7 +18,7 @@ export default {
 
 <style lang="scss" scoped>
 .hello-career {
-	padding: 40px 5px 20px 5px;
+	padding: 0 5px 50px 5px;
 	background: $backgroundColor;
 	.hello-career-title {
 		color: $titleColor;

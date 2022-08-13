@@ -2,7 +2,10 @@
 	<section id="intr_sec">
 		<div id="text_side">
 			<p id="call_to_action">Geleğini bugün planla, Kariyer yolculuğuna hemen başla!</p>
-			<p id="description">Let’s FutureUP, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.</p>
+			<p id="description">
+				Let’s FutureUP, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol gösteren
+				uluslararası bir sosyal sorumluluk projesidir.
+			</p>
 			<div id="btns_wrapper">
 				<button id="join_btn">Bize Katıl</button>
 				<button id="vid_popup_btn">
@@ -35,6 +38,7 @@ $mobile_bp: 600px;
 	flex-flow: row nowrap;
 	box-sizing: border-box;
 	padding: 0 10vw 90px 10vw;
+	margin-bottom: 100px;
 	@media (max-width: $mobile_bp) {
 		padding: 20px;
 	}

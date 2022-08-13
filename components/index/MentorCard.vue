@@ -9,7 +9,7 @@
 				<p class="profile_pos">{{ mentor.position }}</p>
 			</div>
 			<div id="quote_ctn">
-				<p>{{ mentor.quote }}</p>
+				<p>{{ mentor.text }}</p>
 			</div>
 		</div>
 	</div>

@@ -1,34 +1,37 @@
 <template>
-	<footer>
+	<section class="footer">
 		<div id="footer_menu">
 			<div id="logo_wrapper">
 				<img src="/pages/index/lfu.png" />
 			</div>
-			<div id="hello_carr">
-				<p>Kariyerine merhaba DE</p>
-				<ul>
-					<li>Mentorluk Programı</li>
-					<li>Öğrenci Değişim Programı</li>
-					<li>StartUP</li>
-					<li>WeTalk</li>
-					<li>AdviceUP</li>
-					<li>TalentUP</li>
-				</ul>
-			</div>
 			<div id="who_r_we">
-				<p>Biz Kimiz</p>
+				<p>{{ $t("nav.us.title") }}</p>
 				<ul>
-					<li>Hikayemiz</li>
-					<li>Hakkımızda</li>
-					<li>Proje Ekibi</li>
-					<li>S.S.S</li>
+					<li v-for="(item, index) in $t('nav.us.content')" :key="item">
+						<NuxtLink :to="localePath(toUrl($t('nav.us.content', 'en')[index]))">
+							<h3 class="text">{{ item }}</h3>
+						</NuxtLink>
+					</li>
 				</ul>
 			</div>
 			<div id="what_v_do">
-				<p>Neler Yapıyoruz</p>
+				<p>{{ $t("nav.do.title") }}</p>
 				<ul>
-					<li>Etkinlikler</li>
-					<li>Duyurular</li>
+					<li v-for="(item, index) in $t('nav.do.content')" :key="item">
+						<NuxtLink :to="localePath(toUrl($t('nav.do.content', 'en')[index]))">
+							<h3 class="text">{{ item }}</h3>
+						</NuxtLink>
+					</li>
+				</ul>
+			</div>
+			<div id="hello_carr">
+				<p>{{ $t("nav.career.title") }}</p>
+				<ul>
+					<li v-for="(item, index) in $t('nav.career.content')" :key="item">
+						<NuxtLink :to="localePath(toUrl($t('nav.career.content', 'en')[index]))">
+							<h3 class="text">{{ item }}</h3>
+						</NuxtLink>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -41,15 +44,30 @@
 				<a href=""><img src="/pages/index/instagram.svg" alt="" /></a>
 			</span>
 		</div>
-	</footer>
+	</section>
 </template>
 
 <script>
-export default {};
+export default {
+	name: "AllFooter",
+	methods: {
+		toUrl(text) {
+			return text
+				.toLowerCase()
+				.replace(/ /gim, "-")
+				.replace(/ğ/gim, "g")
+				.replace(/ü/gim, "u")
+				.replace(/ş/gim, "s")
+				.replace(/ı/gim, "i")
+				.replace(/ö/gim, "o")
+				.replace(/ç/gim, "c");
+		},
+	},
+};
 </script>
 
 <style lang="scss" scoped>
-footer {
+.footer {
 	background: $thirdColor;
 	list-style-type: none;
 	color: white;
@@ -85,12 +103,14 @@ footer {
 		}
 		ul {
 			margin-top: 16px;
-			font-style: normal;
-			font-weight: normal;
-			font-size: 1rem;
-			line-height: 24px;
-			letter-spacing: 0.6px;
-			color: #ffffff;
+			.text {
+				font-style: normal;
+				font-weight: normal;
+				font-size: 1rem;
+				line-height: 24px;
+				letter-spacing: 0.6px;
+				color: #ffffff;
+			}
 		}
 	}
 	#contact {

@@ -2,7 +2,7 @@
 	<section id="advisory_sec">
 		<p>Danışma Kurulu</p>
 		<VueSlickCarousel :dots="true" v-bind="settings">
-			<advisor class="advisor_profile" v-for="(advisor, i) in advisors" :key="i" v-bind:advisor="advisor" />
+			<advisor class="advisor_profile" v-for="(advisor, i) in $t('index.board.content')" :key="i" v-bind:advisor="advisor" />
 		</VueSlickCarousel>
 	</section>
 </template>

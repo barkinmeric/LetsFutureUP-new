@@ -1,15 +1,15 @@
 <template>
 	<div class="hello-career-card">
 		<div class="card-item">
-			<div class="card-head">
-				<nuxt-img format="jpg" :src="item.image" height="260px" width="392px" alt="StartUP" draggable="false" loading="lazy" />
-			</div>
-			<div class="card-body">
-				<NuxtLink :to="localePath(toUrl($t('index.hello-career.content', 'en')[index].title))"
-					><h5>{{ item.title }}</h5>
-				</NuxtLink>
-				<p>{{ truncate(item.text, 165) }}</p>
-			</div>
+			<NuxtLink :to="localePath(toUrl($t('index.hello-career.content', 'en')[index].title))">
+				<div class="card-head">
+					<nuxt-img format="jpg" :src="item.image" height="260px" width="392px" alt="StartUP" draggable="false" loading="lazy" />
+				</div>
+				<div class="card-body">
+					<h5>{{ item.title }}</h5>
+					<p>{{ truncate(item.text, 165) }}</p>
+				</div>
+			</NuxtLink>
 		</div>
 	</div>
 </template>
