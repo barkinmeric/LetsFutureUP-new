@@ -1,5 +1,6 @@
 <template>
-	<section id="intr_sec">
+<section id="intr-wrp">
+		<div id="intr_sec" class="container">
 		<div id="text_side">
 			<p id="call_to_action">Geleğini bugün planla, Kariyer yolculuğuna hemen başla!</p>
 			<p id="description">
@@ -22,7 +23,8 @@
 		<div id="img_side">
 			<img />
 		</div>
-	</section>
+	</div>
+</section>
 </template>
 
 <script>
@@ -32,12 +34,13 @@ export default {};
 <style lang="scss" scoped>
 $tablet_bp: 1200px;
 $mobile_bp: 600px;
-#intr_sec {
-	display: flex;
+#intr-wrp {
 	background: #ecf4fc;
+	#intr_sec {
+	display: flex;
 	flex-flow: row nowrap;
 	box-sizing: border-box;
-	padding: 0 10vw 90px 10vw;
+	padding: 0 0 90px 0;
 	margin-bottom: 100px;
 	@media (max-width: $mobile_bp) {
 		padding: 20px;
@@ -170,5 +173,6 @@ $mobile_bp: 600px;
 			display: none;
 		}
 	}
+}
 }
 </style>
