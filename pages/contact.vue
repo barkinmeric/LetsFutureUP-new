@@ -1,5 +1,5 @@
 <template>
-	<div class="container">
+	<div class="container" v-if="false">
 		<h2 id="title">{{ $t("contact.title") }}</h2>
 		<form id="contact-form" action="#" method="post">
 			<h3>{{ $t("contact.name") }}</h3>

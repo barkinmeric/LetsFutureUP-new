@@ -1,5 +1,5 @@
 <template>
-	<div class="container">
+	<div class="container" v-if="false">
 		<dep-selection-bar @scroll-to-sec="ScrollToSec" />
 		<dep-sections v-for="(secData, i) in depSectionContents" :key="i" :secData="secData"/>
 	</div>

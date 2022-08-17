@@ -1,5 +1,5 @@
 <template>
-	<section class="mentorship-program">
+	<section class="mentorship-program" v-if="false">
 		<social-head :title="$t('mentorship.title')" :description="$t('index.desc')" />
 		<div class="container">
 			<mentor-section />
@@ -26,6 +26,7 @@ export default {
 	},
 	beforeCreate() {
 		this.$router.push('/' + this.$i18n.locale)
+
 	},
 	data() {
 		return {

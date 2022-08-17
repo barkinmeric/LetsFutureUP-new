@@ -1,5 +1,5 @@
 <template>
-	<section class="events-announcements">
+	<section class="events-announcements" v-if="false">
 		<social-head :title="$t('events-announcements.title')" :description="$t('index.desc')" />
 		<div class="container">
 			<h1>{{ $t("events-announcements.title") }}</h1>
