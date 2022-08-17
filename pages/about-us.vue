@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="head">
 				<div class="head-text">{{ $t("about.head.text") }}</div>
-				<span class="button">{{ $t("about.head.button") }}</span>
+				<a :href="$t('index.join-us.link')" class="button">{{ $t("about.head.button") }}</a>
 			</div>
 			<div class="body">
 				<div v-for="item in $t('about.content')" :key="item.title">
@@ -69,6 +69,10 @@ export default {
 			line-height: 20px;
 			color: #ffffff;
 			border-radius: 16px;
+		
+			&:hover {
+				background: rgb(44, 28, 225);
+			}
 		}
 	}
 	.body {

@@ -8,8 +8,8 @@
 				uluslararası bir sosyal sorumluluk projesidir.
 			</p>
 			<div id="btns_wrapper">
-				<button id="join_btn">Bize Katıl</button>
-				<button id="vid_popup_btn">
+				<a id="join_btn" :href="$t('index.join-us.link')">Bize Katıl</a>
+				<button id="vid_popup_btn" @click="showVideo = true">
 					<label> </label>
 					<img />
 					<span>Videoyu İzle</span>
@@ -17,18 +17,30 @@
 			</div>
 			<div id="partners">
 				<p>İşbirlikçilerimiz</p>
-				<img />
+				<a href="#partner"><img /></a>
 			</div>
 		</div>
 		<div id="img_side">
 			<img />
 		</div>
 	</div>
+	<video-popup v-if="showVideo" :closeVideo="closeVideo"/>
 </section>
 </template>
 
 <script>
-export default {};
+export default {
+	data() {
+		return {
+			showVideo: false,
+		}
+	},
+	methods: {
+		closeVideo() {
+			this.showVideo = false
+		}
+	}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -86,11 +98,11 @@ $mobile_bp: 600px;
 			margin-top: 48px;
 
 			#join_btn {
+				display: flex;
 				flex-direction: row;
 				justify-content: center;
 				align-items: center;
 				padding: 18px 32px;
-
 				width: 187px;
 				height: 60px;
 				background: #2719cc;
@@ -99,6 +111,9 @@ $mobile_bp: 600px;
 				@media (max-width: $mobile_bp) {
 					width: 50%;
 					height: 50%;
+				}
+				&:hover {
+					background: rgb(44, 28, 225);
 				}
 			}
 			#vid_popup_btn {
@@ -117,6 +132,13 @@ $mobile_bp: 600px;
 				border-radius: 16px;
 
 				margin-left: 16px;
+				&:hover {
+					background: rgb(250, 250, 250);
+				}
+
+				&:active {
+					background: white;
+				}
 				img {
 					content: url("/pages/index/play_btn.svg");
 				}

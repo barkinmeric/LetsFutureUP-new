@@ -12,7 +12,7 @@
 				sorumluluğuna bir mentee verilir ve proje süresince menteesi ile görüşme yapması beklenir. Bu görüşmelerde mentorlar menteelerini en
 				iyi şekilde kariyer yolculuklarına hazırlar
 			</article>
-			<button class="join-btn">Bize Katıl</button>
+			<a :href="$t('index.join-us.link')" class="join-btn">Bize Katıl</a>
 		</div>
 	</section>
 </template>

@@ -1,16 +1,16 @@
 <template>
-	<div class="partner">
+	<div id="partner">
 		<div class="container">
 			<div class="partner-part">
 				<div class="partner-title">{{ $t("index.partner.title") }}</div>
 				<div class="flex-container">
-					<partner-modal v-for="image in $t('index.partner.content')" :key="image" :image="image" />
+					<partner-modal v-for="(image, i) in $t('index.partner.content')" :key="i" :link="image.link" :image="image.img" />
 				</div>
 			</div>
 			<div class="partner-part">
 				<div class="partner-title">{{ $t("index.supporter.title") }}</div>
 				<div class="flex-container">
-					<partner-modal v-for="image in $t('index.supporter.content')" :key="image" :image="image" />
+					<partner-modal v-for="(image, i) in $t('index.supporter.content')" :key="i" :link="image.link" :image="image.img" />
 				</div>
 			</div>
 		</div>
@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.partner {
+#partner {
 	background: $backgroundColor;
 	padding: 20px 10px;
 	margin-bottom: 80px;

@@ -177,20 +177,24 @@
 		},
 		"partner": {
 			"title": "İşbirlikçilerimiz",
-			"content": ["/pages/index/partners/adler.svg", "/pages/index/partners/hrpeak.svg", "/pages/index/partners/workinton.svg"]
+			"content": [{"img" : "/pages/index/partners/adler.svg", "link": "https://www.adlercentraleurope.com"},
+						{"img" : "/pages/index/partners/hrpeak.svg", "link": "https://www.hrpeak.com"},
+						{"img" : "/pages/index/partners/workinton.svg", "link": "https://www.workinton.com"}
+					   ]
 		},
 		"supporter": {
 			"title": "Destekçilerimiz",
 			"content": [
-				"/pages/index/supporters/aktas.svg",
-				"/pages/index/supporters/emek.svg",
-				"/pages/index/supporters/farba.svg",
-				"/pages/index/supporters/feka.svg",
-				"/pages/index/supporters/fkt.svg",
-				"/pages/index/supporters/haci-hasan.svg",
-				"/pages/index/supporters/inoksan.svg",
-				"/pages/index/supporters/limak.svg",
-				"/pages/index/supporters/valeo.svg"
+				{"img" : "/pages/index/supporters/aktas.svg", "link": "https://www.aktasholding.com"},
+				{"img" : "/pages/index/supporters/emek.svg", "link": "https://www.emek.com.tr"},
+				{"img" : "/pages/index/supporters/farba.svg", "link": "https://www.farba.com.tr"},
+				{"img" : "/pages/index/supporters/feka.svg", "link": "https://www.fekaautomotive.com"},
+				{"img" : "/pages/index/supporters/fkt.svg", "link": "https://www.fkt.com.tr"},
+				{"img" : "/pages/index/supporters/haci-hasan.svg", "link": "https://www.hacihasanogullari.com.tr"},
+				{"img" : "/pages/index/supporters/inoksan.svg", "link": "https://www.inoksan.com"},
+				{"img" : "/pages/index/supporters/limak.svg", "link": "https://www.limak.com.tr"},
+				{"img" : "/pages/index/supporters/valeo.svg", "link": "https://www.valeo.com"},
+				{"img" : "/pages/index/supporters/ekads.svg", "link": "https://www.ekads.co"}
 			]
 		},
 		"join-us": {
