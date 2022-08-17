@@ -22,7 +22,10 @@ export default {
 					content: this.$i18n.t("mentorship.desc"),
 				},
 			],
-		};
+		}
+	},
+	beforeCreate() {
+		this.$router.push('/' + this.$i18n.locale)
 	},
 	data() {
 		return {

@@ -26,6 +26,9 @@ export default {
 			],
 		};
 	},
+		beforeCreate() {
+		this.$router.push('/' + this.$i18n.locale)
+	},
 };
 </script>
 

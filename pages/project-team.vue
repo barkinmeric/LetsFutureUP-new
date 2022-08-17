@@ -89,6 +89,9 @@ export default {
 			document.getElementById(id).scrollIntoView();
 		},
 	},
+		beforeCreate() {
+		this.$router.push('/' + this.$i18n.locale)
+	},
 };
 </script>
 

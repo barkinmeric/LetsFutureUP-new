@@ -15,7 +15,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+		beforeCreate() {
+		this.$router.push('/' + this.$i18n.locale)
+	},
+};
 </script>
 
 <style lang="scss" scoped>

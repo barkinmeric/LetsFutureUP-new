@@ -1,14 +1,13 @@
 <template>
 	<section class="index">
-		<!-- <li v-for="mountain of test">{{ mountain.name }}</li> -->
 		<social-head :title="$t('index.title')" :description="$t('index.desc')" />
 		<introduction />
 		<hello-career />
 		<mentors />
-		<newsletter />
+		<!-- <newsletter /> -->
 		<advisory />
 		<partner />
-		<subscribe />
+		<!-- <subscribe /> -->
 		<join-us />
 	</section>
 </template>
