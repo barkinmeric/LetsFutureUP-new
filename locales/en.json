@@ -177,24 +177,25 @@
 		},
 		"partner": {
 			"title": "Partners",
-			"content": [{"img" : "/pages/index/partners/adler.svg", "link": "https://www.adlercentraleurope.com"},
-						{"img" : "/pages/index/partners/hrpeak.svg", "link": "https://www.hrpeak.com"},
-						{"img" : "/pages/index/partners/workinton.svg", "link": "https://www.workinton.com"}
-					   ]
+			"content": [
+				{ "img": "/pages/index/partners/adler.svg", "link": "https://www.adlercentraleurope.com" },
+				{ "img": "/pages/index/partners/hrpeak.svg", "link": "https://www.hrpeak.com" },
+				{ "img": "/pages/index/partners/workinton.svg", "link": "https://www.workinton.com" }
+			]
 		},
 		"supporter": {
 			"title": "Destekçilerimiz",
 			"content": [
-				{"img" : "/pages/index/supporters/aktas.svg", "link": "https://www.aktasholding.com"},
-				{"img" : "/pages/index/supporters/emek.svg", "link": "https://www.emek.com.tr"},
-				{"img" : "/pages/index/supporters/farba.svg", "link": "https://www.farba.com.tr"},
-				{"img" : "/pages/index/supporters/feka.svg", "link": "https://www.fekaautomotive.com"},
-				{"img" : "/pages/index/supporters/fkt.svg", "link": "https://www.fkt.com.tr"},
-				{"img" : "/pages/index/supporters/haci-hasan.svg", "link": "https://www.hacihasanogullari.com.tr"},
-				{"img" : "/pages/index/supporters/inoksan.svg", "link": "https://www.inoksan.com"},
-				{"img" : "/pages/index/supporters/limak.svg", "link": "https://www.limak.com.tr"},
-				{"img" : "/pages/index/supporters/valeo.svg", "link": "https://www.valeo.com"},
-				{"img" : "/pages/index/supporters/ekads.svg", "link": "https://www.ekads.co"}
+				{ "img": "/pages/index/supporters/aktas.svg", "link": "https://www.aktasholding.com" },
+				{ "img": "/pages/index/supporters/emek.svg", "link": "https://www.emek.com.tr" },
+				{ "img": "/pages/index/supporters/farba.svg", "link": "https://www.farba.com.tr" },
+				{ "img": "/pages/index/supporters/feka.svg", "link": "https://www.fekaautomotive.com" },
+				{ "img": "/pages/index/supporters/fkt.svg", "link": "https://www.fkt.com.tr" },
+				{ "img": "/pages/index/supporters/haci-hasan.svg", "link": "https://www.hacihasanogullari.com.tr" },
+				{ "img": "/pages/index/supporters/inoksan.svg", "link": "https://www.inoksan.com" },
+				{ "img": "/pages/index/supporters/limak.svg", "link": "https://www.limak.com.tr" },
+				{ "img": "/pages/index/supporters/valeo.svg", "link": "https://www.valeo.com" },
+				{ "img": "/pages/index/supporters/ekads.svg", "link": "https://www.ekads.co" }
 			]
 		},
 		"join-us": {
@@ -251,11 +252,13 @@
 		"title": "Project Team",
 		"img": "/pages/project-team/en/team.webp",
 		"desc": "Let’s FutureUP project consists of six departments including Human Resources, Business Development, Corporate Communication, External Affairs, Startup, Social Media and Digital Marketing. Students from various universities comprise these departments.",
-		"content": [
+		"teams": [
 			{
 				"title": "Human resources department",
+				"id": "humanRsr",
+				"index": 0,
 				"text": "This department arranges/organizes the recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes a role in the preparation of e-bulletin. Besides, it checks for the attendance of students and team members at Let’s FutureUP events. They act to keep the motivation of students high and accordingly; they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs.",
-				"collapsible": [
+				"content": [
 					{ "name": "Deren Yoloğlu", "place": "", "position": "", "image": "/pages/project-team/human-resources/deren-yologlu.png" },
 					{ "name": "İlkay Çil", "place": "", "position": "", "image": "/pages/project-team/human-resources/ilkay-cil.png" },
 					{ "name": "Nisan Koçak", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisan-kocak.png" },
@@ -265,8 +268,10 @@
 			},
 			{
 				"title": "Corporate communication department",
+				"id": "corCom",
+				"index": 1,
 				"text": "They contact with high level managers/executives and offer them to be spokespersons/trainers/mentors in programs as regards Let’s FutureUP project which are the Mentorship Program, Say Hello to your Career, Student Development Programs and WeTalk events. They also set meetings so as to introduce the project to the candidate mentors and they contribute to the organization of such events and announcement of them to shareholders. They engage in sponsorship activities. Moreover, they hold meetings with university clubs and advertise for the project.",
-				"collapsible": [
+				"content": [
 					{ "name": "Can Çakarız", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/can-cakariz.png" },
 					{ "name": "Doğa Aydoğdu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/doga-aydogdu.png" },
 					{
@@ -293,8 +298,10 @@
 			},
 			{
 				"title": "Business & strategy development department",
+				"id": "busStr",
+				"index": 2,
 				"text": "Members of this department, produce innovative ideas by encouraging the development of strategies through vision-mission. In this context, it leads the departments to embrace new ideas and bring about these. They work collaboratively with other departments regarding how these new concepts can be integrated into the project.",
-				"collapsible": [
+				"content": [
 					{ "name": "Arif Numanoğlu", "place": "", "position": "", "image": "/pages/project-team/business-development/arif-numanoglu.png" },
 					{
 						"name": "Rümeysa Özsağlıcak",
@@ -306,8 +313,10 @@
 			},
 			{
 				"title": "Foreign affairs department",
+				"id": "forAf",
+				"index": 3,
 				"text": "They contact with high level managers/executives from abroad and offer them to be spokesperson/trainer/mentor in programs involved in the Let’s FutureUP project including Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They arrange meetings with foreign executives to explain the project in details. In addition, they take responsibility for organizing the events and announcing them to shareholders. They intend to reach foreign university clubs and contact with foreign students in order to introduce the project and improve it internationally.",
-				"collapsible": [
+				"content": [
 					{ "name": "Hazal Öykü Hoca", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/hazal-oyku-hoca.png" },
 					{ "name": "Ratu Faidah", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/ratu-faidah.png" },
 					{ "name": "Sophie Aigner", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/sophie-aigner.png" },
@@ -316,8 +325,10 @@
 			},
 			{
 				"title": "Social media and digital marketing department",
+				"id": "socMed",
+				"index": 4,
 				"text": "They are responsible for effective utilization of the social media accounts of the project. At the same time, they play an essential role while gaining international recognition. Besides, they prepare posts and informative materials which announce the WeTALK events and other training activities of the project.",
-				"collapsible": [
+				"content": [
 					{ "name": "Ayşe Merve Ergün", "place": "", "position": "", "image": "/pages/project-team/social-media/ayse-merve-ergun.png" },
 					{ "name": "Ece Nur Emre", "place": "", "position": "", "image": "/pages/project-team/social-media/ece-nur-emre.png" },
 					{ "name": "Şevval Sergün", "place": "", "position": "", "image": "/pages/project-team/social-media/sevval-sergun.png" },
@@ -327,8 +338,10 @@
 			},
 			{
 				"title": "Startup department",
+				"id": "startUp",
+				"index": 5,
 				"text": "They are well prepared for startup-based activities that will take the stage in the following periods. This team generally works on the installation, enhancement and management processes of our website. In addition, the team is responsible for writing the codes of the programs that execute and digitalize the project.",
-				"collapsible": [
+				"content": [
 					{ "name": "Ataberk Karaman", "place": "", "position": "", "image": "/pages/project-team/startup/ataberk-karaman.png" },
 					{
 						"name": "Barkın Meriç",

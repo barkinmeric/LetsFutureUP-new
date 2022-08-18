@@ -177,24 +177,25 @@
 		},
 		"partner": {
 			"title": "İşbirlikçilerimiz",
-			"content": [{"img" : "/pages/index/partners/adler.svg", "link": "https://www.adlercentraleurope.com"},
-						{"img" : "/pages/index/partners/hrpeak.svg", "link": "https://www.hrpeak.com"},
-						{"img" : "/pages/index/partners/workinton.svg", "link": "https://www.workinton.com"}
-					   ]
+			"content": [
+				{ "img": "/pages/index/partners/adler.svg", "link": "https://www.adlercentraleurope.com" },
+				{ "img": "/pages/index/partners/hrpeak.svg", "link": "https://www.hrpeak.com" },
+				{ "img": "/pages/index/partners/workinton.svg", "link": "https://www.workinton.com" }
+			]
 		},
 		"supporter": {
 			"title": "Destekçilerimiz",
 			"content": [
-				{"img" : "/pages/index/supporters/aktas.svg", "link": "https://www.aktasholding.com"},
-				{"img" : "/pages/index/supporters/emek.svg", "link": "https://www.emek.com.tr"},
-				{"img" : "/pages/index/supporters/farba.svg", "link": "https://www.farba.com.tr"},
-				{"img" : "/pages/index/supporters/feka.svg", "link": "https://www.fekaautomotive.com"},
-				{"img" : "/pages/index/supporters/fkt.svg", "link": "https://www.fkt.com.tr"},
-				{"img" : "/pages/index/supporters/haci-hasan.svg", "link": "https://www.hacihasanogullari.com.tr"},
-				{"img" : "/pages/index/supporters/inoksan.svg", "link": "https://www.inoksan.com"},
-				{"img" : "/pages/index/supporters/limak.svg", "link": "https://www.limak.com.tr"},
-				{"img" : "/pages/index/supporters/valeo.svg", "link": "https://www.valeo.com"},
-				{"img" : "/pages/index/supporters/ekads.svg", "link": "https://www.ekads.co"}
+				{ "img": "/pages/index/supporters/aktas.svg", "link": "https://www.aktasholding.com" },
+				{ "img": "/pages/index/supporters/emek.svg", "link": "https://www.emek.com.tr" },
+				{ "img": "/pages/index/supporters/farba.svg", "link": "https://www.farba.com.tr" },
+				{ "img": "/pages/index/supporters/feka.svg", "link": "https://www.fekaautomotive.com" },
+				{ "img": "/pages/index/supporters/fkt.svg", "link": "https://www.fkt.com.tr" },
+				{ "img": "/pages/index/supporters/haci-hasan.svg", "link": "https://www.hacihasanogullari.com.tr" },
+				{ "img": "/pages/index/supporters/inoksan.svg", "link": "https://www.inoksan.com" },
+				{ "img": "/pages/index/supporters/limak.svg", "link": "https://www.limak.com.tr" },
+				{ "img": "/pages/index/supporters/valeo.svg", "link": "https://www.valeo.com" },
+				{ "img": "/pages/index/supporters/ekads.svg", "link": "https://www.ekads.co" }
 			]
 		},
 		"join-us": {
@@ -251,11 +252,13 @@
 		"title": "Proje Ekibi",
 		"img": "/pages/project-team/tr/proje-ekibi.webp",
 		"desc": "Let’s FutureUP Mentorluk ve Öğrenci Gelişim programlarını yöneten proje ekibi; İnsan Kaynakları, İş & Strateji Geliştirme, Kurumsal İletişim, Dış İlişkiler, Sosyal Medya ve Dijital Pazarlama, StartUP olarak altı departmandan oluşmaktadır. Bu departmanlarda, dünyanın dört bir yanında bulunan üniversitelerden gelen gönüllü öğrenciler yer almaktadır.",
-		"content": [
+		"teams": [
 			{
 				"title": "İnsan kaynakları departmanı",
+				"id": "humanRsr",
+				"index": 0,
 				"text": "Let’s FutureUP Mentorluk Programı ve proje ekip üyesi alım sürecini organize eder, mülakat yapar ve olumlu adayların oryantasyon sürecini yönetir. Öğrencilerin gelişimlerine yönelik eğitimler organize eder. Aylık E-Bülten hazırlanmasında rol oynar. Mentorluk Programına dahil olan öğrencilerin ve ekip üyelerinin devamlılığını takip eder. Proje ekip üyelerinin motivasyonlarının yüksek tutulması ve birbirlerini daha yakından tanıyabilmeleri adına kaynaşma etkinlikleri düzenler. WeTALK etkinliklerinin ve eğitimlerin içerik yazılarının hazırlanmasında Sosyal Medya ve Dijital Pazarlama Departmanı ile çalışır.",
-				"collapsible": [
+				"content": [
 					{ "name": "Deren Yoloğlu", "place": "", "position": "", "image": "/pages/project-team/human-resources/deren-yologlu.png" },
 					{ "name": "İlkay Çil", "place": "", "position": "", "image": "/pages/project-team/human-resources/ilkay-cil.png" },
 					{ "name": "Nisan Koçak", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisan-kocak.png" },
@@ -265,8 +268,10 @@
 			},
 			{
 				"title": "Kurumsal iletişim departmanı",
+				"id": "corCom",
+				"index": 1,
 				"text": "Projede yer alan Mentorluk Programı, Kariyerine MerhabaDE! Öğrenci Gelişim Programı ve WeTALK etkinliklerine yönelik olarak üst düzey yöneticilerle iletişime geçerek mentor/eğitmen/konuşmacı olmaları için teklifte bulunur, toplantılar düzenleyerek projeyi tanıtır. Bu etkinliklerin organize edilmesinde ve paydaşlara duyurulmasında rol oynar. Sponsorluk çalışmaları yapar. Üniversite kulüpleriyle iletişime geçerek tanışma toplantıları düzenler.",
-				"collapsible": [
+				"content": [
 					{ "name": "Can Çakarız", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/can-cakariz.png" },
 					{ "name": "Doğa Aydoğdu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/doga-aydogdu.png" },
 					{
@@ -293,8 +298,10 @@
 			},
 			{
 				"title": "İş & strateji geliştirme departmanı",
+				"id": "busStr",
+				"index": 2,
 				"text": "Let’s FutureUP projesinin misyonu ve vizyonu doğrultusunda stratejilerin geliştirilmesine destek vererek projenin hedeflerine ulaşması için inovatif fikirler ortaya koyar. Bu kapsamda projede bulunan departmanların yeni fikirler üretmesinde ve bu fikirlerin hayata geçirilmesinde liderlik eder. Yeni fikirlerin projeye nasıl entegre edilebileceği konusunda tüm departmanlar ile koordine bir şekilde çalışır.",
-				"collapsible": [
+				"content": [
 					{ "name": "Arif Numanoğlu", "place": "", "position": "", "image": "/pages/project-team/business-development/arif-numanoglu.png" },
 					{
 						"name": "Rümeysa Özsağlıcak",
@@ -306,8 +313,10 @@
 			},
 			{
 				"title": "Dış ilişkiler departmanı",
+				"id": "forAf",
+				"index": 3,
 				"text": "Projede yer alan Mentorluk Programı, Kariyerine MerhabaDE! Öğrenci Gelişim Programı ve WeTALK etkinliklerinin içeriklerine yönelik olarak uluslararası şirketlerin yurt dışı bölümünde çalışan üst düzey yöneticilerle iletişime geçerek mentor/eğitmen/konuşmacı olmaları için teklifte bulunur, toplantılar düzenleyerek projeyi tanıtır. Bu etkinliklerin organize edilmesinde ve paydaşlara duyurulmasında rol oynar. Projeyi uluslararası bir konuma getirmek üzere yabancı öğrencilere ulaşabilmek için yurt dışındaki üniversite kulüpleriyle iletişime geçerek tanışma toplantıları düzenler.",
-				"collapsible": [
+				"content": [
 					{ "name": "Hazal Öykü Hoca", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/hazal-oyku-hoca.png" },
 					{ "name": "Ratu Faidah", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/ratu-faidah.png" },
 					{ "name": "Sophie Aigner", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/sophie-aigner.png" },
@@ -316,8 +325,10 @@
 			},
 			{
 				"title": "Sosyal medya ve dijital pazarlama departmanı",
+				"id": "socMed",
+				"index": 4,
 				"text": "Let’s FutureUP Projesi’nin sosyal medya hesaplarının etkin bir şekilde kullanılmasını sağlar. Aynı zamanda projenin ulusal ve uluslararası kitlelere ulaşmasında rol alır. Sosyal medya hesaplarında paylaşılmak üzere gönderiler ve içerikler hazırlar. WeTALK etkinliklerinin ve eğitimlerin duyurulmasını sağlar.",
-				"collapsible": [
+				"content": [
 					{ "name": "Ayşe Merve Ergün", "place": "", "position": "", "image": "/pages/project-team/social-media/ayse-merve-ergun.png" },
 					{ "name": "Ece Nur Emre", "place": "", "position": "", "image": "/pages/project-team/social-media/ece-nur-emre.png" },
 					{ "name": "Şevval Sergün", "place": "", "position": "", "image": "/pages/project-team/social-media/sevval-sergun.png" },
@@ -327,8 +338,10 @@
 			},
 			{
 				"title": "Startup departmanı",
+				"id": "startUp",
+				"index": 5,
 				"text": "StartUP Ekibi, projemizin ilerleyen dönemlerinde gerçekleştireceğimiz girişim tabanlı etkinlikler için hazırlıklar yapar. Bu ekip, genelde web sitemizin kurulumu, iyileştirilmesi, ilerleyişi, gelişimi ve yönetimi üzerine çalışmalar gerçekleştirir. Ayrıca projeyi yöneten programların kodlarının yazılmasından ve dijitale aktarılmasından sorumludur.",
-				"collapsible": [
+				"content": [
 					{ "name": "Ataberk Karaman", "place": "", "position": "", "image": "/pages/project-team/startup/ataberk-karaman.png" },
 					{
 						"name": "Barkın Meriç",

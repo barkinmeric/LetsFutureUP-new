@@ -1,7 +1,15 @@
 <template>
-	<div class="depSec" :id="id">
-		<department-desc :secText="secText" :style="descOrderStyle" />
-		<department-img :secImg="secImg" :style="imgOrderStyle" />
+	<div class="depSec" :id="secData.id">
+		<div id="depDesc" :style="descOrderStyle">
+			<h2>{{ secData.title }}</h2>
+			<article>{{ secData.text }}</article>
+		</div>
+
+		<div id="depImg" :style="imgOrderStyle">
+			<div id="secSingleImg" v-for="(img, i) in secData.content" :key="i">
+				<nuxt-img format="jpg" class="image" draggable="false" :src="img.image" :alt="$t('story.title')" height="200" width="176" />
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -10,9 +18,6 @@ export default {
 	props: ["secData"],
 	data() {
 		return {
-			id: this.secData.id,
-			secText: this.secData.text,
-			secImg: this.secData.imgs,
 			descOrderStyle: [this.swap() ? { order: 2 } : { order: 1 }],
 			imgOrderStyle: [this.swap() ? { order: 1 } : { order: 2 }],
 		};
@@ -33,5 +38,35 @@ export default {
 	justify-content: center;
 	align-content: center;
 	flex-flow: row wrap;
+	margin-bottom: 150px;
+	#depDesc {
+		font-style: normal;
+		text-align: center;
+		letter-spacing: 0.3px;
+		width: 50%;
+		padding: 20px;
+		@media (max-width: 1400px) {
+			width: 100%;
+		}
+	}
+	#depImg {
+		width: 50%;
+		padding: 0 20px 20px 20px 20px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		#secSingleImg {
+			width: 176px;
+			height: 200px;
+			margin: 20px;
+		}
+		@media (max-width: 1400px) {
+			min-width: 650px;
+		}
+		@media (max-width: $mobile_bp) {
+			min-width: 550px;
+		}
+	}
 }
 </style>
