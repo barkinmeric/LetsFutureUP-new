@@ -12,7 +12,7 @@
 						format="jpg"
 						class="image"
 						draggable="false"
-						src="/pages/our-story/img.png"
+						src="/pages/index/hello-career/5.png"
 						:alt="$t('adviceup.title')"
 						height="458"
 						width="608"

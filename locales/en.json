@@ -12,7 +12,7 @@
 		},
 		"career": {
 			"title": "HelloCareer",
-			"content": ["Mentorship Program", "Student Development Program", "StartUP", "WeTalk", "AdviceUP", "TalentUP", "Contact"]
+			"content": ["Mentorship Program", "Student Development Program", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
 		}
 	},
 	"index": {
@@ -430,7 +430,7 @@
 				"text": "Mentors in Let’s FutureUP project, are experts guiding students and share their experiences with students who want to develop their business skills and abilities. These experts in their fields are researched by project team in detailed way and their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best manner they could do."
 			}
 		],
-		"collapsible": {
+		"years": {
 			"2020-2021": {
 				"title": "2020-2021 Mentor-Mentee",
 				"mentors": {

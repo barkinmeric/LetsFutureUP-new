@@ -1,15 +1,9 @@
 <template>
 	<section id="mentee-sec">
 		<div id="text-side">
-			<h3>MENTEE</h3>
-			<article>
-				Let’s FutureUP projesindeki mentorlar, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla
-				paralel olarak yol gösteren, deneyimlerini paylaşan, öğretirken öğrenen ve rehberlik eden kişilerdir. Let’s FutureUP ekibi tarafından
-				alanında uzman kişiler detaylı bir şekilde araştırılır ve ilgili kişilerin mentorluk başvurusu alınır. Seçilen her mentorun
-				sorumluluğuna bir mentee verilir ve proje süresince menteesi ile görüşme yapması beklenir. Bu görüşmelerde mentorlar menteelerini en
-				iyi şekilde kariyer yolculuklarına hazırlar
-			</article>
-			<a :href="$t('index.join-us.link')" class="join-btn">Bize Katıl</a>
+			<h3>{{ $t("mentorship.content[0].title") }}</h3>
+			<article>{{ $t("mentorship.content[0].text") }}</article>
+			<a :href="$t('index.join-us.link')" class="join-btn">{{ $t("index.join-us.button") }}</a>
 		</div>
 		<div id="img-side">
 			<div></div>
@@ -43,7 +37,7 @@ export default {};
 		text-align: center;
 		padding: 100px 0 0 0;
 		h3 {
-			width: 608px;
+			max-width: 608px;
 			height: 30px;
 			font-style: normal;
 			font-weight: 900;
@@ -52,11 +46,11 @@ export default {};
 			color: #000000;
 			@media (max-width: $tablet_bp) {
 				margin: auto;
-			}	
+			}
 		}
 		article {
 			margin-top: 24px;
-			width: 608px;
+			max-width: 608px;
 			height: 238px;
 			font-style: normal;
 			font-weight: 400;
@@ -67,7 +61,7 @@ export default {};
 			color: #000000;
 			@media (max-width: $tablet_bp) {
 				margin: auto;
-			}		
+			}
 		}
 		.join-btn {
 			display: flex;

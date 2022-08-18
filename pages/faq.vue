@@ -1,6 +1,6 @@
 <template>
 	<section class="faq">
-		<social-head :title="$t('faq.title')" :description="$t('faq.desc')" />
+		<social-head :title="$t('faq.title')" :description="$t('index.desc')" />
 		<div class="container">
 			<div v-for="item in $t('faq.content')" :key="item.title">
 				<faq-collapsible :title="item.title" :text="item.text" />
@@ -18,7 +18,7 @@ export default {
 				{
 					hid: "description",
 					name: "description",
-					content: this.$i18n.t("faq.desc"),
+					content: this.$i18n.t("index.desc"),
 				},
 			],
 		};

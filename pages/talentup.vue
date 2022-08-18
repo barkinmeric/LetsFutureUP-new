@@ -8,7 +8,7 @@
 						format="jpg"
 						class="image"
 						draggable="false"
-						src="/pages/talentup/img.png"
+						src="/pages/index/hello-career/6.png"
 						:alt="$t('talentup.title')"
 						height="491"
 						width="608"

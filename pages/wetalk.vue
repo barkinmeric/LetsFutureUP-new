@@ -8,7 +8,7 @@
 						format="jpg"
 						class="image"
 						draggable="false"
-						src="/pages/our-story/img.png"
+						src="/pages/index/hello-career/3.png"
 						:alt="$t('wetalk.title')"
 						height="491"
 						width="608"

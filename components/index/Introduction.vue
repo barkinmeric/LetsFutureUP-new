@@ -1,31 +1,31 @@
 <template>
-<section id="intr-wrp">
+	<section id="intr-wrp">
 		<div id="intr_sec" class="container">
-		<div id="text_side">
-			<p id="call_to_action">Geleğini bugün planla, Kariyer yolculuğuna hemen başla!</p>
-			<p id="description">
-				Let’s FutureUP, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol gösteren
-				uluslararası bir sosyal sorumluluk projesidir.
-			</p>
-			<div id="btns_wrapper">
-				<a id="join_btn" :href="$t('index.join-us.link')">Bize Katıl</a>
-				<button id="vid_popup_btn" @click="showVideo = true">
-					<label> </label>
-					<img />
-					<span>Videoyu İzle</span>
-				</button>
+			<div id="text_side">
+				<p id="call_to_action">Geleğini bugün planla, Kariyer yolculuğuna hemen başla!</p>
+				<p id="description">
+					Let’s FutureUP, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol
+					gösteren uluslararası bir sosyal sorumluluk projesidir.
+				</p>
+				<div id="btns_wrapper">
+					<a id="join_btn" :href="$t('index.join-us.link')">Bize Katıl</a>
+					<button id="vid_popup_btn" @click="showVideo = true">
+						<label> </label>
+						<img />
+						<span>Videoyu İzle</span>
+					</button>
+				</div>
+				<div id="partners">
+					<p>İşbirlikçilerimiz</p>
+					<a href="#partner"><img /></a>
+				</div>
 			</div>
-			<div id="partners">
-				<p>İşbirlikçilerimiz</p>
-				<a href="#partner"><img /></a>
+			<div id="img_side">
+				<img />
 			</div>
 		</div>
-		<div id="img_side">
-			<img />
-		</div>
-	</div>
-	<video-popup v-if="showVideo" :closeVideo="closeVideo"/>
-</section>
+		<video-popup v-if="showVideo" :closeVideo="closeVideo" />
+	</section>
 </template>
 
 <script>
@@ -33,13 +33,13 @@ export default {
 	data() {
 		return {
 			showVideo: false,
-		}
+		};
 	},
 	methods: {
 		closeVideo() {
-			this.showVideo = false
-		}
-	}
+			this.showVideo = false;
+		},
+	},
 };
 </script>
 
@@ -49,152 +49,153 @@ $mobile_bp: 600px;
 #intr-wrp {
 	background: #ecf4fc;
 	#intr_sec {
-	display: flex;
-	flex-flow: row nowrap;
-	box-sizing: border-box;
-	padding: 0 0 90px 0;
-	margin-bottom: 100px;
-	@media (max-width: $mobile_bp) {
-		padding: 20px;
-	}
-	#text_side {
-		display: flexbox;
-		width: 50%;
-		@media (max-width: $tablet_bp) {
-			width: 90%;
-		}
+		display: flex;
+		flex-flow: row nowrap;
+		box-sizing: border-box;
+		padding: 0 0 90px 0;
+		margin-bottom: 100px;
 		@media (max-width: $mobile_bp) {
-			width: 100%;
+			padding: 20px;
 		}
-		#call_to_action {
-			font-family: Mulish;
-			font-style: normal;
-			font-weight: 900;
-			font-size: 3rem;
-			line-height: 64px;
-			letter-spacing: 1px;
-			padding-top: 160px;
-			color: #121f3d;
+		#text_side {
+			display: flexbox;
+			width: 50%;
+			@media (max-width: $tablet_bp) {
+				width: 90%;
+			}
 			@media (max-width: $mobile_bp) {
-				font-size: 2.5rem;
-				padding-top: 80px;
+				width: 100%;
 			}
-		}
-		#description {
-			font-family: Mulish;
-			font-style: normal;
-			font-weight: normal;
-			font-size: 1rem;
-			line-height: 36px;
-			margin-top: 25px;
-
-			letter-spacing: 0.3px;
-
-			color: #121f3d;
-		}
-		#btns_wrapper {
-			display: flex;
-			flex-direction: row;
-			margin-top: 48px;
-
-			#join_btn {
-				display: flex;
-				flex-direction: row;
-				justify-content: center;
-				align-items: center;
-				padding: 18px 32px;
-				width: 187px;
-				height: 60px;
-				background: #2719cc;
-				color: white;
-				border-radius: 16px;
-				@media (max-width: $mobile_bp) {
-					width: 50%;
-					height: 50%;
-				}
-				&:hover {
-					background: rgb(44, 28, 225);
-				}
-			}
-			#vid_popup_btn {
-				display: flex;
-				flex-direction: row;
-				justify-content: center;
-				align-items: center;
-				padding: 18px 30px;
-				background: #ecf4fc;
-				width: 187px;
-				height: 60px;
-
-				/* Monochrome/1000 */
-				border: 1px solid #121f3d;
-				box-sizing: border-box;
-				border-radius: 16px;
-
-				margin-left: 16px;
-				&:hover {
-					background: rgb(250, 250, 250);
-				}
-
-				&:active {
-					background: white;
-				}
-				img {
-					content: url("/pages/index/play_btn.svg");
-				}
-				span {
-					margin-left: 7px;
-				}
-				@media (max-width: $mobile_bp) {
-					width: 50%;
-					height: 50%;
-				}
-			}
-		}
-		#partners {
-			font-family: Mullish;
-			margin-top: 10vw;
-			@media (max-width: $mobile_bp) {
-				margin-top: 20vw;
-			}
-			p {
-				width: 155px;
-				height: 22px;
+			#call_to_action {
+				font-family: Mulish;
 				font-style: normal;
 				font-weight: 900;
-				font-size: 1.125rem;
-				line-height: 23px;
-				letter-spacing: 0.267703px;
+				font-size: 3rem;
+				line-height: 64px;
+				letter-spacing: 1px;
+				padding-top: 160px;
 				color: #121f3d;
-				opacity: 0.5;
 				@media (max-width: $mobile_bp) {
-					font-size: 1rem;
+					font-size: 2.5rem;
+					padding-top: 80px;
 				}
 			}
+			#description {
+				font-family: Mulish;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 1rem;
+				line-height: 36px;
+				margin-top: 25px;
+
+				letter-spacing: 0.3px;
+
+				color: #121f3d;
+			}
+			#btns_wrapper {
+				display: flex;
+				flex-direction: row;
+				margin-top: 48px;
+
+				#join_btn {
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					align-items: center;
+					padding: 18px 32px;
+					width: 187px;
+					height: 60px;
+					background: #2719cc;
+					color: white;
+					border-radius: 16px;
+					@media (max-width: $mobile_bp) {
+						width: 50%;
+						height: 50%;
+					}
+					&:hover {
+						background: rgb(44, 28, 225);
+					}
+				}
+				#vid_popup_btn {
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					align-items: center;
+					padding: 18px 30px;
+					background: #ecf4fc;
+					width: 187px;
+					height: 60px;
+					cursor: pointer;
+
+					/* Monochrome/1000 */
+					border: 1px solid #121f3d;
+					box-sizing: border-box;
+					border-radius: 16px;
+
+					margin-left: 16px;
+					&:hover {
+						background: rgb(250, 250, 250);
+					}
+
+					&:active {
+						background: white;
+					}
+					img {
+						content: url("/pages/index/play_btn.svg");
+					}
+					span {
+						margin-left: 7px;
+					}
+					@media (max-width: $mobile_bp) {
+						width: 50%;
+						height: 50%;
+					}
+				}
+			}
+			#partners {
+				font-family: Mullish;
+				margin-top: 10vw;
+				@media (max-width: $mobile_bp) {
+					margin-top: 20vw;
+				}
+				p {
+					width: 155px;
+					height: 22px;
+					font-style: normal;
+					font-weight: 900;
+					font-size: 1.125rem;
+					line-height: 23px;
+					letter-spacing: 0.267703px;
+					color: #121f3d;
+					opacity: 0.5;
+					@media (max-width: $mobile_bp) {
+						font-size: 1rem;
+					}
+				}
+				img {
+					content: url("/pages/index/intr_partners.svg");
+					margin-top: 20px;
+					@media (max-width: $mobile_bp) {
+						width: 75%;
+						height: 75%;
+					}
+				}
+			}
+		}
+		#img_side {
+			width: 50%;
 			img {
-				content: url("/pages/index/intr_partners.svg");
-				margin-top: 20px;
-				@media (max-width: $mobile_bp) {
-					width: 75%;
-					height: 75%;
-				}
+				content: url("/pages/index/intr_stock.png");
+				$intr_stock_width: 90%;
+				width: $intr_stock_width;
+				height: $intr_stock_width * 1, 0894;
+				float: right;
+				margin-top: 110px;
+			}
+			@media (max-width: $tablet_bp) {
+				display: none;
 			}
 		}
 	}
-	#img_side {
-		width: 50%;
-		img {
-			content: url("/pages/index/intr_stock.png");
-			$intr_stock_width: 90%;
-			width: $intr_stock_width;
-			height: $intr_stock_width * 1, 0894;
-			float: right;
-			margin-top: 110px;
-		}
-		@media (max-width: $tablet_bp) {
-			display: none;
-		}
-	}
-}
 }
 </style>

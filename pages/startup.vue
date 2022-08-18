@@ -12,7 +12,7 @@
 						format="jpg"
 						class="image"
 						draggable="false"
-						src="/pages/startup/img.png"
+						src="/pages/index/hello-career/4.png"
 						:alt="$t('startup.title')"
 						height="471"
 						width="606"

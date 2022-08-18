@@ -4,7 +4,15 @@
 		<div class="container">
 			<div class="student-body">
 				<div class="left-part">
-					<nuxt-img format="jpg" class="image" draggable="false" src="/pages/our-story/img.png" :alt="$t('student.title')" height="508" width="608" />
+					<nuxt-img
+						format="jpg"
+						class="image"
+						draggable="false"
+						src="/pages/index/hello-career/2.png"
+						:alt="$t('student.title')"
+						height="508"
+						width="608"
+					/>
 				</div>
 				<div class="right-part">
 					<h2 class="title">{{ $t("student.title") }}</h2>

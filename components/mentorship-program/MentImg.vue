@@ -1,5 +1,7 @@
 <template>
-	<div id="sec-single-img" :style="{ backgroundImage: `url(${require('@/static/pages/mentorship-program/' + img)})` }"></div>
+	<div id="sec-single-img">
+		<nuxt-img format="jpg" class="image" draggable="false" :src="img.image" :alt="$t('story.title')" height="260" width="287" />
+	</div>
 </template>
 
 <script>

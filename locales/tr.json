@@ -12,7 +12,7 @@
 		},
 		"career": {
 			"title": "Kariyerine MerhabaDE!",
-			"content": ["Mentorluk Programı", "Öğrenci Gelişim Programı", "StartUP", "WeTalk", "AdviceUP", "TalentUP", "İletişim"]
+			"content": ["Mentorluk Programı", "Öğrenci Gelişim Programı", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
 		}
 	},
 	"index": {
@@ -430,7 +430,7 @@
 				"text": "Let’s FutureUP projesindeki mentorlar, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren, deneyimlerini paylaşan, öğretirken öğrenen ve rehberlik eden kişilerdir. Let’s FutureUP ekibi tarafından alanında uzman kişiler detaylı bir şekilde araştırılır ve ilgili kişilerin mentorluk başvurusu alınır. Seçilen her mentorun sorumluluğuna bir mentee verilir ve proje süresince menteesi ile görüşme yapması beklenir. Bu görüşmelerde mentorlar menteelerini en iyi şekilde kariyer yolculuklarına hazırlar."
 			}
 		],
-		"collapsible": {
+		"years": {
 			"2020-2021": {
 				"title": "2020-2021 Dönemi Mentor-Mentee",
 				"mentors": {

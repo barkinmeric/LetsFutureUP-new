@@ -1,11 +1,11 @@
 <template>
-	<section class="mentorship-program" v-if="false">
+	<section class="mentorship-program">
 		<social-head :title="$t('mentorship.title')" :description="$t('index.desc')" />
 		<div class="container">
 			<mentor-section />
-			<ment-grid :mentGrid="mentorGridData" />
+			<ment-grid :mentGrid="$t('mentorship.years.2021-2022.mentors')" />
 			<mentee-section />
-			<ment-grid :mentGrid="menteeGridData" />
+			<ment-grid :mentGrid="$t('mentorship.years.2021-2022.mentees')" />
 		</div>
 	</section>
 </template>
@@ -22,12 +22,9 @@ export default {
 					content: this.$i18n.t("mentorship.desc"),
 				},
 			],
-		}
+		};
 	},
-	beforeCreate() {
-		this.$router.push('/' + this.$i18n.locale)
 
-	},
 	data() {
 		return {
 			mentorGridData: {

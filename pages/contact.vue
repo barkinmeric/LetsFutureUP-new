@@ -1,26 +1,24 @@
 <template>
-	<div class="container" v-if="false">
-		<h2 id="title">{{ $t("contact.title") }}</h2>
-		<form id="contact-form" action="#" method="post">
-			<h3>{{ $t("contact.name") }}</h3>
-			<input type="text" name="name" class="form-input" />
-			<h3>{{ $t("contact.surname") }}</h3>
-			<input type="text" name="name" class="form-input" />
-			<h3>{{ $t("contact.mail") }}</h3>
-			<input type="email" name="email" class="form-input" />
-			<h3>{{ $t("contact.message") }}</h3>
-			<textarea name="message" id="form-input-field"></textarea>
-		</form>
-	</div>
+	<section class="contact">
+		<social-head :title="$t('contact.title')" :description="$t('index.desc')" />
+
+		<div class="container">
+			<h2 id="title">{{ $t("contact.title") }}</h2>
+			<form id="contact-form" action="#" method="post">
+				<h3>{{ $t("contact.name") }}</h3>
+				<input type="text" name="name" class="form-input" />
+				<h3>{{ $t("contact.surname") }}</h3>
+				<input type="text" name="name" class="form-input" />
+				<h3>{{ $t("contact.mail") }}</h3>
+				<input type="email" name="email" class="form-input" />
+				<h3>{{ $t("contact.message") }}</h3>
+				<textarea name="message" id="form-input-field"></textarea>
+			</form>
+		</div>
+	</section>
 </template>
 
-<script>
-export default {
-		beforeCreate() {
-		this.$router.push('/' + this.$i18n.locale)
-	},
-};
-</script>
+<script></script>
 
 <style lang="scss" scoped>
 #title {
