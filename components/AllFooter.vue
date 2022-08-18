@@ -15,7 +15,7 @@
 						</li>
 					</ul>
 				</div>
-				<div id="what_v_do">
+				<!-- <div id="what_v_do">
 					<p>{{ $t("nav.do.title") }}</p>
 					<ul>
 						<li v-for="(item, index) in $t('nav.do.content')" :key="item">
@@ -24,7 +24,7 @@
 							</NuxtLink>
 						</li>
 					</ul>
-				</div>
+				</div> -->
 				<div id="hello_carr">
 					<p>{{ $t("nav.career.title") }}</p>
 					<ul>
@@ -38,7 +38,7 @@
 			</div>
 			<div id="contact">
 				<span>&copy; Let’s FutureUP 2022. Tüm Hakları Saklıdır.</span>
-				<a href="mailto:humanresources@letsfutureup.com">humanresources@letsfutureup.com</a>
+				<a href="mailto:humanresources@letsfutureup.com" id="email-cont">humanresources@letsfutureup.com</a>
 				<span id="social_media">
 					<a href=""><img src="/pages/index/linkedin.svg" alt="" /></a>
 					<a href=""><img src="/pages/index/facebook.svg" alt="" /></a>
@@ -72,6 +72,7 @@ export default {
 .footer {
 	background: $thirdColor;
 	.footer-inner {
+	margin-left: 20px;
 		list-style-type: none;
 		color: white;
 		#footer_menu {
@@ -137,6 +138,13 @@ export default {
 					color: white;
 				}
 			}
+			#email-cont {
+				margin-right: 200px;
+				@media (max-width: 1200px) {
+					margin: auto
+				}
+			}
+			
 		}
 	}
 }

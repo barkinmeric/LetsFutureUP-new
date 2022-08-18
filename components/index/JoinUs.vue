@@ -29,10 +29,11 @@ export default {
 	padding: 24px;
 	.join-body {
 		display: flex;
-		flex-wrap: wrap;
+		flex-flow: row wrap;
 		justify-content: space-between;
 		align-items: center;
 		.left-part {
+			margin: 15px;
 			.title {
 				margin: 0 0 8px 0;
 				font-weight: 900;
@@ -50,6 +51,7 @@ export default {
 			}
 		}
 		.right-part {
+			margin: 15px;
 			.button {
 				padding: 14px 24px;
 				background: #ffffff;

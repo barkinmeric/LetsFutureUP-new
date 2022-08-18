@@ -24,7 +24,7 @@ export default {
 	img {
 		user-select: none;
 		padding: 30px 133px;
-		filter: grayscale(100%);
+		// filter: grayscale(100%);
 	}
 }
 </style>
