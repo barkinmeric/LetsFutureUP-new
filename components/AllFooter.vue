@@ -37,8 +37,8 @@
 				</div>
 			</div>
 			<div id="contact">
-				<span>&copy; Let’s FutureUP 2022. Tüm Hakları Saklıdır.</span>
-				<a href="mailto:humanresources@letsfutureup.com" id="email-cont">humanresources@letsfutureup.com</a>
+				<a href="mailto:humanresources@letsfutureup.com">humanresources@letsfutureup.com</a>
+				<span id="copyright-cont">&copy; Let’s FutureUP 2022. Tüm Hakları Saklıdır.</span>
 				<span id="social_media">
 					<a href=""><img src="/pages/index/linkedin.svg" alt="" /></a>
 					<a href=""><img src="/pages/index/facebook.svg" alt="" /></a>
@@ -47,7 +47,7 @@
 			</div>
 		</div>
 	</section>
-</template>	
+</template>
 
 <script>
 export default {
@@ -72,7 +72,7 @@ export default {
 .footer {
 	background: $thirdColor;
 	.footer-inner {
-	margin-left: 20px;
+		margin-left: 20px;
 		list-style-type: none;
 		color: white;
 		#footer_menu {
@@ -138,13 +138,12 @@ export default {
 					color: white;
 				}
 			}
-			#email-cont {
+			#copyright-cont {
 				margin-right: 200px;
 				@media (max-width: 1200px) {
-					margin: auto
+					margin: auto;
 				}
 			}
-			
 		}
 	}
 }
