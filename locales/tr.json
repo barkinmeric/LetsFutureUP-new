@@ -18,22 +18,12 @@
 	"index": {
 		"title": "Anasayfa",
 		"desc": "Let’s FutureUP Projesi; gelecekteki kariyerlerine şimdiden merhaba demek isteyen üniversite öğrencilerine, mentorluk programı ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.",
-		"slider": {
-			"video": "/pages/index/slider/tr.mp4",
-			"mobile": {
-				"1": "/pages/index/slider/mobile/tr/1.webp",
-				"2": "/pages/index/slider/mobile/tr/2.png",
-				"3": "/pages/index/slider/mobile/tr/3.png",
-				"4": "/pages/index/slider/mobile/tr/4.webp"
-			},
-			"desktop": {
-				"1": "/pages/index/slider/desktop/tr/1.webp",
-				"2": "/pages/index/slider/desktop/tr/2.webp",
-				"3": "/pages/index/slider/desktop/tr/3.webp",
-				"4": "/pages/index/slider/desktop/tr/4.webp"
-			}
+		"introduction": {
+			"title": "Geleğini bugün planla, Kariyer yolculuğuna hemen başla!",
+			"text": "Let’s FutureUP, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.",
+			"video": "https://www.youtube.com/embed/ELGCClDwNws",
+			"video-btn": "Videoyu İzle"
 		},
-		"motto": "Let’s Future<span class='green'>UP</span>, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere,<br /> <b>mentorluk</b> ve <b>eğitim programları</b> ile yol gösteren <b>uluslararası</b> bir <b>sosyal sorumluluk</b> projesidir.",
 		"hello-career": {
 			"title": "Let’s FutureUP ile Kariyerine MerhabaDe!",
 			"desc": "Let’s FutureUP içerisinde mentorluktan eğitimlere, sektörlerinde bir çok<br>öncü isimle görüşebilme ve tanışma fırsatı yakalayabilirsin.",
@@ -137,17 +127,6 @@
 					"text": "Benim için birilerine katkı sağlamak ve iyi yerlere geldiklerini görüp mutlu olmak; bir nevi “insan yetiştirmek” mesleğimin  sosyal sorumluluğuydu. Proje, öğrencilere katacağı tecrübelerle onların kariyerlerini ve hatta hayatlarını değiştirebilir. Çünkü şahsi kanaatimce, bu hayatta kazanılması en pahalı olan şey, tecrübedir.",
 					"button": "Daha Fazla"
 				}
-			]
-		},
-		"e-journal": {
-			"title": "E-Bülten",
-			"text": "ETKİNLİKLERDEN HABERDAR OLMAK İÇİN<br />E-BÜLTEN'E MAİL İLE KAYIT OL!",
-			"button": "E-BÜLTEN'E KAYIT OL!",
-			"content": [
-				{ "text": "ARALIK 2020", "image": "/pages/index/e-journal/tr/12-2020.png", "file": "/files/e-journal/tr/12-2020.pdf" },
-				{ "text": "OCAK 2021", "image": "/pages/index/e-journal/tr/01-2021.png", "file": "/files/e-journal/tr/01-2021.pdf" },
-				{ "text": "MART 2021", "image": "/pages/index/e-journal/tr/03-2021.png", "file": "/files/e-journal/tr/03-2021.pdf" },
-				{ "text": "NİSAN 2021", "image": "/pages/index/e-journal/tr/04-2021.png", "file": "/files/e-journal/tr/04-2021.pdf" }
 			]
 		},
 		"board": {

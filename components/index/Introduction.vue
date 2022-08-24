@@ -2,21 +2,18 @@
 	<section id="intr-wrp">
 		<div id="intr_sec" class="container">
 			<div id="text_side">
-				<p id="call_to_action">Geleğini bugün planla, Kariyer yolculuğuna hemen başla!</p>
-				<p id="description">
-					Let’s FutureUP, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol
-					gösteren uluslararası bir sosyal sorumluluk projesidir.
-				</p>
+				<p id="call_to_action">{{ $t("index.introduction.title") }}</p>
+				<p id="description">{{ $t("index.introduction.text") }}</p>
 				<div id="btns_wrapper">
-					<a id="join_btn" :href="$t('index.join-us.link')">Bize Katıl</a>
+					<a id="join_btn" :href="$t('index.join-us.link')">{{ $t("index.join-us.button") }}</a>
 					<button id="vid_popup_btn" @click="showVideo = true">
 						<label> </label>
 						<img />
-						<span>Videoyu İzle</span>
+						<span>{{ $t("index.introduction.video-btn") }}</span>
 					</button>
 				</div>
 				<div id="partners">
-					<p>İşbirlikçilerimiz</p>
+					<p>{{ $t("index.partner.title") }}</p>
 					<a href="#partner"><img /></a>
 				</div>
 			</div>
@@ -141,7 +138,7 @@ $mobile_bp: 600px;
 						background: white;
 					}
 					img {
-						content: url("/pages/index/play_btn.svg");
+						content: url("/pages/index/introduction/play_btn.svg");
 					}
 					span {
 						margin-left: 7px;
@@ -173,7 +170,7 @@ $mobile_bp: 600px;
 					}
 				}
 				img {
-					content: url("/pages/index/intr_partners.svg");
+					content: url("/pages/index/introduction/intr_partners.svg");
 					margin-top: 20px;
 					@media (max-width: $mobile_bp) {
 						width: 75%;
@@ -185,7 +182,7 @@ $mobile_bp: 600px;
 		#img_side {
 			width: 50%;
 			img {
-				content: url("/pages/index/intr_stock.png");
+				content: url("/pages/index/introduction/intr_stock.png");
 				$intr_stock_width: 90%;
 				width: $intr_stock_width;
 				height: $intr_stock_width * 1, 0894;

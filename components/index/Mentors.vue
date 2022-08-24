@@ -22,32 +22,6 @@ export default {
 	components: { VueSlickCarousel },
 	data() {
 		return {
-			mentors: [
-				{
-					img: "@/assets/img/profile.png",
-					name: "Ali Yaşar Topçu",
-					position: "Farba Otomotiv",
-					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
-				},
-				{
-					img: "@/assets/img/profile.png",
-					name: "Ali Yaşar Topçu",
-					position: "Farba Otomotiv",
-					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
-				},
-				{
-					img: "@/assets/img/profile.png",
-					name: "Ali Yaşar Topçu",
-					position: "Farba Otomotiv",
-					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
-				},
-				{
-					img: "@/assets/img/profile.png",
-					name: "Ali Yaşar Topçu",
-					position: "Farba Otomotiv",
-					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
-				},
-			],
 			settings: {
 				arrows: false,
 				dots: true,
@@ -98,10 +72,9 @@ $mobile_bp: 600px;
 #mentors-wrp {
 	background: #ecf4fc;
 	#mentors_sec {
-	box-sizing: border-box;
-	margin-bottom: 100px;
+		box-sizing: border-box;
+		margin-bottom: 100px;
 		#title_ctn {
-			
 			padding: 40px 0vw 20px 0vw;
 			@media (max-width: $mobile_bp) {
 				padding-top: 40px;

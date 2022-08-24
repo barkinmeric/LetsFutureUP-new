@@ -18,22 +18,12 @@
 	"index": {
 		"title": "Home Page",
 		"desc": "Let's FutureUP Project is an international social responsibility project that guides university students who want to greet their future careers with mentoring and training programs. Let's FutureUP is a student development program that stands as a bridge between the business world and university students.",
-		"slider": {
-			"video": "/pages/index/slider/en.mp4",
-			"mobile": {
-				"1": "/pages/index/slider/mobile/en/1.webp",
-				"2": "/pages/index/slider/mobile/en/2.png",
-				"3": "/pages/index/slider/mobile/en/3.png",
-				"4": "/pages/index/slider/mobile/en/4.webp"
-			},
-			"desktop": {
-				"1": "/pages/index/slider/desktop/en/1.webp",
-				"2": "/pages/index/slider/desktop/en/2.webp",
-				"3": "/pages/index/slider/desktop/en/3.webp",
-				"4": "/pages/index/slider/desktop/en/4.webp"
-			}
+		"introduction": {
+			"title": "Geleğini bugün planla, Kariyer yolculuğuna hemen başla!",
+			"text": "Let’s FutureUP, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.",
+			"video": "https://www.youtube.com/embed/ELGCClDwNws",
+			"video-btn": "Videoyu İzle"
 		},
-		"motto": "Let's Future<span class='green'>UP</span> project is a global mentorship project that guides student who wants to say “HelloCareer!” to their careers in the future by mentorship and different trainings based on volunteering.",
 		"hello-career": {
 			"title": "Let’s FutureUP ile Kariyerine Merhaba De!",
 			"desc": "Let’s FutureUP içerisinde mentorluktan eğitimlere, sektörlerinde bir çok<br>öncü isimle görüşebilme ve tanışma fırsatı yakalayabilirsin.",
@@ -139,17 +129,7 @@
 				}
 			]
 		},
-		"e-journal": {
-			"title": "E-Journal",
-			"text": "IF YOU'D LIKE TO BE INFORMED ABOUT THE EVENTS,<br />PLEASE REGISTER TO THE E-JOURNAL WITH YOUR E-MAIL ADRESS!",
-			"button": "REGISTER TO THE E-JOURNAL",
-			"content": [
-				{ "text": "DECEMBER 2020", "image": "/pages/index/e-journal/en/12-2020.png", "file": "/files/e-journal/en/12-2020.pdf" },
-				{ "text": "JANUARY 2021", "image": "/pages/index/e-journal/en/01-2021.png", "file": "/files/e-journal/en/01-2021.pdf" },
-				{ "text": "MARCH 2021", "image": "/pages/index/e-journal/en/03-2021.png", "file": "/files/e-journal/en/03-2021.pdf" },
-				{ "text": "APRIL 2021", "image": "/pages/index/e-journal/en/04-2021.png", "file": "/files/e-journal/en/04-2021.pdf" }
-			]
-		},
+
 		"board": {
 			"title": "Board",
 			"content": [

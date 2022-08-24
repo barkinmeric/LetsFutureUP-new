@@ -3,7 +3,7 @@
 		<div class="footer-inner container">
 			<div id="footer_menu">
 				<div id="logo_wrapper">
-					<img src="/pages/index/lfu.png" />
+					<img src="/pages/footer/lfu.png" />
 				</div>
 				<div id="who_r_we">
 					<p>{{ $t("nav.us.title") }}</p>
@@ -40,9 +40,9 @@
 				<a href="mailto:humanresources@letsfutureup.com">humanresources@letsfutureup.com</a>
 				<span id="copyright-cont">&copy; Let’s FutureUP 2022. Tüm Hakları Saklıdır.</span>
 				<span id="social_media">
-					<a href=""><img src="/pages/index/linkedin.svg" alt="" /></a>
-					<a href=""><img src="/pages/index/facebook.svg" alt="" /></a>
-					<a href=""><img src="/pages/index/instagram.svg" alt="" /></a>
+					<a href=""><img src="/pages/footer/linkedin.svg" alt="" /></a>
+					<a href=""><img src="/pages/footer/facebook.svg" alt="" /></a>
+					<a href=""><img src="/pages/footer/instagram.svg" alt="" /></a>
 				</span>
 			</div>
 		</div>

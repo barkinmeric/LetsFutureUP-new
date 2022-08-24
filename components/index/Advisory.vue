@@ -17,38 +17,6 @@ export default {
 	components: { VueSlickCarousel },
 	data() {
 		return {
-			advisors: [
-				{
-					img: "/pages/index/advisorProfile.png",
-					name: "Ali Yaşar Topçu",
-					position: "Farba Otomotiv",
-					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
-				},
-				{
-					img: "/pages/index/advisorProfile.png",
-					name: "Ali Yaşar Topçu",
-					position: "Farba Otomotiv",
-					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
-				},
-				{
-					img: "/pages/index/advisorProfile.png",
-					name: "Ali Yaşar Topçu",
-					position: "Farba Otomotiv",
-					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
-				},
-				{
-					img: "/pages/index/advisorProfile.png",
-					name: "Ali Yaşar Topçu",
-					position: "Farba Otomotiv",
-					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
-				},
-				{
-					img: "/pages/index/advisorProfile.png",
-					name: "Ali Yaşar Topçu",
-					position: "Farba Otomotiv",
-					quote: "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar.",
-				},
-			],
 			settings: {
 				arrows: false,
 				dots: true,
@@ -109,20 +77,20 @@ export default {
 <style lang="scss" scoped>
 $tablet_bp: 1200px;
 $mobile_bp: 600px;
-	#adv-wrp {
-		background: #ecf4fc;
-		#advisory_sec {
-			text-align: center;
-			padding-bottom: 90px;
-			p {
-				font-style: normal;
-				font-weight: 900;
-				font-size: 2rem;
-				line-height: 40px;
-				letter-spacing: 0.6px;
-				color: #121f3d;
-				padding: 55px 0 82px 0;
-			}
+#adv-wrp {
+	background: #ecf4fc;
+	#advisory_sec {
+		text-align: center;
+		padding-bottom: 90px;
+		p {
+			font-style: normal;
+			font-weight: 900;
+			font-size: 2rem;
+			line-height: 40px;
+			letter-spacing: 0.6px;
+			color: #121f3d;
+			padding: 55px 0 82px 0;
 		}
 	}
+}
 </style>
