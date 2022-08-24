@@ -13,7 +13,7 @@
 				</div>
 
 				<div>
-					<h3 class="list-title">{{ $t("about.list.title") }}</h3>
+					<h3 class="item-title">{{ $t("about.list.title") }}</h3>
 					<ul v-for="item in $t('about.list.text')" :key="item">
 						<li class="list-text">
 							<br />
@@ -52,11 +52,15 @@ export default {
 		.head-text {
 			margin: auto;
 			max-width: 850px;
-			font-size: 1.5rem;
+			font-size: 32px;
 			font-weight: 900;
 			letter-spacing: 0.3px;
 			line-height: 34px;
 			color: $titleColor;
+			padding-bottom: 15px;
+			@media (max-width: $mobile_bp) {
+				font-size: 28px;
+			}
 		}
 		.button {
 			display: inline-block;
@@ -81,10 +85,14 @@ export default {
 			color: #000;
 			margin-bottom: 10px;
 			text-transform: uppercase;
-			font-size: 1rem;
+			font-size: 24px;
 			font-weight: 900;
 			letter-spacing: 0.3px;
 			line-height: 20px;
+			padding-bottom: 10px;
+			@media (max-width: $mobile_bp) {
+				font-size: 18px;
+			}
 		}
 		.item-text {
 			max-width: 824px;
@@ -95,15 +103,6 @@ export default {
 			font-weight: 400;
 			letter-spacing: 0.3px;
 			line-height: 24px;
-		}
-		.list-title {
-			color: #000;
-			margin-bottom: -10px;
-			text-transform: uppercase;
-			font-size: 1rem;
-			font-weight: 900;
-			letter-spacing: 0.3px;
-			line-height: 20px;
 		}
 		.list-text {
 			max-width: 621px;

@@ -39,7 +39,7 @@ export default {
 		padding-top: 25px;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 1.125rem;
+		font-size: 18px;
 		line-height: 23px;
 
 		text-align: center;

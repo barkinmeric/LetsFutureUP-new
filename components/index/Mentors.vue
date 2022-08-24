@@ -2,7 +2,7 @@
 	<section id="mentors-wrp">
 		<div id="mentors_sec" class="container">
 			<div id="title_ctn">
-				<p>{{ $t("index.opinion.title") }}</p>
+				<h2>{{ $t("index.opinion.title") }}</h2>
 				<div></div>
 			</div>
 			<div id="mentors_ctn">
@@ -76,14 +76,10 @@ $mobile_bp: 600px;
 		margin-bottom: 100px;
 		#title_ctn {
 			padding: 40px 0vw 20px 0vw;
-			@media (max-width: $mobile_bp) {
-				padding-top: 40px;
-				font-size: 50%;
-			}
-			p {
+			h2 {
 				font-style: normal;
 				font-weight: 900;
-				font-size: 2rem;
+				font-size: 28px;
 				line-height: 44px;
 				letter-spacing: 0.6px;
 				width: 650px;

@@ -67,33 +67,36 @@ $mobile_bp: 600px;
 				font-family: Mulish;
 				font-style: normal;
 				font-weight: 900;
-				font-size: 3rem;
+				font-size: 52px;
 				line-height: 64px;
 				letter-spacing: 1px;
 				padding-top: 160px;
 				color: #121f3d;
 				@media (max-width: $mobile_bp) {
-					font-size: 2.5rem;
-					padding-top: 80px;
+					font-size: 38px;
+					padding-top: 40px;
+					line-height: 48px;
 				}
 			}
 			#description {
 				font-family: Mulish;
 				font-style: normal;
 				font-weight: normal;
-				font-size: 1rem;
+				font-size: 18px;
 				line-height: 36px;
 				margin-top: 25px;
-
 				letter-spacing: 0.3px;
-
 				color: #121f3d;
+				@media (max-width: $mobile_bp) {
+					font-size: 14px;
+					line-height: 36px;
+				}
 			}
 			#btns_wrapper {
 				display: flex;
 				flex-direction: row;
 				margin-top: 48px;
-
+				font-size: 16px;
 				#join_btn {
 					display: flex;
 					flex-direction: row;
@@ -101,7 +104,7 @@ $mobile_bp: 600px;
 					align-items: center;
 					padding: 18px 32px;
 					width: 187px;
-					height: 60px;
+					min-height: 60px;
 					background: #2719cc;
 					color: white;
 					border-radius: 16px;
@@ -121,7 +124,7 @@ $mobile_bp: 600px;
 					padding: 18px 30px;
 					background: #ecf4fc;
 					width: 187px;
-					height: 60px;
+					min-height: 60px;
 					cursor: pointer;
 
 					/* Monochrome/1000 */

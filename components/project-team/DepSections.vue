@@ -44,9 +44,25 @@ export default {
 		text-align: center;
 		letter-spacing: 0.3px;
 		width: 50%;
-		padding: 20px;
+		padding: 10px;
 		@media (max-width: 1400px) {
 			width: 100%;
+			order: 1 !important;
+			margin: 40px;
+		}
+		@media (max-width: $mobile_bp) {
+			order: 1 !important;
+			margin: 40px;
+		}
+		h2 {
+			margin: 0px auto 20px auto;
+			width: 90%;
+			font-size: 28px;
+		}
+		article {
+			width: 90%;
+			margin: auto;
+			font-size: 16px;
 		}
 	}
 	#depImg {
@@ -63,9 +79,11 @@ export default {
 		}
 		@media (max-width: 1400px) {
 			min-width: 650px;
+			order: 2 !important;
 		}
 		@media (max-width: $mobile_bp) {
 			min-width: 550px;
+			order: 2 !important;
 		}
 	}
 }

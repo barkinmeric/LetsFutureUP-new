@@ -62,7 +62,7 @@ export default {
 		.right-part {
 			margin-top: 87px;
 			.title {
-				font-size: 1.5rem;
+				font-size: 24px;
 				font-weight: 900;
 				letter-spacing: 1px;
 				line-height: 30px;
@@ -72,7 +72,7 @@ export default {
 			.text {
 				max-width: 608px;
 				margin-top: 40px;
-				font-size: 1rem;
+				font-size: 16px;
 				font-weight: 400;
 				letter-spacing: 0.1px;
 				line-height: 34px;
@@ -87,7 +87,7 @@ export default {
 			margin-bottom: 100px;
 			.title {
 				margin-bottom: 40px;
-				font-size: 1.5rem;
+				font-size: 24px;
 				font-weight: 900;
 				letter-spacing: 1px;
 				line-height: 30px;
@@ -95,7 +95,7 @@ export default {
 			.text {
 				max-width: 824px;
 				margin: 0 auto 30px auto;
-				font-size: 1rem;
+				font-size: 16px;
 				font-weight: 400;
 				letter-spacing: 0.1px;
 				line-height: 34px;

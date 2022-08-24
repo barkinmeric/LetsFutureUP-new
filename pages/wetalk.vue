@@ -56,7 +56,7 @@ export default {
 		.right-part {
 			.title {
 				margin-top: 112px;
-				font-size: 1.5rem;
+				font-size: 24px;
 				font-weight: 900;
 				letter-spacing: 1px;
 				line-height: 30px;
@@ -66,7 +66,7 @@ export default {
 			.text {
 				max-width: 608px;
 				margin-top: 40px;
-				font-size: 1rem;
+				font-size: 16px;
 				font-weight: 400;
 				letter-spacing: 0.1px;
 				line-height: 34px;

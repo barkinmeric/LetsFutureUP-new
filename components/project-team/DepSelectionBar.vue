@@ -1,6 +1,6 @@
 <template>
-	<nav id="barNav">
-		<VueSlickCarousel id="navCarousel" v-bind="settings">
+	<nav id="bar-nav">
+		<VueSlickCarousel id="nav-carousel" v-bind="settings">
 			<button @click="ScrollToSec('humanRsr')" class="btn">{{ $t("team.teams")[0].title }}</button>
 			<button @click="ScrollToSec('corCom')" class="btn">{{ $t("team.teams")[1].title }}</button>
 			<button @click="ScrollToSec('socMed')" class="btn">{{ $t("team.teams")[2].title }}</button>
@@ -58,7 +58,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#barNav {
+#bar-nav {
 	display: static;
 	height: 80px;
 	background: $depNav_background;

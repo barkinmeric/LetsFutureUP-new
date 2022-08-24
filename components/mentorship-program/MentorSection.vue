@@ -23,9 +23,9 @@ export default {};
 	#img-side {
 		width: 50%;
 		div {
-			width: 608px;
+			width: 100%;
 			height: 513px;
-			background: url("@/static/pages/mentorship-program/menteeStock.png");
+			background: url("@/static/pages/mentorship-program/menteeStock.png") no-repeat;
 			border-radius: 8px;
 		}
 		@media (max-width: $tablet_bp) {
@@ -35,7 +35,6 @@ export default {};
 	#text-side {
 		width: 50%;
 		text-align: center;
-		padding: 100px 0 0 0;
 		.join-btn {
 			display: flex;
 			flex-direction: row;
@@ -46,13 +45,19 @@ export default {};
 			height: 56px;
 			background: #2719cc;
 			border-radius: 16px;
-			margin: auto;
-			margin-top: 24px;
+			margin: 50px auto 0px auto;
 			color: white;
 			font-style: normal;
 			font-weight: 700;
 			font-size: 16px;
 			line-height: 20px;
+			box-sizing: border-box;
+			// @media (max-width: 1200px) {
+			// 	margin: 70px auto 0px auto;
+			// }
+			// @media (max-width: $mobile_bp) {
+			// 	margin: 120px auto 0px auto;
+			// }
 		}
 		h3 {
 			max-width: 608px;
@@ -62,14 +67,14 @@ export default {};
 			font-size: 24px;
 			line-height: 30px;
 			color: #000000;
+			margin: auto;
 			@media (max-width: $tablet_bp) {
 				margin: auto;
 			}
 		}
 		article {
-			margin-top: 24px;
+			margin: 24px auto 0px auto;
 			max-width: 608px;
-			height: 238px;
 			font-style: normal;
 			font-weight: 400;
 			font-size: 16px;

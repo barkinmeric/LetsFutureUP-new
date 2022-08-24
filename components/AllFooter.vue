@@ -72,7 +72,7 @@ export default {
 .footer {
 	background: $thirdColor;
 	.footer-inner {
-		margin-left: 20px;
+		margin: auto;
 		list-style-type: none;
 		color: white;
 		#footer_menu {
@@ -123,17 +123,14 @@ export default {
 			justify-content: space-between;
 			align-items: center;
 			padding: 20px 0;
-			@media (max-width: 800px) {
+			@media (max-width: 1200px) {
 				flex-direction: column !important;
+				gap: 15px;
 			}
 			a {
 				text-decoration: none;
 				color: white;
 				margin-left: 15px;
-				@media (max-width: 800px) {
-					margin-top: 15px;
-					margin-bottom: 15px;
-				}
 				&visited {
 					color: white;
 				}

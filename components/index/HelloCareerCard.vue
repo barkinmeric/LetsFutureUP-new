@@ -72,7 +72,7 @@ export default {
 			justify-content: center;
 			h5 {
 				display: inline-block;
-				font-size: 1.125rem;
+				font-size: 18px;
 				font-weight: 900;
 				letter-spacing: 0.3px;
 				line-height: 28px;
@@ -80,7 +80,7 @@ export default {
 				padding: 16px 0px 8px 0px;
 			}
 			p {
-				font-size: 0.875rem;
+				font-size: 14px;
 				font-weight: 400;
 				letter-spacing: 0.3px;
 				line-height: 24px;

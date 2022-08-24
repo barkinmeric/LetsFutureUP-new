@@ -43,14 +43,19 @@ export default {
 		border-radius: 8px;
 		box-shadow: 0 0 20px gray;
 		box-sizing: border-box;
+		padding: 10px;
 		width: 800px;
 		height: 600px;
+		@media (max-width: $tablet_bp) {
+			width: 600px;
+			height: 450px;
+		}
 		#top-bar {
 			align-self: flex-start;
 			display: flex;
 			flex-flow: row nowrap;
 			width: 100%;
-			padding: 10px 25px 10px 0;
+			padding: 5px 0px 5px 0;
 			#close-btn {
 				cursor: pointer;
 				margin-left: auto;

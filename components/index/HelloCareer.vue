@@ -1,7 +1,7 @@
 <template>
 	<div class="hello-career">
 		<div class="container">
-			<h1 class="hello-career-title">{{ $t("index.hello-career.title") }}</h1>
+			<h2 class="hello-career-title">{{ $t("index.hello-career.title") }}</h2>
 			<p v-html="$t('index.hello-career.desc')" class="hello-career-text"></p>
 			<div class="hello-career-body">
 				<hello-career-card v-for="(item, index) in $t('index.hello-career.content')" :key="item.title" :item="item" :index="index" />
@@ -25,7 +25,7 @@ export default {
 		text-align: center;
 		padding: 0px 0px 40px 0px;
 		margin: 0;
-		font-size: 2rem;
+		font-size: 28px;
 		font-weight: 900;
 		letter-spacing: 1px;
 		line-height: 44px;

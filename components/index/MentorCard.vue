@@ -41,9 +41,10 @@ export default {
 <style lang="scss" scoped>
 .mentor-card {
 	text-align: center;
+	padding-bottom: 20px;
 	.mentor_card_sizing {
-		min-height: 450px;
-		max-height: 450px;
+		min-height: 420px;
+		max-height: 420px;
 	}
 	.mentor-card-inner {
 		display: flex;
@@ -63,7 +64,7 @@ export default {
 				padding-top: 25px;
 				font-style: normal;
 				font-weight: normal;
-				font-size: 1.125rem;
+				font-size: 18px;
 				line-height: 23px;
 
 				text-align: center;

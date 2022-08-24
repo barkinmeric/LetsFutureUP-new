@@ -35,7 +35,6 @@ export default {};
 	#text-side {
 		width: 50%;
 		text-align: center;
-		padding: 100px 0 0 0;
 		h3 {
 			max-width: 608px;
 			height: 30px;
@@ -44,14 +43,14 @@ export default {};
 			font-size: 24px;
 			line-height: 30px;
 			color: #000000;
+			margin: auto;
 			@media (max-width: $tablet_bp) {
 				margin: auto;
 			}
 		}
 		article {
-			margin-top: 24px;
+			margin: 24px auto 0px auto;
 			max-width: 608px;
-			height: 238px;
 			font-style: normal;
 			font-weight: 400;
 			font-size: 16px;
@@ -59,9 +58,7 @@ export default {};
 			text-align: center;
 			letter-spacing: 0.1px;
 			color: #000000;
-			@media (max-width: $tablet_bp) {
-				margin: auto;
-			}
+			box-sizing: border-box;
 		}
 		.join-btn {
 			display: flex;
@@ -73,7 +70,7 @@ export default {};
 			height: 56px;
 			background: #2719cc;
 			border-radius: 16px;
-			margin: auto;
+			margin: 1200px auto 0px auto;
 			margin-top: 24px;
 			color: white;
 			font-style: normal;

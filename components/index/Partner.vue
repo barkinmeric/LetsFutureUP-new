@@ -33,7 +33,7 @@ export default {
 			text-align: center;
 			color: $titleColor;
 			padding: 40px 10px 20px 10px;
-			font-size: 2rem;
+			font-size: 28px;
 			font-weight: 900;
 			letter-spacing: 0.6px;
 			line-height: 40px;

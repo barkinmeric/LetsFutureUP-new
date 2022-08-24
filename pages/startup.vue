@@ -62,7 +62,7 @@ export default {
 		.left-part {
 			.title {
 				margin-top: 71px;
-				font-size: 1.5rem;
+				font-size: 24px;
 				font-weight: 900;
 				letter-spacing: 1px;
 				line-height: 30px;
@@ -71,7 +71,7 @@ export default {
 			}
 			.text {
 				margin-top: 40px;
-				font-size: 1rem;
+				font-size: 16px;
 				font-weight: 400;
 				letter-spacing: 0.1px;
 				line-height: 34px;
@@ -86,7 +86,7 @@ export default {
 			color: #000;
 			margin-bottom: 40px;
 			text-transform: uppercase;
-			font-size: 1.5rem;
+			font-size: 24px;
 			font-weight: 900;
 			letter-spacing: 0.3px;
 			line-height: 30px;
@@ -96,7 +96,7 @@ export default {
 			margin: 0 auto;
 			color: #292929;
 			margin-bottom: 100px;
-			font-size: 1rem;
+			font-size: 16px;
 			font-weight: 400;
 			letter-spacing: 0.1px;
 			line-height: 34px;
@@ -117,9 +117,7 @@ export default {
 				}
 			}
 			.right-part {
-				.title {
-					margin-top: 32px;
-				}
+				display: none;
 			}
 		}
 	}

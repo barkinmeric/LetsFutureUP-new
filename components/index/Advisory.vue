@@ -1,7 +1,7 @@
 <template>
 	<section id="adv-wrp">
 		<section id="advisory_sec" class="container">
-			<p>{{ $t("index.board.title") }}</p>
+			<h2>{{ $t("index.board.title") }}</h2>
 			<VueSlickCarousel :dots="true" v-bind="settings">
 				<advisor class="advisor_profile" v-for="(advisor, i) in $t('index.board.content')" :key="i" v-bind:advisor="advisor" />
 			</VueSlickCarousel>
@@ -82,14 +82,14 @@ $mobile_bp: 600px;
 	#advisory_sec {
 		text-align: center;
 		padding-bottom: 90px;
-		p {
+		h2 {
 			font-style: normal;
 			font-weight: 900;
-			font-size: 2rem;
+			font-size: 28px;
 			line-height: 40px;
 			letter-spacing: 0.6px;
 			color: #121f3d;
-			padding: 55px 0 82px 0;
+			padding: 55px 0 52px 0;
 		}
 	}
 }
