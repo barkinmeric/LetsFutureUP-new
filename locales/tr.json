@@ -1,6 +1,7 @@
 {
 	"url": "| Kariyerine MerhabaDE | letsfutureup.com",
 	"nav": {
+		"copyright": "Let’s FutureUP 2022. Tüm Hakları Saklıdır.",
 		"us": {
 			"title": "Biz Kimiz?",
 			"content": ["Hikayemiz", "Hakkımızda", "Proje Ekibi", "SSS"]
@@ -19,7 +20,7 @@
 		"title": "Anasayfa",
 		"desc": "Let’s FutureUP Projesi; gelecekteki kariyerlerine şimdiden merhaba demek isteyen üniversite öğrencilerine, mentorluk programı ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.",
 		"introduction": {
-			"title": "Geleğini bugün planla, Kariyer yolculuğuna hemen başla!",
+			"title": "Geleceğini bugün planla, Kariyer yolculuğuna hemen başla!",
 			"text": "Let’s FutureUP, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.",
 			"video": "https://www.youtube.com/embed/ELGCClDwNws",
 			"video-btn": "Videoyu İzle"
@@ -61,7 +62,7 @@
 			]
 		},
 		"opinion": {
-			"title": "Kariyerinin Zirvesindeki İsimlerden Let's Future<span class='green'>UP</span>'ı Tanıyalım!",
+			"title": "Kariyerinin Zirvesindeki İsimlerden Let's FutureUP'ı Tanıyalım!",
 			"content": [
 				{
 					"name": "Ali Yaşar TOPÇU",
@@ -178,9 +179,9 @@
 			]
 		},
 		"join-us": {
-			"title": "Sen de bize katılmak ister misin?",
+			"title": "Sen de aramıza katılmak ister misin?",
 			"button": "Bize Katıl!",
-			"text": "Yanda bulunan butona tıklayarak <b>mentor</b>, <b>mentee</b> veya <b>ekip üyesi</b> olarak<br /> başvuru yapabilir ve bize katılabilirsin!",
+			"text": "Sen de aramıza mentor, mentee veya ekip üyesi olarak katılmak istersen<br>yandaki butona tıklayarak form doldurabilirsin",
 			"link": "https://basvuruformu.letsfutureup.com"
 		}
 	},

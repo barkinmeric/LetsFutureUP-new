@@ -3,11 +3,8 @@
 		<div class="container">
 			<div class="join-body">
 				<div class="left-part">
-					<h1 class="title">Sen de aramıza katılmak ister misin?</h1>
-					<p class="text">
-						Sen de aramıza mentor, mentee veya ekip üyesi olarak katılmak istersen <br />
-						yandaki butona tıklayarak form doldurabilirsin
-					</p>
+					<h1 class="title">{{ $t("index.join-us.title") }}</h1>
+					<p v-html="$t('index.join-us.text')" class="text"></p>
 				</div>
 				<div class="right-part">
 					<a class="button" :href="$t('index.join-us.link')">{{ $t("index.join-us.button") }}</a>

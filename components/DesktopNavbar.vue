@@ -11,6 +11,7 @@
 					<desktop-navbar-dropdown tab="nav.us" />
 					<!-- <desktop-navbar-dropdown tab="nav.do" /> -->
 					<desktop-navbar-dropdown tab="nav.career" />
+					<a class="dropdown-button" :href="$t('index.join-us.link')">{{ $t("index.join-us.button") }}</a>
 				</div>
 			</div>
 		</div>
@@ -35,6 +36,22 @@ export default {
 		}
 		.content {
 			margin: auto 0 auto auto;
+			.dropdown-button {
+				&:hover {
+					color: $sideColor;
+				}
+				display: inline-block;
+				padding: 35px 24px 15px 24px;
+				height: 90px;
+				line-height: 20px;
+				font-weight: 700;
+				letter-spacing: 0.3px;
+				font-size: 1rem;
+				border-radius: 8px;
+				background-color: $backgroundColor;
+				color: $titleColor;
+				cursor: pointer;
+			}
 		}
 	}
 }

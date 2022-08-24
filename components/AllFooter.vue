@@ -38,7 +38,7 @@
 			</div>
 			<div id="contact">
 				<a href="mailto:humanresources@letsfutureup.com">humanresources@letsfutureup.com</a>
-				<span id="copyright-cont">&copy; Let’s FutureUP 2022. Tüm Hakları Saklıdır.</span>
+				<span id="copyright-cont">&copy; {{ $t("nav.copyright") }}</span>
 				<span id="social_media">
 					<a href=""><img src="/pages/footer/linkedin.svg" alt="" /></a>
 					<a href=""><img src="/pages/footer/facebook.svg" alt="" /></a>

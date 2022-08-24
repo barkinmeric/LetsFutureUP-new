@@ -2,7 +2,7 @@
 	<section id="mentors-wrp">
 		<div id="mentors_sec" class="container">
 			<div id="title_ctn">
-				<p>Kariyerinin Zirvesindeki İsimlerden Let’s FutureUP</p>
+				<p>{{ $t("index.opinion.title") }}</p>
 				<div></div>
 			</div>
 			<div id="mentors_ctn">

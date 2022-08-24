@@ -1,7 +1,7 @@
 <template>
 	<section id="adv-wrp">
 		<section id="advisory_sec" class="container">
-			<p>Danışma Kurulu</p>
+			<p>{{ $t("index.board.title") }}</p>
 			<VueSlickCarousel :dots="true" v-bind="settings">
 				<advisor class="advisor_profile" v-for="(advisor, i) in $t('index.board.content')" :key="i" v-bind:advisor="advisor" />
 			</VueSlickCarousel>

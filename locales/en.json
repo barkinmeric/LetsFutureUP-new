@@ -1,6 +1,7 @@
 {
 	"url": "| HelloCareer | letsfutureup.com",
 	"nav": {
+		"copyright": "Let's FutureUP 2022. All Rights Reserved.",
 		"us": {
 			"title": "Who Are We?",
 			"content": ["Our Story", "About Us", "Project Team", "FAQ"]
@@ -19,14 +20,14 @@
 		"title": "Home Page",
 		"desc": "Let's FutureUP Project is an international social responsibility project that guides university students who want to greet their future careers with mentoring and training programs. Let's FutureUP is a student development program that stands as a bridge between the business world and university students.",
 		"introduction": {
-			"title": "Geleğini bugün planla, Kariyer yolculuğuna hemen başla!",
-			"text": "Let’s FutureUP, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.",
+			"title": "Plan your future today, start your career journey now!",
+			"text": "Let's FutureUP is an international social responsibility project that guides young people who want to say hello to their future careers with mentoring and training programs.",
 			"video": "https://www.youtube.com/embed/ELGCClDwNws",
-			"video-btn": "Videoyu İzle"
+			"video-btn": "Watch The Video"
 		},
 		"hello-career": {
-			"title": "Let’s FutureUP ile Kariyerine Merhaba De!",
-			"desc": "Let’s FutureUP içerisinde mentorluktan eğitimlere, sektörlerinde bir çok<br>öncü isimle görüşebilme ve tanışma fırsatı yakalayabilirsin.",
+			"title": "Say Hello to Your Career with Let's FutureUP!",
+			"desc": "In Let's FutureUP, you can have the opportunity to meet with many leading<br>names in their sectors, from mentoring to training.",
 			"content": [
 				{
 					"title": "Mentorship Program",
@@ -61,7 +62,7 @@
 			]
 		},
 		"opinion": {
-			"title": "Let's Get To Know Let's Future<span class='green'>UP</span> From The People At The Top Of Their Careers!",
+			"title": "Let's Get To Know Let's FutureUP From The People At The Top Of Their Careers!",
 			"content": [
 				{
 					"name": "Ali Yaşar TOPÇU",
@@ -164,7 +165,7 @@
 			]
 		},
 		"supporter": {
-			"title": "Destekçilerimiz",
+			"title": "Supporters",
 			"content": [
 				{ "img": "/pages/index/supporters/aktas.svg", "link": "https://www.aktasholding.com" },
 				{ "img": "/pages/index/supporters/ekads.svg", "link": "https://www.ekads.co" },
@@ -181,14 +182,14 @@
 		"join-us": {
 			"title": "Do you want to join us?",
 			"button": "Join Us!",
-			"text": "You could make an application as a mentor or a mentee to be a member of our project by clicking the button on the side!",
+			"text": "If you want to join us as a mentor, mentee or team member, you can fill out the form by clicking the button on the side.",
 			"link": "https://basvuruformu.letsfutureup.com"
 		}
 	},
 	"about": {
 		"title": "About Us",
 		"head": {
-			"text": "Let’s FutureUP, gençlere mentorluk ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.",
+			"text": "Let's FutureUP is an international social responsibility project that guides young people through mentoring and training programs.",
 			"button": "Join Us!"
 		},
 		"content": [
