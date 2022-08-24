@@ -67,7 +67,7 @@ export default {
 			margin: 24px 0 92px 0;
 			padding: 18px 32px 18px 32px;
 			background-color: $sideColor;
-			font-size: 1rem;
+			font-size: 16px;
 			font-weight: 700;
 			letter-spacing: 0.3px;
 			line-height: 20px;
@@ -99,7 +99,7 @@ export default {
 			margin: 0 auto;
 			color: #292929;
 			margin-bottom: 100px;
-			font-size: 1rem;
+			font-size: 16px;
 			font-weight: 400;
 			letter-spacing: 0.3px;
 			line-height: 24px;
@@ -108,7 +108,7 @@ export default {
 			max-width: 621px;
 			margin: 0 auto;
 			color: #292929;
-			font-size: 1rem;
+			font-size: 16px;
 			font-weight: 400;
 			letter-spacing: 0.3px;
 			line-height: 24px;
