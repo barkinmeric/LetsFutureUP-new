@@ -297,36 +297,9 @@
 				]
 			},
 			{
-				"title": "Business & strategy development department",
-				"id": "busStr",
-				"index": 2,
-				"text": "Members of this department, produce innovative ideas by encouraging the development of strategies through vision-mission. In this context, it leads the departments to embrace new ideas and bring about these. They work collaboratively with other departments regarding how these new concepts can be integrated into the project.",
-				"content": [
-					{ "name": "Arif Numanoğlu", "place": "", "position": "", "image": "/pages/project-team/business-development/arif-numanoglu.png" },
-					{
-						"name": "Rümeysa Özsağlıcak",
-						"place": "",
-						"position": "",
-						"image": "/pages/project-team/business-development/rumeysa-ozsaglicak.png"
-					}
-				]
-			},
-			{
-				"title": "Foreign affairs department",
-				"id": "forAf",
-				"index": 3,
-				"text": "They contact with high level managers/executives from abroad and offer them to be spokesperson/trainer/mentor in programs involved in the Let’s FutureUP project including Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They arrange meetings with foreign executives to explain the project in details. In addition, they take responsibility for organizing the events and announcing them to shareholders. They intend to reach foreign university clubs and contact with foreign students in order to introduce the project and improve it internationally.",
-				"content": [
-					{ "name": "Hazal Öykü Hoca", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/hazal-oyku-hoca.png" },
-					{ "name": "Ratu Faidah", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/ratu-faidah.png" },
-					{ "name": "Sophie Aigner", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/sophie-aigner.png" },
-					{ "name": "Sueda Şahin", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/sueda-sahin.png" }
-				]
-			},
-			{
 				"title": "Social media and digital marketing department",
 				"id": "socMed",
-				"index": 4,
+				"index": 2,
 				"text": "They are responsible for effective utilization of the social media accounts of the project. At the same time, they play an essential role while gaining international recognition. Besides, they prepare posts and informative materials which announce the WeTALK events and other training activities of the project.",
 				"content": [
 					{ "name": "Ayşe Merve Ergün", "place": "", "position": "", "image": "/pages/project-team/social-media/ayse-merve-ergun.png" },
@@ -339,7 +312,7 @@
 			{
 				"title": "Startup department",
 				"id": "startUp",
-				"index": 5,
+				"index": 3,
 				"text": "They are well prepared for startup-based activities that will take the stage in the following periods. This team generally works on the installation, enhancement and management processes of our website. In addition, the team is responsible for writing the codes of the programs that execute and digitalize the project.",
 				"content": [
 					{ "name": "Ataberk Karaman", "place": "", "position": "", "image": "/pages/project-team/startup/ataberk-karaman.png" },

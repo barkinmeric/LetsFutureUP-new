@@ -1,12 +1,10 @@
 <template>
 	<nav id="barNav">
 		<VueSlickCarousel id="navCarousel" v-bind="settings">
-			<button @click="ScrollToSec('humanRsr')" class="btn">İnsan Kaynakları Departmanı</button>
-			<button @click="ScrollToSec('corCom')" class="btn">Kurumsal İletişim Departmanı</button>
-			<button @click="ScrollToSec('busStr')" class="btn">İş & Strateji Geliştirme Departmanı</button>
-			<button @click="ScrollToSec('forAf')" class="btn">Dış İlişkiler Departmanı</button>
-			<button @click="ScrollToSec('socMed')" class="btn">Sosyal Medya ve Dijital Pazarlama Departmanı</button>
-			<button @click="ScrollToSec('startUp')" class="btn">Startup Departmanı</button>
+			<button @click="ScrollToSec('humanRsr')" class="btn">{{ $t("team.teams")[0].title }}</button>
+			<button @click="ScrollToSec('corCom')" class="btn">{{ $t("team.teams")[1].title }}</button>
+			<button @click="ScrollToSec('socMed')" class="btn">{{ $t("team.teams")[2].title }}</button>
+			<button @click="ScrollToSec('startUp')" class="btn">{{ $t("team.teams")[3].title }}</button>
 		</VueSlickCarousel>
 	</nav>
 </template>
