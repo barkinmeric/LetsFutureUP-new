@@ -48,11 +48,12 @@ export default {
 		@media (max-width: 1400px) {
 			width: 100%;
 			order: 1 !important;
-			margin: 40px;
+			padding: 0px;
 		}
 		@media (max-width: $mobile_bp) {
+			width: 100%;
 			order: 1 !important;
-			margin: 40px;
+			padding: 0px;
 		}
 		h2 {
 			margin: 0px auto 20px auto;

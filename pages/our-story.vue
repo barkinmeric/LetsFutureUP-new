@@ -67,7 +67,7 @@ export default {
 		}
 		.right-part {
 			.title {
-				font-size: 3rem;
+				font-size: 24px;
 				font-weight: 900;
 				letter-spacing: 1px;
 				line-height: 60px;
@@ -77,7 +77,7 @@ export default {
 			.text-part {
 				margin-top: 128px;
 				.text {
-					font-size: 1rem;
+					font-size: 16px;
 					font-weight: 700;
 					letter-spacing: 0.3px;
 					line-height: 24px;
@@ -90,7 +90,7 @@ export default {
 		text-align: center;
 		margin-top: 70px;
 		.text {
-			font-size: 1rem;
+			font-size: 16px;
 			font-weight: 400;
 			letter-spacing: 0.3px;
 			line-height: 24px;
@@ -99,7 +99,7 @@ export default {
 		.saying {
 			margin: 48px auto 16px auto;
 			max-width: 700px;
-			font-size: 3rem;
+			font-size: 24px;
 			font-weight: 900;
 			letter-spacing: 1px;
 			line-height: 60px;
@@ -108,7 +108,7 @@ export default {
 		.author {
 			margin: 0 auto 48px auto;
 			max-width: 700px;
-			font-size: 1rem;
+			font-size: 16px;
 			font-weight: 400;
 			letter-spacing: 0.3px;
 			line-height: 20px;
@@ -117,7 +117,7 @@ export default {
 		.bottom-text {
 			max-width: 850px;
 			margin: 0 auto 0 auto;
-			font-size: 1rem;
+			font-size: 16px;
 			font-weight: 400;
 			letter-spacing: 0.3px;
 			line-height: 24px;
