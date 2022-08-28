@@ -1,6 +1,6 @@
 <template>
 	<div class="mentor-card">
-		<div class="mentor-card-inner" :class="{mentor_card_sizing: isCollapsed}">
+		<div class="mentor-card-inner" :class="{ mentor_card_sizing: isCollapsed }">
 			<div class="mentor">
 				<div class="img_ctn">
 					<nuxt-img
@@ -16,13 +16,14 @@
 				</div>
 				<div class="info_ctn">
 					<p class="profile_name">{{ mentor.name }}</p>
+					<p class="profile_pos">{{ mentor.place }}</p>
 					<p class="profile_pos">{{ mentor.position }}</p>
 				</div>
 				<div class="quote_ctn">
-					<p :class="{quote_text: isCollapsed}">{{ mentor.text }}</p>
+					<p :class="{ quote_text: isCollapsed }">{{ mentor.text }}</p>
 				</div>
 			</div>
-			<button class="collapse-btn" @click="isCollapsed = !isCollapsed">{{mentor.button}}</button>
+			<button class="collapse-btn" @click="isCollapsed = !isCollapsed">{{ mentor.button }}</button>
 		</div>
 	</div>
 </template>
@@ -32,10 +33,10 @@ export default {
 	props: ["mentor"],
 	data() {
 		return {
-			isCollapsed: true
-		}
-	}
-}; 
+			isCollapsed: true,
+		};
+	},
+};
 </script>
 
 <style lang="scss" scoped>
@@ -94,14 +95,14 @@ export default {
 		}
 		.collapse-btn {
 			background-color: transparent;
-			font-family: 'Mulish';
+			font-family: "Mulish";
 			font-style: normal;
 			font-weight: 700;
 			font-size: 14px;
 			line-height: 24px;
 			text-align: center;
 			letter-spacing: 0.6px;
-			color: #2719CC;
+			color: #2719cc;
 		}
 	}
 }

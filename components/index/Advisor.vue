@@ -14,6 +14,7 @@
 		</div>
 		<div class="info_ctn">
 			<p class="profile_name">{{ advisor.name }}</p>
+			<p class="profile_pos">{{ advisor.place }}</p>
 			<p class="profile_pos">{{ advisor.position }}</p>
 		</div>
 	</div>
