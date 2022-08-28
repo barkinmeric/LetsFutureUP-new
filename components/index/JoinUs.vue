@@ -7,7 +7,7 @@
 					<p v-html="$t('index.join-us.text')" class="text"></p>
 				</div>
 				<div class="right-part">
-					<a class="button" :href="$t('index.join-us.link')">{{ $t("index.join-us.button") }}</a>
+					<a target="_blank" class="button" :href="$t('index.join-us.link')">{{ $t("index.join-us.button") }}</a>
 				</div>
 			</div>
 		</div>

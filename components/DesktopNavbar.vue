@@ -11,7 +11,7 @@
 					<desktop-navbar-dropdown tab="nav.us" />
 					<!-- <desktop-navbar-dropdown tab="nav.do" /> -->
 					<desktop-navbar-dropdown tab="nav.career" />
-					<a class="dropdown-button" :href="$t('index.join-us.link')">{{ $t("index.join-us.button") }}</a>
+					<a  target="_blank" class="dropdown-button" :href="$t('index.join-us.link')">{{ $t("index.join-us.button") }}</a>
 				</div>
 			</div>
 		</div>

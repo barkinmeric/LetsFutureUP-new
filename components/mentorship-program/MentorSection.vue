@@ -6,7 +6,7 @@
 		<div id="text-side">
 			<h3>{{ $t("mentorship.content[1].title") }}</h3>
 			<article>{{ $t("mentorship.content[1].text") }}</article>
-			<a :href="$t('index.join-us.link')" class="join-btn">{{ $t("index.join-us.button") }}</a>
+			<a  target="_blank" :href="$t('index.join-us.link')" class="join-btn">{{ $t("index.join-us.button") }}</a>
 		</div>
 	</section>
 </template>

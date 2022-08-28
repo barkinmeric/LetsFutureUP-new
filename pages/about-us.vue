@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="head">
 				<div class="head-text">{{ $t("about.head.text") }}</div>
-				<a :href="$t('index.join-us.link')" class="button">{{ $t("about.head.button") }}</a>
+				<a  target="_blank" :href="$t('index.join-us.link')" class="button">{{ $t("about.head.button") }}</a>
 			</div>
 			<div class="body">
 				<div v-for="item in $t('about.content')" :key="item.title">

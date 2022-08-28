@@ -5,7 +5,7 @@
 				<p id="call_to_action">{{ $t("index.introduction.title") }}</p>
 				<p id="description">{{ $t("index.introduction.text") }}</p>
 				<div id="btns_wrapper">
-					<a id="join_btn" :href="$t('index.join-us.link')">{{ $t("index.join-us.button") }}</a>
+					<a target="_blank" id="join_btn" :href="$t('index.join-us.link')">{{ $t("index.join-us.button") }}</a>
 					<button id="vid_popup_btn" @click="showVideo = true">
 						<label> </label>
 						<img />

@@ -1,6 +1,6 @@
 <template>
 	<div class="partner-modal">
-		<a :href="link">
+		<a :href="link" target="_blank">
 			<nuxt-img :src="image" alt="partner" width="392px" height="100px" draggable="false" loading="lazy" />
 		</a>
 	</div>
