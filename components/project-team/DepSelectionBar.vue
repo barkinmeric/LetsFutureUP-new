@@ -23,7 +23,7 @@ export default {
 				focusOnSelect: true,
 				infinite: false,
 				speed: 500,
-				slidesToShow: 6,
+				slidesToShow: 4,
 				slidesToScroll: 3,
 				touchThreshold: 5,
 				responsive: [
@@ -59,15 +59,13 @@ export default {
 
 <style lang="scss" scoped>
 #bar-nav {
-	display: static;
-	height: 80px;
 	background: $depNav_background;
 	border-radius: 8px;
 	padding: 4px;
 	margin-bottom: 114px;
 	.btn {
 		width: 200px;
-		height: 72px;
+		height: 90px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;

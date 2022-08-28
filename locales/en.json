@@ -13,7 +13,7 @@
 		},
 		"career": {
 			"title": "HelloCareer",
-			"content": ["Mentorship Program", "Student Development Program", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
+			"content": ["Mentorship Program", "Student Development Program", "StartUP", "WeTALK", "AdviceUP", "TalentUP"]
 		}
 	},
 	"index": {
@@ -40,8 +40,8 @@
 					"image": "/pages/index/hello-career/2.png"
 				},
 				{
-					"title": "WeTalk",
-					"text": "As part of the WeTalk events of our project, experts in their fields are invited to the project to share their experiences with the students. Our aim is to make students take advantage of different experiences from different people, reach experienced people in their fields of interest, and get answers to their questions from the right people. The WeTalk event is open not only to students within Let's FutureUP but also to outside participants.",
+					"title": "WeTALK",
+					"text": "As part of the WeTALK events of our project, experts in their fields are invited to the project to share their experiences with the students. Our aim is to make students take advantage of different experiences from different people, reach experienced people in their fields of interest, and get answers to their questions from the right people. The WeTALK event is open not only to students within Let's FutureUP but also to outside participants.",
 					"image": "/pages/index/hello-career/3.png"
 				},
 				{
@@ -251,7 +251,7 @@
 				"title": "Corporate communication department",
 				"id": "corCom",
 				"index": 1,
-				"text": "They contact with high level managers/executives and offer them to be spokespersons/trainers/mentors in programs as regards Let’s FutureUP project which are the Mentorship Program, Say Hello to your Career, Student Development Programs and WeTalk events. They also set meetings so as to introduce the project to the candidate mentors and they contribute to the organization of such events and announcement of them to shareholders. They engage in sponsorship activities. Moreover, they hold meetings with university clubs and advertise for the project.",
+				"text": "They contact with high level managers/executives and offer them to be spokespersons/trainers/mentors in programs as regards Let’s FutureUP project which are the Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They also set meetings so as to introduce the project to the candidate mentors and they contribute to the organization of such events and announcement of them to shareholders. They engage in sponsorship activities. Moreover, they hold meetings with university clubs and advertise for the project.",
 				"content": [
 					{ "name": "Can Çakarız", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/can-cakariz.png" },
 					{ "name": "Doğa Aydoğdu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/doga-aydogdu.png" },
@@ -858,8 +858,8 @@
 		]
 	},
 	"wetalk": {
-		"title": "WeTalk",
-		"desc": "As a part of the WeTalk events of our project, experts in their fields are invited to the project to share their experiences with the students. Our aim is to make students take advantage of different experiences from different people, reach experienced people in their fields of interest, and get answers to their questions from the right people. The WeTalk event is open not only to students within Let's FutureUP but also to outside participants."
+		"title": "WeTALK",
+		"desc": "As a part of the WeTALK events of our project, experts in their fields are invited to the project to share their experiences with the students. Our aim is to make students take advantage of different experiences from different people, reach experienced people in their fields of interest, and get answers to their questions from the right people. The WeTALK event is open not only to students within Let's FutureUP but also to outside participants."
 	},
 	"adviceup": {
 		"title": "AdviceUP",
@@ -909,21 +909,21 @@
 			},
 			{
 				"title": "Achieving Can Be Easy!",
-				"text": "Our WeTalk event will be with Yazaki’s former North America Facilities Manager Ruud de Reijke on the 20th of January at 19.30. Ruud de Reijke has experienced more than 25 years in the automotive field. He started his career as a Material Planner in 1993 at Liamar. After spending 7 years at Liamar, he moved to Yazaki North America as Senior Material Coordinator. For the past 20 years, he had worked for Yazaki North America in different positions respectively Senior Material Coordinator, Project Manager, Facilities Manager. Besides his career, Reijke has taken responsibilities in voluntary projects such as recruitment volunteer and event supervisor. The event’s quota is limited. The last day for application is the 18th of January. The link to the WeTalk will be shared on the 19th of January via e-mail. Participants’ English level must be above the B1 level in order to attend the event.",
+				"text": "Our WeTALK event will be with Yazaki’s former North America Facilities Manager Ruud de Reijke on the 20th of January at 19.30. Ruud de Reijke has experienced more than 25 years in the automotive field. He started his career as a Material Planner in 1993 at Liamar. After spending 7 years at Liamar, he moved to Yazaki North America as Senior Material Coordinator. For the past 20 years, he had worked for Yazaki North America in different positions respectively Senior Material Coordinator, Project Manager, Facilities Manager. Besides his career, Reijke has taken responsibilities in voluntary projects such as recruitment volunteer and event supervisor. The event’s quota is limited. The last day for application is the 18th of January. The link to the WeTALK will be shared on the 19th of January via e-mail. Participants’ English level must be above the B1 level in order to attend the event.",
 				"image": "/pages/events/en/1.png",
 				"date": "20.01.2021",
 				"type": "Event"
 			},
 			{
 				"title": "The Road of CEO ",
-				"text": "The next WeTalk of our Let’s FutureUP team is “The Road with the CEO” with CEO of Eczacıbaşı Consumer Products, Alp GÜNVARAN. You’re invited to our event with precious experiences and knowledge of Alp GÜNVARAN.",
+				"text": "The next WeTALK of our Let’s FutureUP team is “The Road with the CEO” with CEO of Eczacıbaşı Consumer Products, Alp GÜNVARAN. You’re invited to our event with precious experiences and knowledge of Alp GÜNVARAN.",
 				"image": "/pages/events/en/2.png",
 				"date": "12.02.2021",
 				"type": "Event"
 			},
 			{
 				"title": "University and Career",
-				"text": "WeTalk events of our Let’s FutureUP team are continuing steadily! We’re here with our next event, which is “Choosing Between Professional Life and University Life” of a mechanical engineer and oceanographer Derya AKKAYNAK. Be careful not to miss this event with precious information and experiences of Derya AKKAYNAK. Our event is limited by quota.",
+				"text": "WeTALK events of our Let’s FutureUP team are continuing steadily! We’re here with our next event, which is “Choosing Between Professional Life and University Life” of a mechanical engineer and oceanographer Derya AKKAYNAK. Be careful not to miss this event with precious information and experiences of Derya AKKAYNAK. Our event is limited by quota.",
 				"image": "/pages/events/en/3.png",
 				"date": "12.03.2021",
 				"type": "Event"

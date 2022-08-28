@@ -23,14 +23,15 @@ export default {
 <style lang="scss" scoped>
 .join-us {
 	background: #2719cc;
-	padding: 24px;
+	padding-top: 24px;
+	padding-bottom: 24px;
 	.join-body {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-between;
 		align-items: center;
 		.left-part {
-			margin: 15px;
+			margin: 15px 15px 15px 0;
 			.title {
 				margin: 0 0 8px 0;
 				font-weight: 900;
@@ -48,7 +49,7 @@ export default {
 			}
 		}
 		.right-part {
-			margin: 15px;
+			margin: 15px 15px 15px 0;
 			.button {
 				padding: 14px 24px;
 				background: #ffffff;

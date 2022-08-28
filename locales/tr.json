@@ -13,7 +13,7 @@
 		},
 		"career": {
 			"title": "Kariyerine MerhabaDE!",
-			"content": ["Mentorluk Programı", "Öğrenci Gelişim Programı", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
+			"content": ["Mentorluk Programı", "Öğrenci Gelişim Programı", "StartUP", "WeTALK", "AdviceUP", "TalentUP"]
 		}
 	},
 	"index": {
@@ -26,7 +26,7 @@
 			"video-btn": "Videoyu İzle"
 		},
 		"hello-career": {
-			"title": "Let’s FutureUP ile Kariyerine MerhabaDe!",
+			"title": "Let’s FutureUP ile Kariyerine MerhabaDE!",
 			"desc": "Let’s FutureUP içerisinde mentorluktan eğitimlere, sektörlerinde bir çok<br>öncü isimle görüşebilme ve tanışma fırsatı yakalayabilirsin.",
 			"content": [
 				{
@@ -40,8 +40,8 @@
 					"image": "/pages/index/hello-career/2.png"
 				},
 				{
-					"title": "WeTalk",
-					"text": "Projemizin WeTalk etkinlikleri kapsamında alanında uzman kişiler deneyim ve önerilerini, geleceğin yaratıcı ve başarılı isimleri olmaya aday öğrencilerle paylaşmak üzere konuşmak için davet edilirler. WeTalk’lar online ya da yüz yüze gerçekleştirilirler. Bu kapsamdaki hedefimiz, öğrencilerin çeşitli alanlarda, farklı başarılar kazanmış isimlerle buluşup gerçek hayat deneyimleri dinlemeleri, ilgili oldukları alanlarla ilgili tecrübeli kişilere birinci elden ulaşabilmeleri ve akıllarındaki soruların cevaplarını en doğru kişilerden alabilmelerine yardımcı olmaktır. Bu etkinlikler sadece Let’s FutureUP bünyesindeki öğrencilere değil, kariyerine MerhabaDE’mek isteyen tüm öğrencilere açık gerçekleştirilir.",
+					"title": "WeTALK",
+					"text": "Projemizin WeTALK etkinlikleri kapsamında alanında uzman kişiler deneyim ve önerilerini, geleceğin yaratıcı ve başarılı isimleri olmaya aday öğrencilerle paylaşmak üzere konuşmak için davet edilirler. WeTALK’lar online ya da yüz yüze gerçekleştirilirler. Bu kapsamdaki hedefimiz, öğrencilerin çeşitli alanlarda, farklı başarılar kazanmış isimlerle buluşup gerçek hayat deneyimleri dinlemeleri, ilgili oldukları alanlarla ilgili tecrübeli kişilere birinci elden ulaşabilmeleri ve akıllarındaki soruların cevaplarını en doğru kişilerden alabilmelerine yardımcı olmaktır. Bu etkinlikler sadece Let’s FutureUP bünyesindeki öğrencilere değil, kariyerine MerhabaDE’mek isteyen tüm öğrencilere açık gerçekleştirilir.",
 					"image": "/pages/index/hello-career/3.png"
 				},
 				{
@@ -858,8 +858,8 @@
 		]
 	},
 	"wetalk": {
-		"title": "WeTalk",
-		"desc": "Projemizin WeTalk etkinlikleri kapsamında alanında uzman kişiler, tecrübe ve deneyimlerini öğrencilerle paylaşması için projeye davet edilirler. WeTalk'lar online ya da yüz yüze gerçekleştirilir. Amacımız öğrencilerin farklı kişilerden farklı deneyimleri dinlemesi, ilgili oldukları alanlardaki tecrübeli kişilere ulaşabilmesi ve akıllarındaki soruların cevaplarını en doğru kişilerden alabilmesine yardımcı olmaktır. WeTalk etkinliği sadece Let’s FutureUP bünyesindeki öğrencilere değil, dışarıdan da katılımcılara açıktır."
+		"title": "WeTALK",
+		"desc": "Projemizin WeTALK etkinlikleri kapsamında alanında uzman kişiler, tecrübe ve deneyimlerini öğrencilerle paylaşması için projeye davet edilirler. WeTALK'lar online ya da yüz yüze gerçekleştirilir. Amacımız öğrencilerin farklı kişilerden farklı deneyimleri dinlemesi, ilgili oldukları alanlardaki tecrübeli kişilere ulaşabilmesi ve akıllarındaki soruların cevaplarını en doğru kişilerden alabilmesine yardımcı olmaktır. WeTALK etkinliği sadece Let’s FutureUP bünyesindeki öğrencilere değil, dışarıdan da katılımcılara açıktır."
 	},
 	"adviceup": {
 		"title": "ADVICEUP",
@@ -909,14 +909,14 @@
 			},
 			{
 				"title": "Başarmak kolay olabilir",
-				"text": "Sıradaki WeTalk etkinliğimiz, 20 Ocak saat 19.30’da, Yazaki’nin eski Kuzey Amerika Tesisleri Yöneticisi Ruud de Rejike ile gerçekleşecek. Ruud de Rejike, otomotiv alanında 25 yıllık bir tecrübeye sahip. Kariyerine 1933’te Liamar’da “malzeme planlayıcı” olarak başlamıştır. Liamar’da 7 yıl çalıştıktan sonra Yazaki Kuzey Amerika’ya “kıdemli malzeme koordinatörü” olarak geçiş yapmıştır. 20 yıl boyunca “kıdemli malzeme koordinatörlüğü”, “proje yöneticiliği”, “tesis yöneticiliği” gibi çeşitli pozisyonlarda bulunmuştur. Kariyerinin yanı sıra Rejike, “işe alım gönüllüsü” ve “etkinlik süpervizörlüğü” gibi çeşitli gönüllü etkinliklerde de bulunmuştur. Etkinlik linki 19 Ocak’ta e-mail üzerinden paylaşılacaktır. Etkinliğe katılabilmek için katılımcıların İngilizce seviyelerinin B1 üstü olması gerekmektedir.",
+				"text": "Sıradaki WeTALK etkinliğimiz, 20 Ocak saat 19.30’da, Yazaki’nin eski Kuzey Amerika Tesisleri Yöneticisi Ruud de Rejike ile gerçekleşecek. Ruud de Rejike, otomotiv alanında 25 yıllık bir tecrübeye sahip. Kariyerine 1933’te Liamar’da “malzeme planlayıcı” olarak başlamıştır. Liamar’da 7 yıl çalıştıktan sonra Yazaki Kuzey Amerika’ya “kıdemli malzeme koordinatörü” olarak geçiş yapmıştır. 20 yıl boyunca “kıdemli malzeme koordinatörlüğü”, “proje yöneticiliği”, “tesis yöneticiliği” gibi çeşitli pozisyonlarda bulunmuştur. Kariyerinin yanı sıra Rejike, “işe alım gönüllüsü” ve “etkinlik süpervizörlüğü” gibi çeşitli gönüllü etkinliklerde de bulunmuştur. Etkinlik linki 19 Ocak’ta e-mail üzerinden paylaşılacaktır. Etkinliğe katılabilmek için katılımcıların İngilizce seviyelerinin B1 üstü olması gerekmektedir.",
 				"image": "/pages/events/tr/1.png",
 				"date": "20.01.2021",
 				"type": "Etkinlik"
 			},
 			{
 				"title": "CEO Yolculuğu",
-				"text": "Let's FutureUP ekibimizin gerçekleştireceği sıradaki WeTalk'umuz Eczacıbaşı Tüketim Ürünleri CEO'su Sayın Alp Günvaran ile 'CEO Yolculuğu' üzerine. Alp Bey'in değerli tecrübe ve bilgilerini paylaşacağı WeTalk etkinliğimize hepiniz davetlisiniz!",
+				"text": "Let's FutureUP ekibimizin gerçekleştireceği sıradaki WeTALK'umuz Eczacıbaşı Tüketim Ürünleri CEO'su Sayın Alp Günvaran ile 'CEO Yolculuğu' üzerine. Alp Bey'in değerli tecrübe ve bilgilerini paylaşacağı WeTALK etkinliğimize hepiniz davetlisiniz!",
 				"image": "/pages/events/tr/2.png",
 				"date": "12.02.2021",
 				"type": "Etkinlik"
