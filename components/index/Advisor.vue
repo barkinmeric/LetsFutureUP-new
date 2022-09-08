@@ -14,7 +14,7 @@
 		</div>
 		<div class="info_ctn">
 			<p class="profile_name">{{ advisor.name }}</p>
-			<p class="profile_pos">{{ advisor.place }}</p>
+			<p class="profile_place">{{ advisor.place }}</p>
 			<p class="profile_pos">{{ advisor.position }}</p>
 		</div>
 	</div>
@@ -50,8 +50,15 @@ export default {
 		.profile_name {
 			font-weight: 900;
 		}
+		.profile_place {
+			padding-top: 6px;
+			font-size: 18px;
+			font-weight: 600;
+		}
 		.profile_pos {
 			padding-top: 6px;
+			font-size: 16px;
+			font-weight: 400;
 		}
 	}
 }

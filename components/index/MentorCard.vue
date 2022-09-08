@@ -16,7 +16,7 @@
 				</div>
 				<div class="info_ctn">
 					<p class="profile_name">{{ mentor.name }}</p>
-					<p class="profile_pos">{{ mentor.place }}</p>
+					<p class="profile_place">{{ mentor.place }}</p>
 					<p class="profile_pos">{{ mentor.position }}</p>
 				</div>
 				<div class="quote_ctn">
@@ -75,8 +75,15 @@ export default {
 				.profile_name {
 					font-weight: 900;
 				}
+				.profile_place {
+					padding-top: 6px;
+					font-size: 18px;
+					font-weight: 600;
+				}
 				.profile_pos {
 					padding-top: 6px;
+					font-size: 16px;
+					font-weight: 400;
 				}
 			}
 			.quote_ctn {

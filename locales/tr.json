@@ -67,7 +67,7 @@
 				{
 					"name": "Ali Yaşar TOPÇU",
 					"place": "Farba Otomotiv",
-					"position": "Fabrika Yöneticisi",
+					"position": "Genel Müdür Yardımcısı",
 					"image": "/pages/index/opinions/ali-yasar-topcu.png",
 					"text": "Meslektaş adaylarımıza mesleğe adım atmadan önce kendilerine en uygun sektör/bölüm seçimlerine destek olmak, onlara henüz okurken bir işletmede çalışıyor ve sorumluluk taşıyor hissini verebilmek için bu projeye katılmayı uygun gördüm. İşe aldığımız yeni mezun arkadaşlarımızda karşılaştığımız eksik noktaların, projedeki adaylarda da olmamasını sağlamak ve olabildiğince motive bir şekilde mesleğe adım atmalarına yardımcı olmak en büyük motivasyon kaynağımız oldu. Öğrencinin daha işe başlamadan doğru sektör/bölüm seçimi, işe başlayışından sonra en az bir yıl içerisinde öğrenebileceği birçok hususu bu işe yıllarını vermiş ve birçok tecrübeyi yaşamış kişilerden birebir duyarak ve görerek öğrenmeleri kişinin kariyerinde çok önemli fırsatlar yaratacaktır. Şahsen işe başladığım ilk dönemde birçok şeyi kendi başıma, düşe kalka öğrendim. Şimdi ise daha öğrenci iken bir mentor desteği alabilmek, gerçekten çok ciddi bir fırsat ve şans. Mentor olarak bizler için de yeni öğrenme fırsatları yaratan bir proje oldu.",
 					"button": "Daha Fazla"
@@ -90,8 +90,8 @@
 				},
 				{
 					"name": "Gürkan KANTARCI",
-					"place": "RB Karesi Holding",
-					"position": "Üretim Yöneticisi",
+					"place": "Özerdem Mensucat",
+					"position": "Proje Koordinatörü",
 					"image": "/pages/index/opinions/gurkan-kantarci.png",
 					"text": "Gönüllülük esasına dayalı bir sosyal sorumluluk projesi olan Let's FutureUP oluşumunu, geleceğe umutla bakacak kalifiye bireylerin yetişmesi için destek verebileceğim bir aracı platform olarak gördüm. Cebimde bugüne kadar biriktirdiğim tecrübelerimi, geleceği şekillendirecek olan gençlerle paylaşmak suretiyle onların bu tecrübelerden yola çıkarak kendi rotalarını belirlemelerine katkı sağlamak arzusu doğrultusunda Let's Future Up projesinde yer almak istedim. Proje sonunda kendini daha iyi ifade edebilen, hedeflerini daha net belirleyebilen, sahip olduğu vasıfları hakkında farkındalıkları yüksek olan, iş hayatı ile ilgili bilinç seviyesini birkaç adım ileriye taşıyan ve almış olduğu ayrıcalıklı eğitimlerle kişisel gelişimine katkı sağlayan cesur ve umut dolu adayların, programda yer alma şansı bulamayan diğer adaylara kıyasla kariyer açısından avantajlı bir konum elde ettiklerini düşünmekteyim. Bu nedenle evet, bu proje bir öğrencinin kariyerini değiştirebilir.",
 					"button": "Daha Fazla"
@@ -122,8 +122,8 @@
 				},
 				{
 					"name": "Yusuf Ziya YÜCE",
-					"place": "Limak Enerji A.Ş.",
-					"position": "Kurumsal İletişim Müdürü",
+					"place": "Uludağ Enerji",
+					"position": "Kurumsal İletişim Direktörü",
 					"image": "/pages/index/opinions/yusuf-ziya-yuce.png",
 					"text": "Benim için birilerine katkı sağlamak ve iyi yerlere geldiklerini görüp mutlu olmak; bir nevi “insan yetiştirmek” mesleğimin  sosyal sorumluluğuydu. Proje, öğrencilere katacağı tecrübelerle onların kariyerlerini ve hatta hayatlarını değiştirebilir. Çünkü şahsi kanaatimce, bu hayatta kazanılması en pahalı olan şey, tecrübedir.",
 					"button": "Daha Fazla"
@@ -136,8 +136,8 @@
 				{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/pages/index/board/erol-sapci.png" },
 				{
 					"name": "Gürkan Kantarcı",
-					"place": "RB Karesi Holding",
-					"position": "Üretim Müdürü",
+					"place": "Özerdem Mensucat",
+					"position": "Proje Koordinatörü",
 					"image": "/pages/index/board/gurkan-kantarci.png"
 				},
 				{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/pages/index/board/iskender-ulusay.png" },
@@ -149,8 +149,8 @@
 				},
 				{
 					"name": "Yusuf Ziya Yüce",
-					"place": "Limak Enerji",
-					"position": "Kurumsal İletişim Müdürü",
+					"place": "Uludağ Enerji",
+					"position": "Kurumsal İletişim Direktörü",
 					"image": "/pages/index/board/yusuf-ziya-yuce.png"
 				}
 			]
@@ -167,14 +167,20 @@
 			"title": "Destekçilerimiz",
 			"content": [
 				{ "img": "/pages/index/supporters/aktas.svg", "link": "https://www.aktasholding.com" },
+				{ "img": "/pages/index/supporters/bezen.png", "link": "https://www.bezenpartners.com" },
+				{ "img": "/pages/index/supporters/bosch.svg", "link": "https://www.bosch.com" },
 				{ "img": "/pages/index/supporters/ekads.png", "link": "https://www.ekads.co" },
 				{ "img": "/pages/index/supporters/emek.svg", "link": "https://www.emek.com.tr" },
+				{ "img": "/pages/index/supporters/evrenol.png", "link": "https://www.evrenolarchitects.com/index.asp" },
 				{ "img": "/pages/index/supporters/farba.svg", "link": "https://www.farba.com.tr" },
 				{ "img": "/pages/index/supporters/feka.svg", "link": "https://www.fekaautomotive.com" },
 				{ "img": "/pages/index/supporters/fkt.svg", "link": "https://www.fkt.com.tr" },
 				{ "img": "/pages/index/supporters/haci-hasan.svg", "link": "https://www.hacihasanogullari.com.tr" },
+				{ "img": "/pages/index/supporters/inci.svg", "link": "https://www.inciholding.com" },
 				{ "img": "/pages/index/supporters/inoksan.svg", "link": "https://www.inoksan.com" },
 				{ "img": "/pages/index/supporters/limak.svg", "link": "https://www.limak.com.tr" },
+				{ "img": "/pages/index/supporters/rexroth.svg", "link": "https://www.boschrexroth.com" },
+				{ "img": "/pages/index/supporters/ti.jpg", "link": "https://www.tifluidsystems.com" },
 				{ "img": "/pages/index/supporters/valeo.svg", "link": "https://www.valeo.com" }
 			]
 		},

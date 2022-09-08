@@ -67,7 +67,7 @@
 				{
 					"name": "Ali Yaşar TOPÇU",
 					"place": "Farba Automotive",
-					"position": "Factory Manager",
+					"position": "Deputy General Manager",
 					"image": "/pages/index/opinions/ali-yasar-topcu.png",
 					"text": "I participated in this project to help our future- colleagues to choose the most suitable sector/department and before their graduation make them feel like they are working in a company with responsibility. Our biggest source of motivation was to ensure that the deficient points in our newly-employed colleagues are not also in the candidates in the project, and to help them a step into the profession with enthusiasm. Choosing the right sector/department before starting  the job, learning many issues that the student can learn in at least one year after starting the job, by hearing and seeing one-on-one from people who have spent years in this job and have had many experiences, will create very important opportunities in one’s career. Personally, I learned a lot of things on my own with great difficulty in the first period I started working. Now, getting guide with a mentor while still a student is a very great opportunity and chance. As mentors, also we could learn new things with this project.",
 					"button": "See more"
@@ -90,8 +90,8 @@
 				},
 				{
 					"name": "Gürkan KANTARCI",
-					"place": "RB Karesi Holding",
-					"position": "Production Manager",
+					"place": "Özerdem Mensucat",
+					"position": "Project Director",
 					"image": "/pages/index/opinions/gurkan-kantarci.png",
 					"text": "I saw Let's FutureUP, a volunteer-based social responsibility project, as an intermediary platform where I can support the training of qualified individuals who will look to the future with hope. I wanted to take part in the Let's Future Up project in line with the desire to contribute to the young people who will shape the future by sharing my experiences that I have accumulated in my pocket so far, and to help them determine their own route based on these experiences. In the end of the project ; I believe that the aspirants who could explain themselves better, determine their aims more clear, be aware of their abilities, conscious with professional life and contribute themselves with qualified trainings will have a more  advantageous position in terms of career compared to other aspirants who can not find it.Therefore, I believe that this project can change a student’s career.",
 					"button": "See more"
@@ -122,8 +122,8 @@
 				},
 				{
 					"name": "Yusuf Ziya YÜCE",
-					"place": "Limak Energy",
-					"position": "Corporate Communications Manager",
+					"place": "Uludağ Energy",
+					"position": "Corporate Communications Director",
 					"image": "/pages/index/opinions/yusuf-ziya-yuce.png",
 					"text": "For me, to contribute to someone and be happy to see that they have come to good places; in a way, “raising people” was the social responsibility of my profession. This Project can change students’ careers and even their lives with the experiences that it will bring to them. Because, in my personal opinion; the most precious thing to gain in this life is experience.",
 					"button": "See more"
@@ -137,8 +137,8 @@
 				{ "name": "Erol Sapçı", "place": "FKT Couches", "position": "CEO", "image": "/pages/index/board/erol-sapci.png" },
 				{
 					"name": "Gürkan Kantarcı",
-					"place": "RB Karesi Holding",
-					"position": "Production Manager",
+					"place": "Özerdem Mensucat",
+					"position": "Project Director",
 					"image": "/pages/index/board/gurkan-kantarci.png"
 				},
 				{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/pages/index/board/iskender-ulusay.png" },
@@ -150,8 +150,8 @@
 				},
 				{
 					"name": "Yusuf Ziya Yüce",
-					"place": "Limak Energy",
-					"position": "Corporate Communications Manager",
+					"place": "Uludağ Energy",
+					"position": "Corporate Communications Director",
 					"image": "/pages/index/board/yusuf-ziya-yuce.png"
 				}
 			]
@@ -168,14 +168,20 @@
 			"title": "Supporters",
 			"content": [
 				{ "img": "/pages/index/supporters/aktas.svg", "link": "https://www.aktasholding.com" },
+				{ "img": "/pages/index/supporters/bezen.png", "link": "https://www.bezenpartners.com" },
+				{ "img": "/pages/index/supporters/bosch.svg", "link": "https://www.bosch.com" },
 				{ "img": "/pages/index/supporters/ekads.png", "link": "https://www.ekads.co" },
 				{ "img": "/pages/index/supporters/emek.svg", "link": "https://www.emek.com.tr" },
+				{ "img": "/pages/index/supporters/evrenol.png", "link": "https://www.evrenolarchitects.com/index.asp" },
 				{ "img": "/pages/index/supporters/farba.svg", "link": "https://www.farba.com.tr" },
 				{ "img": "/pages/index/supporters/feka.svg", "link": "https://www.fekaautomotive.com" },
 				{ "img": "/pages/index/supporters/fkt.svg", "link": "https://www.fkt.com.tr" },
 				{ "img": "/pages/index/supporters/haci-hasan.svg", "link": "https://www.hacihasanogullari.com.tr" },
+				{ "img": "/pages/index/supporters/inci.svg", "link": "https://www.inciholding.com" },
 				{ "img": "/pages/index/supporters/inoksan.svg", "link": "https://www.inoksan.com" },
 				{ "img": "/pages/index/supporters/limak.svg", "link": "https://www.limak.com.tr" },
+				{ "img": "/pages/index/supporters/rexroth.svg", "link": "https://www.boschrexroth.com" },
+				{ "img": "/pages/index/supporters/ti.jpg", "link": "https://www.tifluidsystems.com" },
 				{ "img": "/pages/index/supporters/valeo.svg", "link": "https://www.valeo.com" }
 			]
 		},

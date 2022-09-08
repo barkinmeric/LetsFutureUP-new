@@ -3,7 +3,7 @@
 		<div class="footer-inner container">
 			<div id="footer_menu">
 				<div id="logo_wrapper">
-					<img src="/pages/footer/lfu.png" />
+					<img src="/pages/footer/logo.svg" />
 				</div>
 				<div id="who_r_we">
 					<p>{{ $t("nav.us.title") }}</p>

@@ -1,7 +1,7 @@
 <template>
 	<div class="partner-modal">
 		<a :href="link" target="_blank">
-			<nuxt-img :src="image" alt="partner" width="392px" height="100px" draggable="false" loading="lazy" />
+			<nuxt-img :src="image" fit="fill" alt="partner" width="392px" height="100px" draggable="false" loading="lazy" />
 		</a>
 	</div>
 </template>
@@ -11,8 +11,8 @@ export default {
 	name: "PartnerModal",
 	props: {
 		image: String,
-		link: String
-	}
+		link: String,
+	},
 };
 </script>
 
