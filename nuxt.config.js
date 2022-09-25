@@ -19,13 +19,7 @@ export default {
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: [
-		"@/assets/css/normalize.css",
-		"@/assets/css/montserrat.css",
-		"@/assets/css/mulish.css",
-		"@/assets/scss/variables.scss",
-		"@/assets/scss/style.scss",
-	],
+	css: ["@/assets/css/normalize.css", "@/assets/css/montserrat.css", "@/assets/css/mulish.css", "@/assets/scss/variables.scss", "@/assets/scss/style.scss"],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [],
@@ -69,7 +63,7 @@ export default {
 			{ code: "en", iso: "en-US", file: "en.json", name: "English" },
 		],
 		detectBrowserLanguage: false,
-		baseUrl: "https://letsfutureup.com",
+		baseUrl: "https://letsfutureup.com/",
 		parsePages: false,
 		pages: pages,
 	},
