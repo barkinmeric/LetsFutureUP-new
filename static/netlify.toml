@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/"
+  to = "/tr"
+  status = 301
+  conditions = {Country = ["TR"]}
+
