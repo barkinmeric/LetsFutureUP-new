@@ -6,7 +6,7 @@
 				<p id="description">{{ $t("index.introduction.text") }}</p>
 				<div id="btns_wrapper">
 					<a target="_blank" id="join_btn" :href="$t('index.join-us.link')">{{ $t("index.join-us.button") }}</a>
-					<button id="vid_popup_btn" @click="showVideo = true">
+					<button id="vid_popup_btn" @click="openVideo()">
 						<label> </label>
 						<img />
 						<span>{{ $t("index.introduction.video-btn") }}</span>
@@ -35,6 +35,16 @@ export default {
 	methods: {
 		closeVideo() {
 			this.showVideo = false;
+			let body = document.getElementsByTagName("body")[0];
+			body.style.overflowY = "scroll";
+			console.log(body.style);
+		},
+		openVideo() {
+			this.showVideo = true;
+			let body = document.getElementsByTagName("body")[0];
+			body.style.overflow = "hidden";
+
+			console.log(body.style);
 		},
 	},
 };

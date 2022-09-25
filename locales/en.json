@@ -141,7 +141,12 @@
 					"position": "Project Director",
 					"image": "/pages/index/board/gurkan-kantarci.png"
 				},
-				{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/pages/index/board/iskender-ulusay.png" },
+				{
+					"name": "İskender Ulusay",
+					"place": "Nersan Holding",
+					"position": "Chief Executive Chairman",
+					"image": "/pages/index/board/iskender-ulusay.png"
+				},
 				{
 					"name": "Tanju Özkonuk",
 					"place": "Bosch Rexroth",
@@ -246,11 +251,10 @@
 				"index": 0,
 				"text": "This department arranges/organizes the recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes a role in the preparation of e-bulletin. Besides, it checks for the attendance of students and team members at Let’s FutureUP events. They act to keep the motivation of students high and accordingly; they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs.",
 				"content": [
-					{ "name": "Deren Yoloğlu", "place": "", "position": "", "image": "/pages/project-team/human-resources/deren-yologlu.png" },
-					{ "name": "İlkay Çil", "place": "", "position": "", "image": "/pages/project-team/human-resources/ilkay-cil.png" },
-					{ "name": "Nisan Koçak", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisan-kocak.png" },
-					{ "name": "Nisa Yıldırım", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisa-yildirim.png" },
-					{ "name": "Yaren Bato", "place": "", "position": "", "image": "/pages/project-team/human-resources/yaren-bato.png" }
+					{ "name": "Begüm Yağcıoğlu", "place": "", "position": "", "image": "/pages/project-team/human-resources/begum_yagcioglu.jpg" },
+					{ "name": "Berkan Ulusoy", "place": "", "position": "", "image": "/pages/project-team/human-resources/berkan_ulusoy.jpg" },
+					{ "name": "Buket Karhan", "place": "", "position": "", "image": "/pages/project-team/human-resources/buket_karhan.jpg" },
+					{ "name": "Yaren Bato", "place": "", "position": "", "image": "/pages/project-team/human-resources/yaren_bato.jpg" }
 				]
 			},
 			{
@@ -259,28 +263,9 @@
 				"index": 1,
 				"text": "They contact with high level managers/executives and offer them to be spokespersons/trainers/mentors in programs as regards Let’s FutureUP project which are the Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They also set meetings so as to introduce the project to the candidate mentors and they contribute to the organization of such events and announcement of them to shareholders. They engage in sponsorship activities. Moreover, they hold meetings with university clubs and advertise for the project.",
 				"content": [
-					{ "name": "Can Çakarız", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/can-cakariz.png" },
-					{ "name": "Doğa Aydoğdu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/doga-aydogdu.png" },
-					{
-						"name": "Eylül Şahinoğlu",
-						"place": "",
-						"position": "",
-						"image": "/pages/project-team/corporate-communication/eylul-sahinoglu.png"
-					},
-					{
-						"name": "Gülsüm Yılmaz",
-						"place": "",
-						"position": "",
-						"image": "/pages/project-team/corporate-communication/gulsum-yilmaz.png"
-					},
-					{ "name": "Hamza Otar", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/hamza-otar.png" },
-					{
-						"name": "Merve Özhavutçu",
-						"place": "",
-						"position": "",
-						"image": "/pages/project-team/corporate-communication/merve-ozhavutcu.png"
-					},
-					{ "name": "Rana Cömert", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/rana-comert.png" }
+					{ "name": "Cansu Çetindaş", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/cansu_cetindas.jpg" },
+					{ "name": "Duru Alayoglu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/duru_alayoglu.jpg" },
+					{ "name": "Fatmanur Oter", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/fatmanur_oter.jpg" }
 				]
 			},
 			{
@@ -289,11 +274,10 @@
 				"index": 2,
 				"text": "They are responsible for effective utilization of the social media accounts of the project. At the same time, they play an essential role while gaining international recognition. Besides, they prepare posts and informative materials which announce the WeTALK events and other training activities of the project.",
 				"content": [
-					{ "name": "Ayşe Merve Ergün", "place": "", "position": "", "image": "/pages/project-team/social-media/ayse-merve-ergun.png" },
-					{ "name": "Ece Nur Emre", "place": "", "position": "", "image": "/pages/project-team/social-media/ece-nur-emre.png" },
-					{ "name": "Şevval Sergün", "place": "", "position": "", "image": "/pages/project-team/social-media/sevval-sergun.png" },
-					{ "name": "Yağmur Dereli", "place": "", "position": "", "image": "/pages/project-team/social-media/yagmur-dereli.png" },
-					{ "name": "Yıldız Yüksel", "place": "", "position": "", "image": "/pages/project-team/social-media/yildiz-yuksel.png" }
+					{ "name": "Ali Akın", "place": "", "position": "", "image": "/pages/project-team/social-media/ali_akin.jpg" },
+					{ "name": "Hilal Üstün", "place": "", "position": "", "image": "/pages/project-team/social-media/hilal_ustun.jpg" },
+					{ "name": "Seniha Fışkın", "place": "", "position": "", "image": "/pages/project-team/social-media/seniha_fiskin.jpg" },
+					{ "name": "Umay Pehlivan", "place": "", "position": "", "image": "/pages/project-team/social-media/umay_pehlivan.jpg" }
 				]
 			},
 			{
@@ -302,23 +286,9 @@
 				"index": 3,
 				"text": "They are well prepared for startup-based activities that will take the stage in the following periods. This team generally works on the installation, enhancement and management processes of our website. In addition, the team is responsible for writing the codes of the programs that execute and digitalize the project.",
 				"content": [
-					{ "name": "Ataberk Karaman", "place": "", "position": "", "image": "/pages/project-team/startup/ataberk-karaman.png" },
-					{
-						"name": "Barkın Meriç",
-						"url": "https://barkinmeric.com",
-						"place": "",
-						"position": "",
-						"image": "/pages/project-team/startup/barkin-meric.png"
-					},
-					{ "name": "Elaa Jamazi", "place": "", "position": "", "image": "/pages/project-team/startup/elaa-jamazi.png" },
-					{
-						"name": "Olgu Batın Topal",
-						"url": "http://ekads.co/",
-						"place": "",
-						"position": "",
-						"image": "/pages/project-team/startup/olgu-batin-topal.png"
-					},
-					{ "name": "Pelin İşeri", "place": "", "position": "", "image": "/pages/project-team/startup/pelin-iseri.png" }
+					{ "name": "Barkın Meriç", "place": "", "position": "", "image": "/pages/project-team/startup/barkin_meric.jpg" },
+					{ "name": "Muhammed Mustafa Şen", "place": "", "position": "", "image": "/pages/project-team/startup/muhammed_mustafa_sen.jpg" },
+					{ "name": "Olgu Batın Topal", "place": "", "position": "", "image": "/pages/project-team/startup/olgu_batin_topal.jpg" }
 				]
 			}
 		]
@@ -440,8 +410,8 @@
 						},
 						{
 							"name": "İskender Ulusay",
-							"place": "Aktaş Holding",
-							"position": "CEO",
+							"place": "Nersan Holding",
+							"position": "Chief Executive Chairman",
 							"image": "/pages/mentorship-program/2020-2021/mentor/iskender-ulusay.jpg"
 						},
 						{
@@ -645,8 +615,8 @@
 						},
 						{
 							"name": "İskender Ulusay",
-							"place": "Aktaş Holding",
-							"position": "CEO",
+							"place": "Nersan Holding",
+							"position": "Chief Executive Chairman",
 							"image": "/pages/mentorship-program/2020-2021/mentor/iskender-ulusay.jpg"
 						},
 						{
