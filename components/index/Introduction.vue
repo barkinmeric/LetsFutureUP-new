@@ -37,14 +37,11 @@ export default {
 			this.showVideo = false;
 			let body = document.getElementsByTagName("body")[0];
 			body.style.overflowY = "scroll";
-			console.log(body.style);
 		},
 		openVideo() {
 			this.showVideo = true;
 			let body = document.getElementsByTagName("body")[0];
 			body.style.overflow = "hidden";
-
-			console.log(body.style);
 		},
 	},
 };
