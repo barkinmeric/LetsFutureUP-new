@@ -45,8 +45,8 @@ export default {
 
 	pwa: {
 		meta: false,
-		// icon: false,
-		// manifest: false,
+		icon: false,
+		manifest: false,
 	},
 
 	image: {},
@@ -56,12 +56,13 @@ export default {
 	},
 
 	i18n: {
-		strategy: "prefix",
+		strategy: "prefix_and_default",
 		langDir: "~/locales/",
 		locales: [
 			{ code: "tr", iso: "tr-TR", file: "tr.json", name: "Türkçe" },
 			{ code: "en", iso: "en-US", file: "en.json", name: "English" },
 		],
+		defaultLocale: "tr",
 		detectBrowserLanguage: false,
 		baseUrl: "https://letsfutureup.com/",
 		parsePages: false,
@@ -76,7 +77,7 @@ export default {
 	},
 
 	sitemap: {
-		hostname: "https://letsfutureup.com",
+		hostname: "https://letsfutureup.com/",
 		exclude: ["/*"],
 		routes: routes,
 	},
