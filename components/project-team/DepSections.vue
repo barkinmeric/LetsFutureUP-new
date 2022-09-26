@@ -7,7 +7,7 @@
 
 		<div id="depImg" :style="imgOrderStyle">
 			<div id="secSingleImg" v-for="(img, i) in secData.content" :key="i">
-				<nuxt-img format="jpg" class="image" draggable="false" :src="img.image" :alt="$t('story.title')" height="200" width="176" />
+				<nuxt-img format="jpg" class="image" draggable="false" :src="img.image" :alt="$t('img.name')" height="200" width="176" />
 			</div>
 		</div>
 	</div>
