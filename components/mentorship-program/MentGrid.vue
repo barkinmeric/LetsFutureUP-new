@@ -1,8 +1,11 @@
 <template>
 	<section class="ments-sec">
 		<h2>{{ mentGrid.title }}</h2>
-		<div class="grid-ctn">
-			<img v-for="(ment, i) in mentGrid.content" :key="i" :src="ment.image" alt="" class="ment-img" />
+		<div class="flex-container">
+			<div class="ment-ctn" v-for="(ment, i) in mentGrid.content" :key="i">
+				<nuxt-img format="jpg" class="ment-img" draggable="false" :src="ment.image" :alt="ment.name" height="260" width="287" />
+				<p class="ment-name">{{ ment.name }}</p>
+			</div>
 		</div>
 	</section>
 </template>
@@ -19,15 +22,24 @@ export default {
 	padding: 48px 14px 64px 14px;
 	background: #f3f4f5;
 	border-radius: 8px;
-	.grid-ctn {
-		margin-top: 38px;
-		.ment-img {
-			max-width: 287px;
-			max-height: 260px;
-			min-width: 287px;
-			min-height: 260px;
-			border-radius: 8px;
-			margin: 10px;
+	.flex-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		.ment-ctn {
+			margin-top: 38px;
+			width: 307px;
+			.ment-img {
+				border-radius: 8px;
+				margin: 10px;
+			}
+			.ment-name {
+				font-style: normal;
+				font-weight: 900;
+				font-size: 18px;
+				line-height: 23px;
+				text-align: center;
+			}
 		}
 	}
 }

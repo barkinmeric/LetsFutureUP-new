@@ -7,7 +7,8 @@
 
 		<div id="depImg" :style="imgOrderStyle">
 			<div id="secSingleImg" v-for="(img, i) in secData.content" :key="i">
-				<nuxt-img format="jpg" class="image" draggable="false" :src="img.image" :alt="$t('img.name')" height="200" width="176" />
+				<nuxt-img format="jpg" class="image" draggable="false" :src="img.image" :alt="img.name" height="200" width="176" />
+				<p class="name">{{ img.name }}</p>
 			</div>
 		</div>
 	</div>
@@ -77,6 +78,16 @@ export default {
 			width: 176px;
 			height: 200px;
 			margin: 20px;
+			.image {
+				border-radius: 8px;
+			}
+			.name {
+				font-style: normal;
+				font-weight: 900;
+				font-size: 18px;
+				line-height: 23px;
+				text-align: center;
+			}
 		}
 		@media (max-width: 1400px) {
 			min-width: 650px;
