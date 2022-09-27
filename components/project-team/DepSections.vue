@@ -68,16 +68,14 @@ export default {
 		}
 	}
 	#depImg {
-		width: 50%;
 		padding: 0 20px 20px 20px 20px;
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: center;
 		align-items: center;
 		#secSingleImg {
-			width: 176px;
-			height: 200px;
 			margin: 20px;
+			text-align: center;
 			.image {
 				border-radius: 8px;
 			}
@@ -86,7 +84,6 @@ export default {
 				font-weight: 900;
 				font-size: 18px;
 				line-height: 23px;
-				text-align: center;
 			}
 		}
 		@media (max-width: 1400px) {
