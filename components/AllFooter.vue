@@ -130,7 +130,6 @@ export default {
 			a {
 				text-decoration: none;
 				color: white;
-				margin-left: 15px;
 				&visited {
 					color: white;
 				}

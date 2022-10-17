@@ -311,7 +311,7 @@
 			},
 			{
 				"title": "4-) Kaç kişilik mentee kontenjanı var?",
-				"text": "2021-2022 döneminde başvurular arasından gerekli kriterlerin sağlanması durumunda 25 öğrenci Lets FutureUP Projesi’ne dahil olacaktır."
+				"text": "2022-2023 döneminde başvurular arasından gerekli kriterlerin sağlanması durumunda 25 öğrenci Lets FutureUP Projesi’ne dahil olacaktır."
 			},
 			{
 				"title": "5-) Başvuruları kimler değerlendiriyor?",
@@ -357,7 +357,7 @@
 			},
 			{
 				"title": "Mentor nedir?",
-				"text": "Let’s FutureUP projesindeki mentorlar, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren, deneyimlerini paylaşan, öğretirken öğrenen ve rehberlik eden kişilerdir. Let’s FutureUP ekibi tarafından alanında uzman kişiler detaylı bir şekilde araştırılır ve ilgili kişilerin mentorluk başvurusu alınır. Seçilen her mentorun sorumluluğuna bir mentee verilir ve proje süresince menteesi ile görüşme yapması beklenir. Bu görüşmelerde mentorlar menteelerini en iyi şekilde kariyer yolculuklarına hazırlar."
+				"text": "Let’s FutureUP projesindeki mentorlar, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren, deneyimlerini paylaşan, öğretirken öğrenen ve rehberlik eden kişilerdir. Let’s FutureUP ekibi tarafından alanında uzman kişiler detaylı bir şekilde araştırılır ve ilgili kişilerin mentorluk başvurusu alınır. Seçilen her mentorun sorumluluğuna bir mentee verilir ve proje süresince menteeleri ile görüşme yapması beklenir. Bu görüşmelerde mentorlar menteelerini en iyi şekilde kariyer yolculuklarına hazırlar."
 			}
 		],
 		"years": {
@@ -670,7 +670,7 @@
 					]
 				},
 				"mentees": {
-					"title": "Mentees",
+					"title": "Menteeler",
 					"content": [
 						{
 							"name": "Ahmet Çalık",

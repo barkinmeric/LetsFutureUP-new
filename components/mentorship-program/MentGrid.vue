@@ -5,6 +5,7 @@
 			<div class="ment-ctn" v-for="(ment, i) in mentGrid.content" :key="i">
 				<nuxt-img format="jpg" class="ment-img" draggable="false" :src="ment.image" :alt="ment.name" height="260" width="287" />
 				<p class="ment-name">{{ ment.name }}</p>
+				<p>{{ ment.place }}</p>
 			</div>
 		</div>
 	</section>
