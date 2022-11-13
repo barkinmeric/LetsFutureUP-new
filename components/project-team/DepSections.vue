@@ -73,8 +73,8 @@ export default {
 		flex-flow: row wrap;
 		justify-content: center;
 		align-items: center;
+		width: 50%;
 		#secSingleImg {
-			margin: 20px;
 			text-align: center;
 			.image {
 				border-radius: 8px;
@@ -87,10 +87,12 @@ export default {
 			}
 		}
 		@media (max-width: 1400px) {
+			margin-top: 30px;
 			min-width: 650px;
 			order: 2 !important;
 		}
 		@media (max-width: $mobile_bp) {
+			margin-top: 30px;
 			min-width: 550px;
 			order: 2 !important;
 		}
