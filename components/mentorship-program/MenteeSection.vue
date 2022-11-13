@@ -3,7 +3,7 @@
 		<div id="text-side">
 			<h3>{{ $t("mentorship.content[0].title") }}</h3>
 			<article>{{ $t("mentorship.content[0].text") }}</article>
-			<a  target="_blank" :href="$t('index.join-us.link')" class="join-btn">{{ $t("index.join-us.button") }}</a>
+			<a target="_blank" :href="$t('index.join-us.link')" class="join-btn">{{ $t("index.join-us.button") }}</a>
 		</div>
 		<div id="img-side">
 			<div></div>
