@@ -6,7 +6,7 @@
 				<nuxt-img format="jpg" class="ment-img" draggable="false" :src="ment.image" :alt="ment.name" height="260" width="287" />
 				<p class="ment-name">{{ ment.name }}</p>
 				<p>{{ ment.place }}</p>
-				<p v-if="isMentor">{{ment.position}}</p>
+				<p v-if="isMentor">{{ ment.position }}</p>
 			</div>
 		</div>
 	</section>
@@ -15,9 +15,9 @@
 <script>
 export default {
 	props: {
-		"mentGrid": Object,
-		"isMentor": Boolean
-	}
+		mentGrid: Object,
+		isMentor: Boolean,
+	},
 };
 </script>
 

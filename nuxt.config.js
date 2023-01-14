@@ -26,16 +26,7 @@ export default {
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
 	components: {
-		dirs: [
-			"~/components",
-			"~/components/icons",
-			"~/components/index",
-			"~/components/faq",
-			"~/components/project-team",
-			"~/components/project-team/section-components",
-			"~/components/mentorship-program",
-			"~/components/events-announcements",
-		],
+		dirs: ["~/components", "~/components/icons", "~/components/index", "~/components/faq", "~/components/project-team", "~/components/mentorship-program", "~/components/events-announcements"],
 	},
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
