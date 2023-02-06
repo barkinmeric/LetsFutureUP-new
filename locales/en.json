@@ -4,16 +4,29 @@
 		"copyright": "Let's FutureUP 2022. All Rights Reserved.",
 		"us": {
 			"title": "Who Are We?",
-			"content": ["Our Story", "About Us", "Project Team", "FAQ"]
+			"content": [
+				"Our Story",
+				"About Us",
+				"Project Team",
+				"FAQ"
+			]
 		},
-
 		"do": {
 			"title": "What Are We Doing?",
-			"content": ["Events and Announcements"]
+			"content": [
+				"Events and Announcements"
+			]
 		},
 		"career": {
 			"title": "HelloCareer",
-			"content": ["Mentorship Program", "Student Development Program", "StartUP", "WeTALK", "AdviceUP", "TalentUP"]
+			"content": [
+				"Mentorship Program",
+				"Student Development Program",
+				"StartUP",
+				"WeTALK",
+				"AdviceUP",
+				"TalentUP"
+			]
 		}
 	},
 	"index": {
@@ -130,11 +143,15 @@
 				}
 			]
 		},
-
 		"board": {
 			"title": "Board",
 			"content": [
-				{ "name": "Erol Sapçı", "place": "FKT Couches", "position": "CEO", "image": "/pages/index/board/erol-sapci.png" },
+				{
+					"name": "Erol Sapçı",
+					"place": "FKT Couches",
+					"position": "CEO",
+					"image": "/pages/index/board/erol-sapci.png"
+				},
 				{
 					"name": "Gürkan Kantarcı",
 					"place": "Özerdem Mensucat",
@@ -164,30 +181,87 @@
 		"partner": {
 			"title": "Partners",
 			"content": [
-				{ "img": "/pages/index/partners/adler.svg", "link": "https://www.adlercentraleurope.com" },
-				{ "img": "/pages/index/partners/hrpeak.svg", "link": "https://www.hrpeak.com" },
-				{ "img": "/pages/index/partners/workinton.svg", "link": "https://www.workinton.com" }
+				{
+					"img": "/pages/index/partners/adler.svg",
+					"link": "https://www.adlercentraleurope.com"
+				},
+				{
+					"img": "/pages/index/partners/hrpeak.svg",
+					"link": "https://www.hrpeak.com"
+				},
+				{
+					"img": "/pages/index/partners/workinton.svg",
+					"link": "https://www.workinton.com"
+				}
 			]
 		},
 		"supporter": {
 			"title": "Supporters",
 			"content": [
-				{ "img": "/pages/index/supporters/aktas.svg", "link": "https://www.aktasholding.com" },
-				{ "img": "/pages/index/supporters/bezen.png", "link": "https://www.bezenpartners.com" },
-				{ "img": "/pages/index/supporters/bosch.svg", "link": "https://www.bosch.com" },
-				{ "img": "/pages/index/supporters/ekads.png", "link": "https://www.ekads.co" },
-				{ "img": "/pages/index/supporters/emek.svg", "link": "https://www.emek.com.tr" },
-				{ "img": "/pages/index/supporters/evrenol.png", "link": "https://www.evrenolarchitects.com/index.asp" },
-				{ "img": "/pages/index/supporters/farba.svg", "link": "https://www.farba.com.tr" },
-				{ "img": "/pages/index/supporters/feka.svg", "link": "https://www.fekaautomotive.com" },
-				{ "img": "/pages/index/supporters/fkt.svg", "link": "https://www.fkt.com.tr" },
-				{ "img": "/pages/index/supporters/haci-hasan.svg", "link": "https://www.hacihasanogullari.com.tr" },
-				{ "img": "/pages/index/supporters/inci.svg", "link": "https://www.inciholding.com" },
-				{ "img": "/pages/index/supporters/inoksan.svg", "link": "https://www.inoksan.com" },
-				{ "img": "/pages/index/supporters/limak.svg", "link": "https://www.limak.com.tr" },
-				{ "img": "/pages/index/supporters/rexroth.svg", "link": "https://www.boschrexroth.com" },
-				{ "img": "/pages/index/supporters/ti.jpg", "link": "https://www.tifluidsystems.com" },
-				{ "img": "/pages/index/supporters/valeo.svg", "link": "https://www.valeo.com" }
+				{
+					"img": "/pages/index/supporters/aktas.svg",
+					"link": "https://www.aktasholding.com"
+				},
+				{
+					"img": "/pages/index/supporters/bezen.png",
+					"link": "https://www.bezenpartners.com"
+				},
+				{
+					"img": "/pages/index/supporters/bosch.svg",
+					"link": "https://www.bosch.com"
+				},
+				{
+					"img": "/pages/index/supporters/ekads.png",
+					"link": "https://www.ekads.co"
+				},
+				{
+					"img": "/pages/index/supporters/emek.svg",
+					"link": "https://www.emek.com.tr"
+				},
+				{
+					"img": "/pages/index/supporters/evrenol.png",
+					"link": "https://www.evrenolarchitects.com/index.asp"
+				},
+				{
+					"img": "/pages/index/supporters/farba.svg",
+					"link": "https://www.farba.com.tr"
+				},
+				{
+					"img": "/pages/index/supporters/feka.svg",
+					"link": "https://www.fekaautomotive.com"
+				},
+				{
+					"img": "/pages/index/supporters/fkt.svg",
+					"link": "https://www.fkt.com.tr"
+				},
+				{
+					"img": "/pages/index/supporters/haci-hasan.svg",
+					"link": "https://www.hacihasanogullari.com.tr"
+				},
+				{
+					"img": "/pages/index/supporters/inci.svg",
+					"link": "https://www.inciholding.com"
+				},
+				{
+					"img": "/pages/index/supporters/inoksan.svg",
+					"link": "https://www.inoksan.com"
+				},
+				{
+					"img": "/pages/index/supporters/limak.svg",
+					"link": "https://www.limak.com.tr"
+				},
+				{
+					"img": "/pages/index/supporters/rexroth.svg",
+					"link": "https://www.boschrexroth.com"
+				},
+				{
+					"img": "/pages/index/supporters/ti.jpg",
+					"link": "https://www.tifluidsystems.com"
+				},
+				{
+					"img": "/pages/index/supporters/valeo.svg",
+					"link": "https://www.valeo.com"
+				}
 			]
 		},
 		"join-us": {
@@ -238,7 +312,10 @@
 			"While people are trying to fit their lives into their home, exploring themselves and the environment during the Pandemic, they are feeling worried about not finding self-satisfying answers to question which is “Where is our existence in this process ?”. Spending whole time at homes, people understood the importance of such notions as personal growth, social responsibility and awareness. The whole world turned into their inside and thought of what type of changes they would love to make in their lives. People realized that they forgot finding themselves in their daily lives and they felt the significance of gaining their life experiences again.",
 			"Therefore, in this pursuit, in order to be an answer for people, by inspiring from the quote of Mahatma Gandhi “If we could change ourselves, the tendencies in the world would also change. As a man changes his own nature, so does the attitude of the world change towards him. We need not wait to see what others do.”, we created Let’s FutureUP project for young people who care about their development and want to say hello to their future careers."
 		],
-		"saying": ["Be the change that you wish to see in the world", "(Mahatma Gandhi)"]
+		"saying": [
+			"Be the change that you wish to see in the world",
+			"(Mahatma Gandhi)"
+		]
 	},
 	"team": {
 		"title": "Project Team",
@@ -251,10 +328,30 @@
 				"index": 0,
 				"text": "This department arranges/organizes the recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes a role in the preparation of e-bulletin. Besides, it checks for the attendance of students and team members at Let’s FutureUP events. They act to keep the motivation of students high and accordingly; they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs.",
 				"content": [
-					{ "name": "Begüm Yağcıoğlu", "place": "", "position": "", "image": "/pages/project-team/human-resources/begum_yagcioglu.jpg" },
-					{ "name": "Berkan Ulusoy", "place": "", "position": "", "image": "/pages/project-team/human-resources/berkan_ulusoy.jpg" },
-					{ "name": "Buket Karhan", "place": "", "position": "", "image": "/pages/project-team/human-resources/buket_karhan.jpg" },
-					{ "name": "Yaren Bato", "place": "", "position": "", "image": "/pages/project-team/human-resources/yaren_bato.jpg" }
+					{
+						"name": "Begüm Yağcıoğlu",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/human-resources/begum_yagcioglu.jpg"
+					},
+					{
+						"name": "Berkan Ulusoy",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/human-resources/berkan_ulusoy.jpg"
+					},
+					{
+						"name": "Buket Karhan",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/human-resources/buket_karhan.jpg"
+					},
+					{
+						"name": "Yaren Bato",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/human-resources/yaren_bato.jpg"
+					}
 				]
 			},
 			{
@@ -263,9 +360,24 @@
 				"index": 1,
 				"text": "They contact with high level managers/executives and offer them to be spokespersons/trainers/mentors in programs as regards Let’s FutureUP project which are the Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They also set meetings so as to introduce the project to the candidate mentors and they contribute to the organization of such events and announcement of them to shareholders. They engage in sponsorship activities. Moreover, they hold meetings with university clubs and advertise for the project.",
 				"content": [
-					{ "name": "Cansu Çetindaş", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/cansu_cetindas.jpg" },
-					{ "name": "Duru Alayoglu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/duru_alayoglu.jpg" },
-					{ "name": "Fatmanur Oter", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/fatmanur_oter.jpg" }
+					{
+						"name": "Cansu Çetindaş",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/corporate-communication/cansu_cetindas.jpg"
+					},
+					{
+						"name": "Duru Alayoglu",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/corporate-communication/duru_alayoglu.jpg"
+					},
+					{
+						"name": "Fatmanur Oter",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/corporate-communication/fatmanur_oter.jpg"
+					}
 				]
 			},
 			{
@@ -274,10 +386,30 @@
 				"index": 2,
 				"text": "They are responsible for effective utilization of the social media accounts of the project. At the same time, they play an essential role while gaining international recognition. Besides, they prepare posts and informative materials which announce the WeTALK events and other training activities of the project.",
 				"content": [
-					{ "name": "Ali Akın", "place": "", "position": "", "image": "/pages/project-team/social-media/ali_akin.jpg" },
-					{ "name": "Hilal Üstün", "place": "", "position": "", "image": "/pages/project-team/social-media/hilal_ustun.jpg" },
-					{ "name": "Seniha Fışkın", "place": "", "position": "", "image": "/pages/project-team/social-media/seniha_fiskin.jpg" },
-					{ "name": "Umay Pehlivan", "place": "", "position": "", "image": "/pages/project-team/social-media/umay_pehlivan.jpg" }
+					{
+						"name": "Ali Akın",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/social-media/ali_akin.jpg"
+					},
+					{
+						"name": "Hilal Üstün",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/social-media/hilal_ustun.jpg"
+					},
+					{
+						"name": "Seniha Fışkın",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/social-media/seniha_fiskin.jpg"
+					},
+					{
+						"name": "Umay Pehlivan",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/social-media/umay_pehlivan.jpg"
+					}
 				]
 			},
 			{
@@ -286,9 +418,24 @@
 				"index": 3,
 				"text": "They are well prepared for startup-based activities that will take the stage in the following periods. This team generally works on the installation, enhancement and management processes of our website. In addition, the team is responsible for writing the codes of the programs that execute and digitalize the project.",
 				"content": [
-					{ "name": "Barkın Meriç", "place": "", "position": "", "image": "/pages/project-team/startup/barkin_meric.jpg" },
-					{ "name": "Muhammed Mustafa Şen", "place": "", "position": "", "image": "/pages/project-team/startup/muhammed_mustafa_sen.jpg" },
-					{ "name": "Olgu Batın Topal", "place": "", "position": "", "image": "/pages/project-team/startup/olgu_batin_topal.jpeg" }
+					{
+						"name": "Barkın Meriç",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/startup/barkin_meric.jpg"
+					},
+					{
+						"name": "Muhammed Mustafa Şen",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/startup/muhammed_mustafa_sen.jpg"
+					},
+					{
+						"name": "Olgu Batın Topal",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/startup/olgu_batin_topal.jpeg"
+					}
 				]
 			}
 		]
@@ -851,6 +998,283 @@
 							"place": "Bursa Uludağ University",
 							"position": "Industrial Engineering",
 							"image": "/pages/mentorship-program/2021-2022/mentee/tugba-gencer.jpeg"
+						}
+					]
+				}
+			},
+			"2022-2023": {
+				"title": "2022-2023 Mentor-Mentee",
+				"mentors": {
+					"title": "2022-2023 Mentors",
+					"content": [
+						{
+							"name": "Ali Yaşar Topçu",
+							"place": "FARBA Otomotiv A.Ş.",
+							"position": "Fabrika Directörü",
+							"image": "/pages/mentorship-program/2022-2023/mentor/ali-yasar-topcu.jpeg"
+						},
+						{
+							"name": "Anna Elizabeth Fischer",
+							"place": "Amrop",
+							"position": "Executive Consulting / Senior Associate & Diversity Advisor",
+							"image": "/pages/mentorship-program/2022-2023/mentor/anna-elizabeth-fischer.jpg"
+						},
+						{
+							"name": "Anna Vardar",
+							"place": "Bosch",
+							"position": "Başkanlık Ofisi Yöneticisi",
+							"image": "/pages/mentorship-program/2022-2023/mentor/anna-vardar.jpeg"
+						},
+						{
+							"name": "Banu Bölükemini",
+							"place": "Bezen & Partners",
+							"position": "Avukat",
+							"image": "/pages/mentorship-program/2022-2023/mentor/banu-bolukemini.jpg"
+						},
+						{
+							"name": "Bülent Kaçar",
+							"place": "Valeo",
+							"position": "Fabrika Yöneticisi",
+							"image": "/pages/mentorship-program/2022-2023/mentor/bulent-kacar.png"
+						},
+						{
+							"name": "Cenk Kıvılcım",
+							"place": "Kyndrly",
+							"position": "Başkan Yardımcısı",
+							"image": "/pages/mentorship-program/2022-2023/mentor/cenk-kivilcim.png"
+						},
+						{
+							"name": "Eman Martin-Vignerte",
+							"place": "Robert Bosch Birleşik Kırallık",
+							"position": "Dış İlişkiler ve Devlet ve Siyasi İlişkiler Yöneticisi",
+							"image": "/pages/mentorship-program/2022-2023/mentor/eman-martin-vignerte.png"
+						},
+						{
+							"name": "Emre Bayer",
+							"place": "PilotCar",
+							"position": "Satın Alma Müdürü",
+							"image": "/pages/mentorship-program/2022-2023/mentor/emre-bayer.jpg"
+						},
+						{
+							"name": "Erol Sapçı",
+							"place": "FKT Koltuk A.Ş.",
+							"position": "CEO",
+							"image": "/pages/mentorship-program/2022-2023/mentor/erol-sapci.jpg"
+						},
+						{
+							"name": "Esen Öztemel",
+							"place": "Bosch Kuzey Amerika",
+							"position": "Tedarik Zinciri Yöneticisi",
+							"image": "/pages/mentorship-program/2022-2023/mentor/esen-oztemel.jpg"
+						},
+						{
+							"name": "Gitta Unger",
+							"place": "Bosch Bursa",
+							"position": "Ticari Genel Müdürü",
+							"image": "/pages/mentorship-program/2022-2023/mentor/gitta-unger.png"
+						},
+						{
+							"name": "Göker Aydın",
+							"place": "Johns Hopkins Üniversitesi",
+							"position": "Profesör",
+							"image": "/pages/mentorship-program/2022-2023/mentor/goker-aydin.jpg"
+						},
+						{
+							"name": "İskender Ulusay",
+							"place": "Al-Kor",
+							"position": "İcra Kurulu Başkanı ve Genel Müdür",
+							"image": "/pages/mentorship-program/2022-2023/mentor/iskender-ulusay.png"
+						},
+						{
+							"name": "İsmail Yamangil",
+							"place": "Schneider Electric Türkiye",
+							"position": "Genel Müdür",
+							"image": "/pages/mentorship-program/2022-2023/mentor/ismail-yamangil.JPG"
+						},
+						{
+							"name": "Mehpare Evrenol",
+							"place": "Evrenol Architects",
+							"position": "Kurucu Ortak",
+							"image": "/pages/mentorship-program/2022-2023/mentor/mehpare-evrenol.jpg"
+						},
+						{
+							"name": "Neşe Gök",
+							"place": "İnci Holding A.Ş",
+							"position": "Yönetim Kurulu Başkanı",
+							"image": "/pages/mentorship-program/2022-2023/mentor/nese-gok.jpg"
+						},
+						{
+							"name": "Nuray Demirer",
+							"place": "TAV Airport",
+							"position": "Genel Müdürü",
+							"image": "/pages/mentorship-program/2022-2023/mentor/nuray-demirer.png"
+						},
+						{
+							"name": "Resan Yüner",
+							"place": "Apple",
+							"position": "Türkiye Genel Müdürü",
+							"image": "/pages/mentorship-program/2022-2023/mentor/resan-yuner.jpeg"
+						},
+						{
+							"name": "Sezer Sönmez",
+							"place": "TI Otomotiv",
+							"position": "Genel Müdür",
+							"image": "/pages/mentorship-program/2022-2023/mentor/sezer-sonmez.png"
+						},
+						{
+							"name": "Taner Ali Karslıoğlu",
+							"place": "Feka Grup",
+							"position": "CEO",
+							"image": "/pages/mentorship-program/2022-2023/mentor/taner-karslioglu.png"
+						},
+						{
+							"name": "Tanju Özkonuk",
+							"place": "Bosch Rexroth A.Ş",
+							"position": "Ticari Genel Müdür",
+							"image": "/pages/mentorship-program/2022-2023/mentor/tanju-ozkonuk.png"
+						},
+						{
+							"name": "Tunç Berkman",
+							"place": "TBS",
+							"position": "Yatırım Ortağı",
+							"image": "/pages/mentorship-program/2022-2023/mentor/tunc-berkman.jpg"
+						},
+						{
+							"name": "Ufuk Penekli",
+							"place": "FE-TECH",
+							"position": "Genel Müdür",
+							"image": "/pages/mentorship-program/2022-2023/mentor/ufuk-penekli.png"
+						},
+						{
+							"name": "Yusuf Ziya Yüce",
+							"place": "Limak Enerji",
+							"position": "Kurumsal İletişim Müdürü",
+							"image": "/pages/mentorship-program/2022-2023/mentor/yusuf-ziya-yuce.png"
+						}
+					]
+				},
+				"mentees": {
+					"title": "2022-2023 Mentees",
+					"content": [
+						{
+							"name": "Ali Akın",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/ali-akin.jpg"
+						},
+						{
+							"name": "Ayşenur Kavlak",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/aysenur-kavlak.jpg"
+						},
+						{
+							"name": "Banu Kaymaz",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/banu-kaymaz.jpg"
+						},
+						{
+							"name": "Begüm Yağcıoğlu",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/begum-yagcioglu.jpg"
+						},
+						{
+							"name": "Berat Ulusoy",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/berat-ulusoy.jpg"
+						},
+						{
+							"name": "Bilge Doğa Yılmaz",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/bilge-doga-yilmaz.jpg"
+						},
+						{
+							"name": "Elifnaz Kazar",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/elifnaz-kazar.jpg"
+						},
+						{
+							"name": "Emine Bayhan",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/emine-bayhan.jpg"
+						},
+						{
+							"name": "Emine Beyza Gümüş",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/emine-beyza-gumus.jpg"
+						},
+						{
+							"name": "Emine Kübra Küçüksümbül",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/emine-kubra-kucuksumbul.jpg"
+						},
+						{
+							"name": "Feyza Karaca",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/feyza-karaca.jpg"
+						},
+						{
+							"name": "Gökmen Şahan",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/gokmen-sahan.jpg"
+						},
+						{
+							"name": "Gülsüm Yılmaz",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/gulsum-yilmaz.jpg"
+						},
+						{
+							"name": "Hatice Semerci",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/hatice-semerci.jpg"
+						},
+						{
+							"name": "İlayda Demir",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/ilayda-demir.jpg"
+						},
+						{
+							"name": "Irmak Özçelik",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/irmak-ozcelik.jpg"
+						},
+						{
+							"name": "Meftun Akarsu",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/meftun-akarsu.jpg"
+						},
+						{
+							"name": "Nilüfer Sevim",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/nilufer-sevim.jpg"
+						},
+						{
+							"name": "Reyhan Yörük",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/reyhan-yoruk.jpg"
+						},
+						{
+							"name": "Rümeysa Yurdakul",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/rumeysa-yurdakul.jpg"
+						},
+						{
+							"name": "Tansu Hızar",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/tansu-hizar.jpg"
+						},
+						{
+							"name": "Yağmur İmamoğlu",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/yagmur-imamoglu.jpg"
+						},
+						{
+							"name": "Yaren Bato",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/yaren-bato.jpg"
+						},
+						{
+							"name": "Zeynep Kurd",
+							"place": "",
+							"image": "/pages/mentorship-program/2022-2023/mentee/zeynep-kurd.jpg"
 						}
 					]
 				}

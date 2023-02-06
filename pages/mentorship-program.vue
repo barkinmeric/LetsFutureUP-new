@@ -3,8 +3,13 @@
 		<social-head :title="$t('mentorship.title')" :description="$t('index.desc')" />
 		<div class="container">
 			<mentor-section />
-			<ment-grid :mentGrid="$t('mentorship.years.2021-2022.mentors')" :isMentor="true" />
+			<ment-grid :mentGrid="$t('mentorship.years.2022-2023.mentors')" :isMentor="true" />
 			<mentee-section />
+			<ment-grid :mentGrid="$t('mentorship.years.2022-2023.mentees')" :isMentor="false" />
+			<div class="center">
+				<h1 class="mentorship-header">{{ $t("mentorship.years.2021-2022.title") }}</h1>
+			</div>
+			<ment-grid :mentGrid="$t('mentorship.years.2021-2022.mentors')" :isMentor="true" />
 			<ment-grid :mentGrid="$t('mentorship.years.2021-2022.mentees')" :isMentor="false" />
 			<div class="center">
 				<h1 class="mentorship-header">{{ $t("mentorship.years.2020-2021.title") }}</h1>
