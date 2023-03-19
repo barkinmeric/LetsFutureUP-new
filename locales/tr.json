@@ -721,14 +721,44 @@
 						{
 							"name": "Ali Yaşar Topçu",
 							"place": "FARBA Otomotiv A.Ş.",
-							"position": "Fabrika Directörü",
+							"position": "Fabrika Direktörü",
 							"image": "/pages/mentorship-program/2021-2022/mentor/ali-yasar-topcu.jpeg"
+						},
+						{
+							"name": "Anna Elizabeth Fischer",
+							"place": "Amrop",
+							"position": "Executive Consulting / Senior Associate & Diversity Advisor",
+							"image": "/pages/mentorship-program/2021-2022/mentor/anna-elizabeth-fischer.jpg"
+						},
+						{
+							"name": "Anna Vardar",
+							"place": "Bosch",
+							"position": "Başkanlık Ofisi Yöneticisi",
+							"image": "/pages/mentorship-program/2021-2022/mentor/anna-vardar.jpeg"
+						},
+						{
+							"name": "Banu Bölükemini",
+							"place": "Bezen & Partners",
+							"position": "Avukat",
+							"image": "/pages/mentorship-program/2021-2022/mentor/banu-bolukemini.jpg"
 						},
 						{
 							"name": "Bülent Kaçar",
 							"place": "Valeo",
 							"position": "Fabrika Yöneticisi",
 							"image": "/pages/mentorship-program/2021-2022/mentor/bulent-kacar.png"
+						},
+						{
+							"name": "Cenk Kıvılcım",
+							"place": "Kyndrly",
+							"position": "Başkan Yardımcısı",
+							"image": "/pages/mentorship-program/2021-2022/mentor/cenk-kivilcim.png"
+						},
+						{
+							"name": "Eman Martin-Vignerte",
+							"place": "Robert Bosch Birleşik Kırallık",
+							"position": "Dış İlişkiler ve Devlet ve Siyasi İlişkiler Yöneticisi",
+							"image": "/pages/mentorship-program/2021-2022/mentor/eman-martin-vignerte.png"
 						},
 						{
 							"name": "Erol Sapçı",
@@ -755,34 +785,16 @@
 							"image": "/pages/mentorship-program/2021-2022/mentor/iskender-ulusay.png"
 						},
 						{
-							"name": "Sebutay Göksu",
-							"place": "MAENSO Mühendislik",
-							"position": "Kurucu",
-							"image": "/pages/mentorship-program/2021-2022/mentor/sebutay-goksu.jpg"
+							"name": "Mehpare Evrenol",
+							"place": "Evrenol Architects",
+							"position": "Kurucu Ortak",
+							"image": "/pages/mentorship-program/2021-2022/mentor/mehpare-evrenol.jpg"
 						},
 						{
-							"name": "Taner Ali Karslıoğlu",
-							"place": "Feka Grup",
-							"position": "CEO",
-							"image": "/pages/mentorship-program/2021-2022/mentor/taner-karslioglu.png"
-						},
-						{
-							"name": "Tanju Özkonuk",
-							"place": "Bosch Rexroth A.Ş",
-							"position": "Ticari Genel Müdür",
-							"image": "/pages/mentorship-program/2021-2022/mentor/tanju-ozkonuk.png"
-						},
-						{
-							"name": "Yusuf Ziya Yüce",
-							"place": "Limak Enerji",
-							"position": "Kurumsal İletişim Müdürü",
-							"image": "/pages/mentorship-program/2021-2022/mentor/yusuf-ziya-yuce.png"
-						},
-						{
-							"name": "Banu Bölükemini",
-							"place": "Bezen & Partners",
-							"position": "Avukat",
-							"image": "/pages/mentorship-program/2021-2022/mentor/banu-bolukemini.jpg"
+							"name": "Mirsada Kudric",
+							"place": "Robert Bosch Hırvatistan & Slovenya",
+							"position": "Genel Müdür",
+							"image": "/pages/mentorship-program/2021-2022/mentor/mirsada-kudric.jpg"
 						},
 						{
 							"name": "Neşe Gök",
@@ -797,10 +809,16 @@
 							"image": "/pages/mentorship-program/2021-2022/mentor/resan-yuner.jpeg"
 						},
 						{
-							"name": "Cenk Kıvılcım",
-							"place": "Kyndrly",
-							"position": "Başkan Yardımcısı",
-							"image": "/pages/mentorship-program/2021-2022/mentor/cenk-kivilcim.png"
+							"name": "Ruud De Reijke",
+							"place": "",
+							"position": "Lojistik Yöneticisi",
+							"image": "/pages/mentorship-program/2021-2022/mentor/sebutay-goksu.jpg"
+						},
+						{
+							"name": "Sebutay Göksu",
+							"place": "MAENSO Mühendislik",
+							"position": "Kurucu",
+							"image": "/pages/mentorship-program/2021-2022/mentor/sebutay-goksu.jpg"
 						},
 						{
 							"name": "Sezer Sönmez",
@@ -809,34 +827,16 @@
 							"image": "/pages/mentorship-program/2021-2022/mentor/sezer-sonmez.png"
 						},
 						{
-							"name": "Anna Vardar",
-							"place": "Bosch",
-							"position": "Başkanlık Ofisi Yöneticisi",
-							"image": "/pages/mentorship-program/2021-2022/mentor/anna-vardar.jpeg"
+							"name": "Taner Ali Karslıoğlu",
+							"place": "Feka Grup",
+							"position": "CEO",
+							"image": "/pages/mentorship-program/2021-2022/mentor/taner-karslioglu.png"
 						},
 						{
-							"name": "Eman Martin-Vignerte",
-							"place": "Robert Bosch Birleşik Kırallık",
-							"position": "Dış İlişkiler ve Devlet ve Siyasi İlişkiler Yöneticisi",
-							"image": "/pages/mentorship-program/2021-2022/mentor/eman-martin-vignerte.png"
-						},
-						{
-							"name": "Mirsada Kudric",
-							"place": "Robert Bosch Hırvatistan & Slovenya",
-							"position": "Genel Müdür",
-							"image": "/pages/mentorship-program/2021-2022/mentor/mirsada-kudric.jpg"
-						},
-						{
-							"name": "Anna Elizabeth Fischer",
-							"place": "Amrop",
-							"position": "Executive Consulting / Senior Associate & Diversity Advisor",
-							"image": "/pages/mentorship-program/2021-2022/mentor/anna-elizabeth-fischer.jpg"
-						},
-						{
-							"name": "Ruud De Reijke",
-							"place": "",
-							"position": "Lojistik Yöneticisi",
-							"image": "/pages/mentorship-program/2021-2022/mentor/sebutay-goksu.jpg"
+							"name": "Tanju Özkonuk",
+							"place": "Bosch Rexroth A.Ş",
+							"position": "Ticari Genel Müdür",
+							"image": "/pages/mentorship-program/2021-2022/mentor/tanju-ozkonuk.png"
 						},
 						{
 							"name": "Tunç Berkman",
@@ -851,10 +851,10 @@
 							"image": "/pages/mentorship-program/2021-2022/mentor/vehbi-varlik.png"
 						},
 						{
-							"name": "Mehpare Evrenol",
-							"place": "Evrenol Architects",
-							"position": "Kurucu Ortak",
-							"image": "/pages/mentorship-program/2021-2022/mentor/mehpare-evrenol.jpg"
+							"name": "Yusuf Ziya Yüce",
+							"place": "Limak Enerji",
+							"position": "Kurumsal İletişim Müdürü",
+							"image": "/pages/mentorship-program/2021-2022/mentor/yusuf-ziya-yuce.png"
 						}
 					]
 				},
@@ -1010,7 +1010,7 @@
 						{
 							"name": "Ali Yaşar Topçu",
 							"place": "FARBA Otomotiv A.Ş.",
-							"position": "Fabrika Directörü",
+							"position": "Fabrika Direktörü",
 							"image": "/pages/mentorship-program/2022-2023/mentor/ali-yasar-topcu.jpeg"
 						},
 						{
