@@ -521,8 +521,8 @@
 						},
 						{
 							"name": "Ali Yaşar Topçu",
-							"place": "Farba Automotive",
-							"position": "Plant Manager",
+							"place": "FARBA Automotive Inc.",
+							"position": "Factory Director",
 							"image": "/pages/mentorship-program/2020-2021/mentor/ali-yasar-topcu.jpg"
 						},
 						{
@@ -720,15 +720,45 @@
 					"content": [
 						{
 							"name": "Ali Yaşar Topçu",
-							"place": "FARBA Otomotiv A.Ş.",
-							"position": "Fabrika Directörü",
+							"place": "FARBA Automotive Inc.",
+							"position": "Factory Director",
 							"image": "/pages/mentorship-program/2021-2022/mentor/ali-yasar-topcu.jpeg"
+						},
+						{
+							"name": "Anna Elizabeth Fischer",
+							"place": "Amrop",
+							"position": "Executive Consulting / Senior Associate & Diversity Advisor",
+							"image": "/pages/mentorship-program/2021-2022/mentor/anna-elizabeth-fischer.jpg"
+						},
+						{
+							"name": "Anna Vardar",
+							"place": "Bosch",
+							"position": "Organizational Development & Business Excellence Manager",
+							"image": "/pages/mentorship-program/2021-2022/mentor/anna-vardar.jpeg"
+						},
+						{
+							"name": "Banu Bölükemini",
+							"place": "Bezen & Partners",
+							"position": "Lawyer",
+							"image": "/pages/mentorship-program/2021-2022/mentor/banu-bolukemini.jpg"
 						},
 						{
 							"name": "Bülent Kaçar",
 							"place": "Valeo",
-							"position": "Fabrika Yöneticisi",
+							"position": "Factory Manager",
 							"image": "/pages/mentorship-program/2021-2022/mentor/bulent-kacar.png"
+						},
+						{
+							"name": "Cenk Kıvılcım",
+							"place": "Kyndrly",
+							"position": "Vice President",
+							"image": "/pages/mentorship-program/2021-2022/mentor/cenk-kivilcim.png"
+						},
+						{
+							"name": "Eman Martin-Vignerte",
+							"place": "Robert Bosch UK Holdings Limited.",
+							"position": "Director of the External Affairs, Governmental and Political relations",
+							"image": "/pages/mentorship-program/2021-2022/mentor/eman-martin-vignerte.png"
 						},
 						{
 							"name": "Erol Sapçı",
@@ -738,123 +768,93 @@
 						},
 						{
 							"name": "Esen Öztemel",
-							"place": "Bosch Kuzey Amerika",
-							"position": "Tedarik Zinciri Yöneticisi",
+							"place": "Bosch North America",
+							"position": "Supply Chain Manager",
 							"image": "/pages/mentorship-program/2021-2022/mentor/esen-oztemel.jpg"
 						},
 						{
 							"name": "Gürkan Kantarcı",
-							"place": "RB Karesi Holding",
-							"position": "Üretim Müdürü",
+							"place": "RB Karesi Textile",
+							"position": "Production Manager",
 							"image": "/pages/mentorship-program/2021-2022/mentor/gurkan-kantarci.png"
 						},
 						{
 							"name": "İskender Ulusay",
 							"place": "Al-Kor",
-							"position": "İcra Kurulu Başkanı ve Genel Müdür",
+							"position": "Chief Executive Officer and Managing Director",
 							"image": "/pages/mentorship-program/2021-2022/mentor/iskender-ulusay.png"
 						},
 						{
-							"name": "Sebutay Göksu",
-							"place": "MAENSO Mühendislik",
-							"position": "Kurucu",
+							"name": "Mehpare Evrenol",
+							"place": "Evrenol Architects",
+							"position": "Founder Partner",
+							"image": "/pages/mentorship-program/2021-2022/mentor/mehpare-evrenol.jpg"
+						},
+						{
+							"name": "Mirsada Kudric",
+							"place": "Robert Bosch Croatia and Robert Bosch",
+							"position": "General Manager",
+							"image": "/pages/mentorship-program/2021-2022/mentor/mirsada-kudric.jpg"
+						},
+						{
+							"name": "Neşe Gök",
+							"place": "İnci Holding A.Ş",
+							"position": "Chairman of the Board",
+							"image": "/pages/mentorship-program/2021-2022/mentor/nese-gok.jpg"
+						},
+						{
+							"name": "Resan Yüner",
+							"place": "Apple Turkey",
+							"position": "General Manager",
+							"image": "/pages/mentorship-program/2021-2022/mentor/resan-yuner.jpeg"
+						},
+						{
+							"name": "Ruud De Reijke",
+							"place": "",
+							"position": "Logistics Manager",
 							"image": "/pages/mentorship-program/2021-2022/mentor/sebutay-goksu.jpg"
 						},
 						{
+							"name": "Sebutay Göksu",
+							"place": "MAENSO Engineering",
+							"position": "Founder",
+							"image": "/pages/mentorship-program/2021-2022/mentor/sebutay-goksu.jpg"
+						},
+						{
+							"name": "Sezer Sönmez",
+							"place": "TI Automotive",
+							"position": "General Manager",
+							"image": "/pages/mentorship-program/2021-2022/mentor/sezer-sonmez.png"
+						},
+						{
 							"name": "Taner Ali Karslıoğlu",
-							"place": "Feka Grup",
+							"place": "Feka Automotive Industry and Trade. Inc.",
 							"position": "CEO",
 							"image": "/pages/mentorship-program/2021-2022/mentor/taner-karslioglu.png"
 						},
 						{
 							"name": "Tanju Özkonuk",
 							"place": "Bosch Rexroth A.Ş",
-							"position": "Ticari Genel Müdür",
+							"position": "Commercial General Manager",
 							"image": "/pages/mentorship-program/2021-2022/mentor/tanju-ozkonuk.png"
-						},
-						{
-							"name": "Yusuf Ziya Yüce",
-							"place": "Limak Enerji",
-							"position": "Kurumsal İletişim Müdürü",
-							"image": "/pages/mentorship-program/2021-2022/mentor/yusuf-ziya-yuce.png"
-						},
-						{
-							"name": "Banu Bölükemini",
-							"place": "Bezen & Partners",
-							"position": "Avukat",
-							"image": "/pages/mentorship-program/2021-2022/mentor/banu-bolukemini.jpg"
-						},
-						{
-							"name": "Neşe Gök",
-							"place": "İnci Holding A.Ş",
-							"position": "Yönetim Kurulu Başkanı",
-							"image": "/pages/mentorship-program/2021-2022/mentor/nese-gok.jpg"
-						},
-						{
-							"name": "Resan Yüner",
-							"place": "Apple",
-							"position": "Türkiye Genel Müdürü",
-							"image": "/pages/mentorship-program/2021-2022/mentor/resan-yuner.jpeg"
-						},
-						{
-							"name": "Cenk Kıvılcım",
-							"place": "Kyndrly",
-							"position": "Başkan Yardımcısı",
-							"image": "/pages/mentorship-program/2021-2022/mentor/cenk-kivilcim.png"
-						},
-						{
-							"name": "Sezer Sönmez",
-							"place": "TI Otomotiv",
-							"position": "Genel Müdür",
-							"image": "/pages/mentorship-program/2021-2022/mentor/sezer-sonmez.png"
-						},
-						{
-							"name": "Anna Vardar",
-							"place": "Bosch",
-							"position": "Başkanlık Ofisi Yöneticisi",
-							"image": "/pages/mentorship-program/2021-2022/mentor/anna-vardar.jpeg"
-						},
-						{
-							"name": "Eman Martin-Vignerte",
-							"place": "Robert Bosch Birleşik Kırallık",
-							"position": "Dış İlişkiler ve Devlet ve Siyasi İlişkiler Yöneticisi",
-							"image": "/pages/mentorship-program/2021-2022/mentor/eman-martin-vignerte.png"
-						},
-						{
-							"name": "Mirsada Kudric",
-							"place": "Robert Bosch Hırvatistan & Slovenya",
-							"position": "Genel Müdür",
-							"image": "/pages/mentorship-program/2021-2022/mentor/mirsada-kudric.jpg"
-						},
-						{
-							"name": "Anna Elizabeth Fischer",
-							"place": "Amrop",
-							"position": "Executive Consulting / Senior Associate & Diversity Advisor",
-							"image": "/pages/mentorship-program/2021-2022/mentor/anna-elizabeth-fischer.jpg"
-						},
-						{
-							"name": "Ruud De Reijke",
-							"place": "",
-							"position": "Lojistik Yöneticisi",
-							"image": "/pages/mentorship-program/2021-2022/mentor/sebutay-goksu.jpg"
 						},
 						{
 							"name": "Tunç Berkman",
 							"place": "TBS",
-							"position": "Yatırım Ortağı",
+							"position": "Investment Partner",
 							"image": "/pages/mentorship-program/2021-2022/mentor/tunc-berkman.jpg"
 						},
 						{
 							"name": "Vehbi Varlık",
 							"place": "Inoksan",
-							"position": "Yönetim Kurulu Başkanı",
+							"position": "Chairman of the Board",
 							"image": "/pages/mentorship-program/2021-2022/mentor/vehbi-varlik.png"
 						},
 						{
-							"name": "Mehpare Evrenol",
-							"place": "Evrenol Architects",
-							"position": "Kurucu Ortak",
-							"image": "/pages/mentorship-program/2021-2022/mentor/mehpare-evrenol.jpg"
+							"name": "Yusuf Ziya Yüce",
+							"place": "Limak Energy",
+							"position": "Corporate Communication Director",
+							"image": "/pages/mentorship-program/2021-2022/mentor/yusuf-ziya-yuce.png"
 						}
 					]
 				},
@@ -1009,8 +1009,8 @@
 					"content": [
 						{
 							"name": "Ali Yaşar Topçu",
-							"place": "FARBA Otomotiv A.Ş.",
-							"position": "Fabrika Directörü",
+							"place": "FARBA Automotive Inc.",
+							"position": "Factory Director",
 							"image": "/pages/mentorship-program/2022-2023/mentor/ali-yasar-topcu.jpeg"
 						},
 						{
@@ -1022,37 +1022,37 @@
 						{
 							"name": "Anna Vardar",
 							"place": "Bosch",
-							"position": "Başkanlık Ofisi Yöneticisi",
+							"position": "Organizational Development & Business Excellence Manager",
 							"image": "/pages/mentorship-program/2022-2023/mentor/anna-vardar.jpeg"
 						},
 						{
 							"name": "Banu Bölükemini",
 							"place": "Bezen & Partners",
-							"position": "Avukat",
+							"position": "Lawyer",
 							"image": "/pages/mentorship-program/2022-2023/mentor/banu-bolukemini.jpg"
 						},
 						{
 							"name": "Bülent Kaçar",
 							"place": "Valeo",
-							"position": "Fabrika Yöneticisi",
+							"position": "Factory Manager",
 							"image": "/pages/mentorship-program/2022-2023/mentor/bulent-kacar.png"
 						},
 						{
 							"name": "Cenk Kıvılcım",
 							"place": "Kyndrly",
-							"position": "Başkan Yardımcısı",
+							"position": "Vice President",
 							"image": "/pages/mentorship-program/2022-2023/mentor/cenk-kivilcim.png"
 						},
 						{
 							"name": "Eman Martin-Vignerte",
-							"place": "Robert Bosch Birleşik Kırallık",
-							"position": "Dış İlişkiler ve Devlet ve Siyasi İlişkiler Yöneticisi",
+							"place": "Robert Bosch UK Holdings Limited.",
+							"position": "Director of the External Affairs, Governmental and Political relations",
 							"image": "/pages/mentorship-program/2022-2023/mentor/eman-martin-vignerte.png"
 						},
 						{
 							"name": "Emre Bayer",
 							"place": "PilotCar",
-							"position": "Satın Alma Müdürü",
+							"position": "Procurement Manager",
 							"image": "/pages/mentorship-program/2022-2023/mentor/emre-bayer.jpg"
 						},
 						{
@@ -1063,92 +1063,92 @@
 						},
 						{
 							"name": "Esen Öztemel",
-							"place": "Bosch Kuzey Amerika",
-							"position": "Tedarik Zinciri Yöneticisi",
+							"place": "Bosch North America",
+							"position": "Supply Chain Manager",
 							"image": "/pages/mentorship-program/2022-2023/mentor/esen-oztemel.jpg"
 						},
 						{
 							"name": "Gitta Unger",
 							"place": "Bosch Bursa",
-							"position": "Ticari Genel Müdürü",
+							"position": "Commercial General Manager",
 							"image": "/pages/mentorship-program/2022-2023/mentor/gitta-unger.png"
 						},
 						{
 							"name": "Göker Aydın",
-							"place": "Johns Hopkins Üniversitesi",
-							"position": "Profesör",
+							"place": "Johns Hopkins University",
+							"position": "Professor",
 							"image": "/pages/mentorship-program/2022-2023/mentor/goker-aydin.jpg"
 						},
 						{
 							"name": "İskender Ulusay",
 							"place": "Al-Kor",
-							"position": "İcra Kurulu Başkanı ve Genel Müdür",
+							"position": "Chief Executive Officer and General Manager",
 							"image": "/pages/mentorship-program/2022-2023/mentor/iskender-ulusay.png"
 						},
 						{
 							"name": "İsmail Yamangil",
-							"place": "Schneider Electric Türkiye",
-							"position": "Genel Müdür",
+							"place": "Schneider Electric Turkey",
+							"position": "General Manager",
 							"image": "/pages/mentorship-program/2022-2023/mentor/ismail-yamangil.JPG"
 						},
 						{
 							"name": "Mehpare Evrenol",
 							"place": "Evrenol Architects",
-							"position": "Kurucu Ortak",
+							"position": "Founder Partner",
 							"image": "/pages/mentorship-program/2022-2023/mentor/mehpare-evrenol.jpg"
 						},
 						{
 							"name": "Neşe Gök",
 							"place": "İnci Holding A.Ş",
-							"position": "Yönetim Kurulu Başkanı",
+							"position": "Chairman of the Board",
 							"image": "/pages/mentorship-program/2022-2023/mentor/nese-gok.jpg"
 						},
 						{
 							"name": "Nuray Demirer",
 							"place": "TAV Airport",
-							"position": "Genel Müdürü",
+							"position": "General Manager",
 							"image": "/pages/mentorship-program/2022-2023/mentor/nuray-demirer.png"
 						},
 						{
 							"name": "Resan Yüner",
-							"place": "Apple",
-							"position": "Türkiye Genel Müdürü",
+							"place": "Apple Turkey",
+							"position": "General Manager",
 							"image": "/pages/mentorship-program/2022-2023/mentor/resan-yuner.jpeg"
 						},
 						{
 							"name": "Sezer Sönmez",
-							"place": "TI Otomotiv",
-							"position": "Genel Müdür",
+							"place": "TI Automotive",
+							"position": "General Manager",
 							"image": "/pages/mentorship-program/2022-2023/mentor/sezer-sonmez.png"
 						},
 						{
 							"name": "Taner Ali Karslıoğlu",
-							"place": "Feka Grup",
+							"place": "Feka Automotive Industry and Trade. Inc.",
 							"position": "CEO",
 							"image": "/pages/mentorship-program/2022-2023/mentor/taner-karslioglu.png"
 						},
 						{
 							"name": "Tanju Özkonuk",
 							"place": "Bosch Rexroth A.Ş",
-							"position": "Ticari Genel Müdür",
+							"position": "Commercial General Manager",
 							"image": "/pages/mentorship-program/2022-2023/mentor/tanju-ozkonuk.png"
 						},
 						{
 							"name": "Tunç Berkman",
 							"place": "TBS",
-							"position": "Yatırım Ortağı",
+							"position": "Investment Partner",
 							"image": "/pages/mentorship-program/2022-2023/mentor/tunc-berkman.jpg"
 						},
 						{
 							"name": "Ufuk Penekli",
 							"place": "FE-TECH",
-							"position": "Genel Müdür",
+							"position": "General Manager",
 							"image": "/pages/mentorship-program/2022-2023/mentor/ufuk-penekli.png"
 						},
 						{
 							"name": "Yusuf Ziya Yüce",
-							"place": "Limak Enerji",
-							"position": "Kurumsal İletişim Müdürü",
+							"place": "Limak Energy",
+							"position": "Corporate Communication Director",
 							"image": "/pages/mentorship-program/2022-2023/mentor/yusuf-ziya-yuce.png"
 						}
 					]
@@ -1158,122 +1158,122 @@
 					"content": [
 						{
 							"name": "Ali Akın",
-							"place": "",
+							"place": "Kocaeli University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/ali-akin.jpg"
 						},
 						{
 							"name": "Ayşenur Kavlak",
-							"place": "",
+							"place": "Bursa Uludag University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/aysenur-kavlak.jpg"
 						},
 						{
 							"name": "Banu Kaymaz",
-							"place": "",
+							"place": "Middle East Technical University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/banu-kaymaz.jpg"
 						},
 						{
 							"name": "Begüm Yağcıoğlu",
-							"place": "",
+							"place": "Yıldız Technical University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/begum-yagcioglu.jpg"
 						},
 						{
 							"name": "Berat Ulusoy",
-							"place": "",
+							"place": "Ankara Hacı Bayram Veli University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/berat-ulusoy.jpg"
 						},
 						{
 							"name": "Bilge Doğa Yılmaz",
-							"place": "",
+							"place": "Yıldız Technical University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/bilge-doga-yilmaz.jpg"
 						},
 						{
 							"name": "Elifnaz Kazar",
-							"place": "",
+							"place": "Istanbul Technical University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/elifnaz-kazar.jpg"
 						},
 						{
 							"name": "Emine Bayhan",
-							"place": "",
+							"place": "Istanbul University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/emine-bayhan.jpg"
 						},
 						{
 							"name": "Emine Beyza Gümüş",
-							"place": "",
+							"place": "German Turkish University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/emine-beyza-gumus.jpg"
 						},
 						{
 							"name": "Emine Kübra Küçüksümbül",
-							"place": "",
+							"place": "Istanbul University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/emine-kubra-kucuksumbul.jpg"
 						},
 						{
 							"name": "Feyza Karaca",
-							"place": "",
+							"place": "Yıldız Technical University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/feyza-karaca.jpg"
 						},
 						{
 							"name": "Gökmen Şahan",
-							"place": "",
+							"place": "Koç University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/gokmen-sahan.jpg"
 						},
 						{
 							"name": "Gülsüm Yılmaz",
-							"place": "",
+							"place": "German Turkish University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/gulsum-yilmaz.jpg"
 						},
 						{
 							"name": "Hatice Semerci",
-							"place": "",
+							"place": "Ozyegin University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/hatice-semerci.jpg"
 						},
 						{
-							"name": "İlayda Demir",
-							"place": "",
-							"image": "/pages/mentorship-program/2022-2023/mentee/ilayda-demir.jpg"
-						},
-						{
 							"name": "Irmak Özçelik",
-							"place": "",
+							"place": "Bursa Uludag University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/irmak-ozcelik.jpg"
 						},
 						{
+							"name": "İlayda Demir",
+							"place": "Yıldız Technical University",
+							"image": "/pages/mentorship-program/2022-2023/mentee/ilayda-demir.jpg"
+						},
+						{
 							"name": "Meftun Akarsu",
-							"place": "",
+							"place": "Bursa Uludag University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/meftun-akarsu.jpg"
 						},
 						{
 							"name": "Nilüfer Sevim",
-							"place": "",
+							"place": "Gazi University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/nilufer-sevim.jpg"
 						},
 						{
 							"name": "Reyhan Yörük",
-							"place": "",
+							"place": "Bursa Uludag University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/reyhan-yoruk.jpg"
 						},
 						{
 							"name": "Rümeysa Yurdakul",
-							"place": "",
+							"place": "Istanbul University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/rumeysa-yurdakul.jpg"
 						},
 						{
 							"name": "Tansu Hızar",
-							"place": "",
+							"place": "Bursa Uludag University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/tansu-hizar.jpg"
 						},
 						{
 							"name": "Yağmur İmamoğlu",
-							"place": "",
+							"place": "Boğaziçi University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/yagmur-imamoglu.jpg"
 						},
 						{
 							"name": "Yaren Bato",
-							"place": "",
+							"place": "Duisburg Essen University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/yaren-bato.jpg"
 						},
 						{
 							"name": "Zeynep Kurd",
-							"place": "",
+							"place": "Middle East Technical University",
 							"image": "/pages/mentorship-program/2022-2023/mentee/zeynep-kurd.jpg"
 						}
 					]
