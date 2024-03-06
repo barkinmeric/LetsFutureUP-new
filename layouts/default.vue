@@ -8,10 +8,16 @@
 	</div>
 </template>
 
+<!-- <script setup>
+	const route = useRoute()
+	const { locale, locales, t } = useI18n()
+
+</script> -->
 <script>
+
 export default {
 	head() {
-		return this.$nuxtI18nHead({ addSeoAttributes: true });
+		return $nuxtI18nHead({ addSeoAttributes: true });
 	},
 };
 </script>

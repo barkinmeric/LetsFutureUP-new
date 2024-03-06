@@ -3,20 +3,20 @@
 		<div class="container">
 			<div class="grid-container">
 				<div>
-					<NuxtLink :to="!('name' in this.$route.params) ? switchLocalePath('tr') : '/tr'"
-						><span :class="{ active: this.$i18n.locale === 'tr' }">TR</span></NuxtLink
+					<NuxtLink :to="!('name' in $route.params) ? switchLocalePath('tr') : '/tr'"
+						><span :class="{ active: $locale === 'tr' }">TR</span></NuxtLink
 					>
 					/
-					<NuxtLink :to="!('name' in this.$route.params) ? switchLocalePath('en') : '/en'"
-						><span :class="{ active: this.$i18n.locale === 'en' }">EN</span></NuxtLink
+					<NuxtLink :to="!('name' in $route.params) ? switchLocalePath('en') : '/en'"
+						><span :class="{ active: $locale === 'en' }">EN</span></NuxtLink
 					>
 				</div>
 			</div>
 		</div>
 	</div>
 </template>
-
 <script>
+const switchLocalePath = useSwitchLocalePath()
 export default {
 	name: "LocaleSwitcher",
 };

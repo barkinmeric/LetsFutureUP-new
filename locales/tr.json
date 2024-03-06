@@ -1,5 +1,5 @@
 {
-	"url": "| Kariyerine MerhabaDE | letsfutureup.com",
+	"url": "letsfutureup.com",
 	"nav": {
 		"copyright": "Let’s FutureUP 2022. Tüm Hakları Saklıdır.",
 		"us": {
@@ -40,7 +40,7 @@
 		},
 		"hello-career": {
 			"title": "Let’s FutureUP ile Kariyerine MerhabaDE!",
-			"desc": "Let’s FutureUP içerisinde mentorluktan eğitimlere, sektörlerinde bir çok<br>öncü isimle görüşebilme ve tanışma fırsatı yakalayabilirsin.",
+			"desc": "Let’s FutureUP içerisinde mentorluktan eğitimlere, sektörlerinde bir çok öncü isimle görüşebilme ve tanışma fırsatı yakalayabilirsin.",
 			"content": [
 				{
 					"title": "Mentorluk Programı",
@@ -267,7 +267,7 @@
 		"join-us": {
 			"title": "Sen de aramıza katılmak ister misin?",
 			"button": "Bize Katıl!",
-			"text": "Sen de aramıza mentor, mentee veya ekip üyesi olarak katılmak istersen<br>yandaki butona tıklayarak form doldurabilirsin",
+			"text": "Sen de aramıza mentor, mentee veya ekip üyesi olarak katılmak istersen yandaki butona tıklayarak form doldurabilirsin",
 			"link": "https://basvuruformu.letsfutureup.com"
 		}
 	},

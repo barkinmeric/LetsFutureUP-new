@@ -33,12 +33,12 @@
 export default {
 	head() {
 		return {
-			title: `Let's FutureUP ${this.$i18n.t("talentup.title")} ${this.$i18n.t("url")}`,
+			title: `Let's FutureUP ${$t("talentup.title")} ${$t("url")}`,
 			meta: [
 				{
 					hid: "description",
 					name: "description",
-					content: this.$i18n.t("talentup.desc"),
+					content: $t("talentup.desc"),
 				},
 			],
 		};

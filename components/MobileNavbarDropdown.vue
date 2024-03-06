@@ -13,7 +13,6 @@
 		</div>
 	</div>
 </template>
-
 <script>
 export default {
 	name: "MobileNavbarDropdown",
@@ -42,7 +41,7 @@ export default {
 		},
 	},
 	watch: {
-		$route(to, from) {
+		route(to, from) {
 			this.isDropdownActive = false;
 		},
 	},

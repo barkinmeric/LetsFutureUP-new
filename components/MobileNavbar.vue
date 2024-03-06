@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="flex-container">
 				<div class="logo">
-					<NuxtLink :to="`/${this.$i18n.locale}`"
+					<NuxtLink :to="`/${$locale}`"
 						><nuxt-img draggable="false" src="/logo/logo.svg" alt="logo" width="140" height="35"
 					/></NuxtLink>
 				</div>
@@ -39,7 +39,7 @@ export default {
 		},
 	},
 	watch: {
-		$route(to, from) {
+		route(to, from) {
 			this.isMobileMenuActive = false;
 		},
 	},

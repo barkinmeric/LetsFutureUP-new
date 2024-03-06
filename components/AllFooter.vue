@@ -3,7 +3,7 @@
 		<div class="footer-inner container">
 			<div id="footer_menu">
 				<div id="logo_wrapper">
-					<img src="/pages/footer/logo.svg" />
+					<img src="@/static/pages/footer/logo.svg" />
 				</div>
 				<div id="who_r_we">
 					<p>{{ $t("nav.us.title") }}</p>
@@ -40,9 +40,9 @@
 				<a href="mailto:humanresources@letsfutureup.com">humanresources@letsfutureup.com</a>
 				<span id="copyright-cont">&copy; {{ $t("nav.copyright") }}</span>
 				<span id="social_media">
-					<a href="https://www.linkedin.com/company/let-s-futureup/" target="_blank"><img src="/pages/footer/linkedin.svg" alt="" /></a>
-					<a href="https://www.facebook.com/letsfutureup.315" target="_blank"><img src="/pages/footer/facebook.svg" alt="" /></a>
-					<a href="https://www.instagram.com/letsfutureup" target="_blank"><img src="/pages/footer/instagram.svg" alt="" /></a>
+					<a href="https://www.linkedin.com/company/let-s-futureup/" target="_blank"><img src="@/static/pages/footer/linkedin.svg" alt="" /></a>
+					<a href="https://www.facebook.com/letsfutureup.315" target="_blank"><img src="@/static/pages/footer/facebook.svg" alt="" /></a>
+					<a href="https://www.instagram.com/letsfutureup" target="_blank"><img src="@/static/pages/footer/instagram.svg" alt="" /></a>
 				</span>
 			</div>
 		</div>

@@ -11,23 +11,22 @@
 		</div>
 	</section>
 </template>
-
 <script>
 export default {
 	head() {
 		return {
-			title: `Let's FutureUP ${this.$i18n.t("events-announcements.title")} ${this.$i18n.t("url")}`,
+			title: `Let's FutureUP ${$t("events-announcements.title")} ${$t("url")}`,
 			meta: [
 				{
 					hid: "description",
 					name: "description",
-					content: this.$i18n.t("index.desc"),
+					content: $t("index.desc"),
 				},
 			],
 		};
 	},
 		beforeCreate() {
-		this.$router.push('/' + this.$i18n.locale)
+		router.push('/' + $locale)
 	},
 };
 </script>

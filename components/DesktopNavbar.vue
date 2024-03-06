@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="flex-container">
 				<div class="logo">
-					<NuxtLink :to="`/${this.$i18n.locale}`"
+					<NuxtLink :to="`/${$locale}`"
 						><nuxt-img draggable="false" src="/logo/logo.svg" alt="logo" height="50" width="200"
 					/></NuxtLink>
 				</div>

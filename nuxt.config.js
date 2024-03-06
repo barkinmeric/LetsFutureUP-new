@@ -1,4 +1,5 @@
 import { pages } from "./config/i18n";
+import { routes } from "./config/sitemap";
 
 export default defineNuxtConfig({
 	// Target: https://go.nuxtjs.dev/config-target
@@ -18,7 +19,7 @@ export default defineNuxtConfig({
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: ["assets/scss/style.scss", "assets/css/normalize.css", "assets/css/montserrat.css", "assets/css/mulish.css", "assets/scss/variables.scss", "assets/scss/style.scss"],
+	css: ["~/assets/css/normalize.css", "~/assets/css/montserrat.css", "~/assets/css/mulish.css"],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [],
@@ -29,30 +30,24 @@ export default defineNuxtConfig({
 	},
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-	// modules: ["@nuxt/pwa", "@nuxt/image", "@nuxt/style-resources", "@nuxt/i18n", "@nuxt/robots", "@nuxt/sitemap"],
-	modules: ['@nuxt/image', '@nuxtjs/i18n', '@nuxtjs/i18n', 'nuxt-simple-sitemap'],
+	modules: ['@nuxt/image', '@nuxtjs/i18n', '@nuxtjs/robots', '@nuxtjs/sitemap'],
 
 	image: {},
 
-	// styleResources: {
-	// 	scss: ["./assets/scss/variables.scss"],
-	// },
-	
-	// TODO: Fix scss variable import problem 
-	
 	vite: {
-			css: {
-					preprocessorOptions: {
-							sass: {
-									additionalData: '@import "@/assets/scss/variables.scss";',
-							},
-					},
-			},
+		css: {
+			preprocessorOptions: {
+				scss: {
+					additionalData: `@import "~/assets/scss/variables.scss";`,
+				}
+			}
+		}
 	},
 
+	
 	i18n: {
 		strategy: "prefix_and_default",
-		langDir: "~/locales/",
+		langDir: "locales/",
 		locales: [
 			{ code: "tr", iso: "tr-TR", file: "tr.json", name: "Türkçe" },
 			{ code: "en", iso: "en-US", file: "en.json", name: "English" },
@@ -75,11 +70,11 @@ export default defineNuxtConfig({
 		url: 'https://example.com',
 	},
 
-	// sitemap: {
-	// 	hostname: "https://letsfutureup.com/",
-	// 	exclude: ["/*"],
-	// 	routes: routes,
-	// },
+	sitemap: {
+		hostname: "https://letsfutureup.com/",
+		exclude: ["/*"],
+		routes: routes,
+	},
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {},
